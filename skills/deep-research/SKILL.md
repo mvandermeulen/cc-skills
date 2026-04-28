@@ -50,7 +50,7 @@ allowed-tools: Read Edit Write Glob Grep Agent WebFetch WebSearch AskUserQuestio
 
 ## Critical rules
 
-- Web search is **REQUIRED**. If WebSearch is unavailable, halt immediately and tell the user.
+- Web search is the core capability of this skill. If WebSearch is unavailable, halt immediately and tell the user.
 - **Every claim must cite a source URL.** Unsourced assertions are not findings — they are guesses.
 - Critical claims (market size, growth rates, competitive positioning...) require **2+ independent sources** or get `confidence: Low`.
 - Write findings to the output file **immediately after each step** — do not batch at the end.

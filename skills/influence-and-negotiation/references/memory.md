@@ -15,7 +15,7 @@ All memory files share a **slug**: a short, lowercase, hyphenated identifier for
 Detect what's available and use the best method for reading and writing the flat files.
 
 | Priority | Access method | Cross-session? | How |
-| -------- | ------------- | -------------- | --- |
+| --- | --- | --- | --- |
 | 1 | **Agent with file write access** (Claude Code, Codex, etc.) | ✅ Yes | Write directly to `negotiation-{slug}/` in the repo or workspace. Read next session with the Read tool. |
 | 2 | **Obsidian MCP** (if available) | ✅ Yes | Write the flat files into the Obsidian vault at `negotiations/negotiation-{slug}/`. Obsidian indexes and links them automatically — the files remain plain markdown, Obsidian is just the viewer. |
 | 3 | **Claude (claude.ai) — within a Project** | ⚠️ Partial | Create one Artifact per file (markdown type). Artifacts in a Project persist across conversations. Title each artifact `negotiation-{slug}-{file}` (e.g. `negotiation-acme-renewal-memory`). |
@@ -53,7 +53,7 @@ Don't wait to be asked. Proactively:
 At the start of every session, read `memory.md` first — it contains the current status and tells you which other files to load. Never skip it.
 
 | File | Load when |
-| ---- | --------- |
+| --- | --- |
 | `memory.md` | **Always, first.** Before Phase 1 intake. |
 | `context.md` | Every session — mandate and situation overview. |
 | `strategy.md` | Every session — current strategy and next session plan. |
@@ -90,14 +90,14 @@ Create the full directory at the end of the **first substantive session** — af
 
 _List every file in use for this negotiation. If the default structure was adapted (files merged, renamed, or added), document it here. Any agent resuming this negotiation must read this section to discover the actual file set._
 
-| File | Contents | Last updated |
-| ---- | -------- | ------------ |
-| memory.md | This entrypoint | [date] |
-| context.md | Situation, parties, mandate | [date] |
-| stakeholders.md | Org map, MICE, POE | [date] |
-| numbers.md | All figures, offers, movement | [date] |
-| log.md | Session log | [date] |
-| strategy.md | Decisions + next session plan | [date] |
+| File            | Contents                      | Last updated |
+| --------------- | ----------------------------- | ------------ |
+| memory.md       | This entrypoint               | [date]       |
+| context.md      | Situation, parties, mandate   | [date]       |
+| stakeholders.md | Org map, MICE, POE            | [date]       |
+| numbers.md      | All figures, offers, movement | [date]       |
+| log.md          | Session log                   | [date]       |
+| strategy.md     | Decisions + next session plan | [date]       |
 
 _Artifact/Canvas title for each file: `negotiation-{slug}-{file}` (e.g. `negotiation-acme-renewal-memory`)._
 
@@ -137,7 +137,7 @@ _Update cells as the negotiation evolves. Strike through ~~old values~~ when a c
 
 | Axis | Entry | Ideal | Objective | Escalation | Rupture | Current position |
 | ---- | ----- | ----- | --------- | ---------- | ------- | ---------------- |
-| | | | | | | |
+|      |       |       |           |            |         |                  |
 
 ## BATNA
 
@@ -155,8 +155,8 @@ _Update cells as the negotiation evolves. Strike through ~~old values~~ when a c
 ## Org map
 
 | Name | Title | Reports to | Role in this deal | Champion / Neutral / Blocker |
-| ---- | ----- | ---------- | ----------------- | ----------------------------- |
-| | | | | |
+| ---- | ----- | ---------- | ----------------- | ---------------------------- |
+|      |       |            |                   |                              |
 
 ## Informal influence (sociogramme)
 
@@ -166,7 +166,7 @@ _Update cells as the negotiation evolves. Strike through ~~old values~~ when a c
 
 | Name | M (money) | I (ideology) | C (compromise) | E (ego) | Primary driver |
 | ---- | --------- | ------------ | -------------- | ------- | -------------- |
-| | | | | | |
+|      |           |              |                |         |                |
 
 ## POE per stakeholder
 
@@ -192,31 +192,31 @@ _Every figure that has appeared in this negotiation. Track movement over time �
 
 | Axis | Session 1 | Session 2 | Session N | Current |
 | ---- | --------- | --------- | --------- | ------- |
-| | | | | |
+|      |           |           |           |         |
 
 ## Their positions (history)
 
 | Axis | Session 1 | Session 2 | Session N | Current |
 | ---- | --------- | --------- | --------- | ------- |
-| | | | | |
+|      |           |           |           |         |
 
 ## Offers table
 
 | Date | From | Axis | Value | Response | Notes |
-| ---- | ---- | ---- | ----- | -------- | ----- |
-| | | | | Accepted / Rejected / Countered / Pending | |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  | Accepted / Rejected / Countered / Pending |  |
 
 ## Key figures
 
 _Amounts, volumes, headcounts, dates, percentages that matter beyond offers._
 
-| Label | Value | Source | Date confirmed |
-| ----- | ----- | ------ | -------------- |
-| Contract ACV | | | |
-| Total deal value | | | |
-| Budget envelope (stated) | | | |
-| Their fiscal year end | | | |
-| Our cost-to-serve | | | |
+| Label                    | Value | Source | Date confirmed |
+| ------------------------ | ----- | ------ | -------------- |
+| Contract ACV             |       |        |                |
+| Total deal value         |       |        |                |
+| Budget envelope (stated) |       |        |                |
+| Their fiscal year end    |       |        |                |
+| Our cost-to-serve        |       |        |                |
 
 ## Movement analysis
 
@@ -251,7 +251,8 @@ _Append-only. Add a new section after each session. Never edit past entries._
 **What didn't move:**  
 [What stayed stuck and any observable reason.]
 
-**Tactics used and outcome:**  
+**Tactics used and outcome:**
+
 - [tactic] → [response / effect]
 
 **Counterparty behaviour:**  
@@ -280,9 +281,11 @@ _Key strategic choices — what was decided, why, and what it rules out._
 ## Wins & failures
 
 **Worked:**
+
 - [tactic or move] — [what it produced]
 
 **Backfired:**
+
 - [tactic or move] — [what went wrong and why]
 
 ## Next session plan

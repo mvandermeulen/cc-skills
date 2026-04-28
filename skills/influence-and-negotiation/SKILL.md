@@ -19,16 +19,16 @@ allowed-tools: Read Edit Write Glob Grep Agent AskUserQuestion WebFetch
 
 **Modes:**
 
-| Mode                          | Trigger                                                                                                                              | Action                                                                          |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
-| Prep                          | "I have a [sales call / salary review / NAO / hard 1:1 / clinical consultation / recruitment close / cross-cultural deal] next week" | Phase 1 detects domain → Phases 1–5 with domain-specific axes                   |
-| Live coach                    | "They just said X, what do I respond?"                                                                                               | Skip to Phase 6                                                                 |
-| No-decision triage            | "It's stuck — they like it but won't commit"                                                                                         | JOLT runbook in [references/playbooks.md](references/playbooks.md)              |
-| Multi-thread / sponsor access | "I have a champion / advocate but no decider access"                                                                                 | Playbooks 1–2 in [references/playbooks.md](references/playbooks.md)             |
-| Renewal                       | "Renewal in 90 days, expansion possible"                                                                                             | Playbook 6 in [references/playbooks.md](references/playbooks.md)                |
-| Team preparation              | "We're going in as N1 + N2 (+ specialist)"                                                                                           | [references/team-negotiation.md](references/team-negotiation.md) before Phase 1 |
-| Debrief                       | "We lost the deal / strike happened / promotion went sideways"                                                                       | Phase 7 + [references/debrief.md](references/debrief.md)                        |
-| Tactic look-up                | "What's BATNA?" / "How does mirroring work?"                                                                                         | Direct to the relevant reference file                                           |
+| Mode | Trigger | Action |
+| --- | --- | --- |
+| Prep | "I have a [sales call / salary review / NAO / hard 1:1 / clinical consultation / recruitment close / cross-cultural deal] next week" | Phase 1 detects domain → Phases 1–5 with domain-specific axes |
+| Live coach | "They just said X, what do I respond?" | Skip to Phase 6 |
+| No-decision triage | "It's stuck — they like it but won't commit" | JOLT runbook in [references/playbooks.md](references/playbooks.md) |
+| Multi-thread / sponsor access | "I have a champion / advocate but no decider access" | Playbooks 1–2 in [references/playbooks.md](references/playbooks.md) |
+| Renewal | "Renewal in 90 days, expansion possible" | Playbook 6 in [references/playbooks.md](references/playbooks.md) |
+| Team preparation | "We're going in as N1 + N2 (+ specialist)" | [references/team-negotiation.md](references/team-negotiation.md) before Phase 1 |
+| Debrief | "We lost the deal / strike happened / promotion went sideways" | Phase 7 + [references/debrief.md](references/debrief.md) |
+| Tactic look-up | "What's BATNA?" / "How does mirroring work?" | Direct to the relevant reference file |
 
 # Influence and negotiation
 
@@ -242,13 +242,13 @@ The pre-mortem is the cheapest insurance against the "perte d'objectif" patholog
 
 Triage the counterparty's pushback by type **before** responding — the type determines the move:
 
-| Type                | Signal                                               | Response                                                                                                                                                                                    |
-| ------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Emotional           | Visible micro-expressions (fear/anger), voice change | Verbalise the emotion first ("It seems like the timing is making this stressful?"). Then move to facts. The limbic brain is faster than the cortex; you cannot reason a person out of fear. |
-| Belief-based        | Calm, articulated, value-grounded refusal            | Find the enjeu hiding behind the belief. Don't refute the belief itself — your reference frame is not theirs.                                                                               |
-| Bad-faith           | Verifiably false claim, refuses to admit it          | Drop your ego → present the reality principle (facts only, no judgement) → open a face-saving exit.                                                                                         |
-| Identity-protective | Aggression, theatrics, "you don't get it"            | Hand back a controllable scope. Negotiate on form before substance.                                                                                                                         |
-| Tactical            | Procurement playbook (time pressure, fixed budget)   | Name the pattern. Trade, never give.                                                                                                                                                        |
+| Type | Signal | Response |
+| --- | --- | --- |
+| Emotional | Visible micro-expressions (fear/anger), voice change | Verbalise the emotion first ("It seems like the timing is making this stressful?"). Then move to facts. The limbic brain is faster than the cortex; you cannot reason a person out of fear. |
+| Belief-based | Calm, articulated, value-grounded refusal | Find the enjeu hiding behind the belief. Don't refute the belief itself — your reference frame is not theirs. |
+| Bad-faith | Verifiably false claim, refuses to admit it | Drop your ego → present the reality principle (facts only, no judgement) → open a face-saving exit. |
+| Identity-protective | Aggression, theatrics, "you don't get it" | Hand back a controllable scope. Negotiate on form before substance. |
+| Tactical | Procurement playbook (time pressure, fixed budget) | Name the pattern. Trade, never give. |
 
 For the four root commercial objections — price, timing, authority, no-need — see [references/objections.md](references/objections.md) for tactical scripts. Equivalents in other domains: salary objections (envelope fermée / band ceiling / mid-cycle / freeze / promotion-first); clinical refusals (faith / fear / family / autonomy); recruitment objections (counter-offer / relocation / equity scepticism).
 
@@ -293,21 +293,21 @@ Manipulation closes the current outcome and loses the next one. Negotiators who 
 
 ## Common traps
 
-| #   | Trap                                                                         | Counter                                                                                                                                                                                                                                                                                     |
-| --- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Premature concession in discovery                                            | Defer pricing / specific commitments until value or fit is established. _"Happy to discuss commercials once we've confirmed fit."_                                                                                                                                                          |
-| 2   | Splitting the difference                                                     | Re-anchor with a non-monetary trade. _"I can't do that, but help me understand…"_                                                                                                                                                                                                           |
-| 3   | Concession without trade                                                     | Always pair every move with a counter-ask (term, scope, references, payment timing, commitment level, sign-on, equity).                                                                                                                                                                     |
-| 4   | False time pressure                                                          | _"What happens if we miss that date?"_ Real deadlines have specific consequences; manufactured urgency evaporates under the question.                                                                                                                                                       |
-| 5   | Single-threading                                                             | Multi-thread early. In sales: Economic Buyer + champion + procurement. In NAO: line management + DRH + COMEX. In a hard 1:1: the report's peers and likely-survivors.                                                                                                                       |
-| 6   | "Happy ears" in discovery                                                    | SPIN Implication: _"What happens if you do nothing?"_ Test pain depth before pitching the solution.                                                                                                                                                                                         |
-| 7   | Anchoring on the counterparty's number                                       | Pre-anchor with your range. If they go first, counter-extreme then move. For salary: bolstering range with your real target as the bottom.                                                                                                                                                  |
-| 8   | Escalation ladder                                                            | Name it: _"We've discussed this twice already; I need to understand who has the final authority so we can have one conversation rather than three."_ Works for procurement, internal management escalation, and healthcare-system gatekeeping.                                              |
-| 9   | Fixed-envelope claim ("budget closed", "band ceiling", "we don't have flex") | _"How was that number set?"_ / _"What would unlock movement at the next review?"_ — see [references/objections.md](references/objections.md#the-fixed-budget-claim).                                                                                                                        |
-| 10  | Internal-pressure self-concession                                            | Your urgency must not exceed the counterparty's. Trade close-by-date / quarter-end / fiscal-year for structural value, never give it.                                                                                                                                                       |
-| 11  | Filling silence                                                              | Count to 4 after every offer or label. The next person to speak loses leverage.                                                                                                                                                                                                             |
-| 12  | Mixing issues                                                                | Park: _"Let's resolve scope, then come back to price."_ One issue per round.                                                                                                                                                                                                                |
-| 13  | Sympathy collapse                                                            | When the counterparty's emotion is intense, slip into _empathie_ (verbalise without sharing) — never _sympathie_ (share the emotion). Sympathie costs you objectivity in the moment when you most need it — see [references/tactics.md](references/tactics.md#the-four-relational-stances). |
-| 14  | Skipping the back-brief                                                      | Before any agreement, the counterparty reformulates each term in their own words. Catches selective memory, manipulation de clôture, and misunderstanding before they become churn / non-adherence / strikes / counter-offers.                                                              |
+| # | Trap | Counter |
+| --- | --- | --- |
+| 1 | Premature concession in discovery | Defer pricing / specific commitments until value or fit is established. _"Happy to discuss commercials once we've confirmed fit."_ |
+| 2 | Splitting the difference | Re-anchor with a non-monetary trade. _"I can't do that, but help me understand…"_ |
+| 3 | Concession without trade | Always pair every move with a counter-ask (term, scope, references, payment timing, commitment level, sign-on, equity). |
+| 4 | False time pressure | _"What happens if we miss that date?"_ Real deadlines have specific consequences; manufactured urgency evaporates under the question. |
+| 5 | Single-threading | Multi-thread early. In sales: Economic Buyer + champion + procurement. In NAO: line management + DRH + COMEX. In a hard 1:1: the report's peers and likely-survivors. |
+| 6 | "Happy ears" in discovery | SPIN Implication: _"What happens if you do nothing?"_ Test pain depth before pitching the solution. |
+| 7 | Anchoring on the counterparty's number | Pre-anchor with your range. If they go first, counter-extreme then move. For salary: bolstering range with your real target as the bottom. |
+| 8 | Escalation ladder | Name it: _"We've discussed this twice already; I need to understand who has the final authority so we can have one conversation rather than three."_ Works for procurement, internal management escalation, and healthcare-system gatekeeping. |
+| 9 | Fixed-envelope claim ("budget closed", "band ceiling", "we don't have flex") | _"How was that number set?"_ / _"What would unlock movement at the next review?"_ — see [references/objections.md](references/objections.md#the-fixed-budget-claim). |
+| 10 | Internal-pressure self-concession | Your urgency must not exceed the counterparty's. Trade close-by-date / quarter-end / fiscal-year for structural value, never give it. |
+| 11 | Filling silence | Count to 4 after every offer or label. The next person to speak loses leverage. |
+| 12 | Mixing issues | Park: _"Let's resolve scope, then come back to price."_ One issue per round. |
+| 13 | Sympathy collapse | When the counterparty's emotion is intense, slip into _empathie_ (verbalise without sharing) — never _sympathie_ (share the emotion). Sympathie costs you objectivity in the moment when you most need it — see [references/tactics.md](references/tactics.md#the-four-relational-stances). |
+| 14 | Skipping the back-brief | Before any agreement, the counterparty reformulates each term in their own words. Catches selective memory, manipulation de clôture, and misunderstanding before they become churn / non-adherence / strikes / counter-offers. |
 
 Master rule (every serious negotiation tradition agrees): **"I might be able to move on X if you can help me with Y."** Trade. Never give.

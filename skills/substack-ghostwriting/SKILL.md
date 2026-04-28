@@ -69,7 +69,7 @@ Complete the voice guide and get user validation before proceeding to the Writin
 
 Skip this phase if ghostwriting (the Ghostwriting Workflow handles voice separately).
 
-Ask the user for their **existing Substack URL**. If they have one, fetch 2-3 recent posts and extract tone markers: formality level, sentence rhythm, humor style, paragraph length, how they open and close, recurring phrases. Summarize the voice in 5-7 bullet points and confirm with the user before writing.
+Ask the user for their **existing Substack URL**. If they have one, recent posts are a valuable source of tone markers — formality level, sentence rhythm, humor style, paragraph length, how they open and close, recurring phrases. Summarize the voice in 5-7 bullet points and confirm with the user before writing.
 
 If they don't have an existing Substack, ask: "How do you want to sound? Casual and conversational, professional and authoritative, or something else?" Use their answer plus any other writing samples they can share.
 

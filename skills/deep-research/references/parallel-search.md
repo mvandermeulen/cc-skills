@@ -33,7 +33,7 @@ Instructions:
 4. Critical claims (numbers, market share, projections) need 2+ sources or get confidence: Low.
 5. Flag any conflicts between sources explicitly — do not silently pick one.
 6. The axis definition is a starting point, not a ceiling. If you find relevant information that falls outside the stated axis but adds meaningful insight for the overall topic, include it — label it clearly and explain why it matters.
-7. If you encounter a PDF, dataset, image, or other external file that would enrich the research (e.g., an analyst report, a regulatory filing, a whitepaper, a chart), download it with `curl -L -o /tmp/<filename> <url>` and reference it in your findings. Summarize its key content inline — do not leave it as a bare link.
+7. External files (PDFs, datasets, analyst reports, regulatory filings, whitepapers, charts) may contain valuable data. When encountered, their key content should be summarized inline — do not leave them as bare links. The `curl` command is available for local downloads when needed.
 8. Write findings as **prose paragraphs**, not bullet lists. Embed figures in sentences: "The market reached $4.2B in 2024 [Source]" rather than "* Market: $4.2B". Bullets are acceptable only for true enumerated lists (product names, compliance items, enumerated steps).
 9. Distinguish sourced facts from your analysis: use "According to [Source]..." for direct findings and "This suggests..." or "The pattern indicates..." for your synthesis. Never present inference as fact.
 10. If a topic cannot be found, write "No sources found for X" — do not guess or leave a blank.
