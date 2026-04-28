@@ -7,18 +7,18 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Humanise ce texte français :\n\n« Dans le paysage numérique actuel en perpétuelle mutation, l'intelligence artificielle constitue un tournant décisif dans l'évolution des entreprises. Cette technologie révolutionnaire, nichée au cœur de l'innovation, joue un rôle crucial et essentiel dans la transformation des processus, soulignant l'importance de l'adaptation. »",
-      "trap": "Without the skill, the model may remove some obvious AI patterns but miss the full checklist: 'dans le paysage numérique actuel' (Pattern 7 formulaic opening), 'constitue un tournant décisif' (Pattern 1 inflation + Pattern 8 copula avoidance), 'révolutionnaire, nichée' (Pattern 4 promotional), 'crucial et essentiel' (Pattern 14 redundant doublet + Pattern 7 AI vocabulary), 'soulignant' (Pattern 3 superficial participle).",
-      "expected_output": "A rewrite that removes ALL identified patterns: no 'dans le paysage', no 'constitue', no 'tournant décisif', no 'crucial', no 'essentiel', no 'nichée', no 'révolutionnaire', no 'soulignant', no redundant doublets. Uses simple copula (est/a) where appropriate.",
+      "prompt": "Ce texte n'a plus de patterns IA évidents, mais il ne sonne toujours pas humain. Qu'est-ce qui cloche et comment le corriger ?\n\n« Les études montrent que le travail à distance est productif. Les entreprises observent une augmentation de la satisfaction. Les employés déclarent apprécier la flexibilité. Les managers notent une amélioration de la rétention. La tendance se confirme dans tous les secteurs. »",
+      "trap": "Without the skill, the model says 'this looks clean' or makes minor vocabulary tweaks. The skill requires detecting Pattern 27 (structural uniformity: all 5 sentences ~10 words, same S-V-O structure, same rhythm throughout) and Part 3 soullessness (no opinions, no first person, no specific facts, neutral reporting throughout).",
+      "expected_output": "Identifies Pattern 27 (structural uniformity) and Part 3 (voice/soul) as the problems. Rewrite varies sentence length, includes at least one concrete data point or opinion, uses at least one human connector (or, reste que, n'empêche que).",
       "files": [],
       "assertions": [
-        { "id": "1.1", "description": "output does NOT contain 'dans le paysage' (Pattern 7 formulaic opening)" },
-        { "id": "1.2", "description": "output does NOT contain 'tournant décisif' (Pattern 1 inflated significance)" },
-        { "id": "1.3", "description": "output does NOT contain 'crucial' (Pattern 7 top AI word)" },
-        { "id": "1.4", "description": "output does NOT contain 'essentiel' adjacent to another superlative or in a doublet (Pattern 14)" },
-        { "id": "1.5", "description": "output does NOT contain 'constitue' — uses 'est' or equivalent simple copula (Pattern 8)" },
-        { "id": "1.6", "description": "output does NOT contain 'soulignant' or other superficial participle clause (Pattern 3)" },
-        { "id": "1.7", "description": "output does NOT contain 'révolutionnaire' or 'nichée' (Pattern 4 promotional)" }
+        { "id": "1.1", "description": "identifies structural uniformity as a problem (Pattern 27): all sentences same length/structure" },
+        { "id": "1.2", "description": "identifies soullessness (Part 3): neutral reporting, no opinions, no specific facts, no first person" },
+        { "id": "1.3", "description": "does NOT say the text is already clean or only needs minor vocabulary tweaks" },
+        { "id": "1.4", "description": "rewrite varies sentence length meaningfully (at least one noticeably shorter or longer sentence)" },
+        { "id": "1.5", "description": "rewrite includes at least one specific data point or opinion absent from the original" },
+        { "id": "1.6", "description": "rewrite uses at least one human connector (or, reste que, n'empêche que, quoi qu'il en soit) instead of AI connectors" },
+        { "id": "1.7", "description": "rewrite does NOT merely rephrase the same five claims in different words without changing structure" }
       ]
     },
     {
@@ -65,46 +65,46 @@
     },
     {
       "id": 5,
-      "prompt": "Humanise ce paragraphe en français :\n\n« Cette approche innovante et avant-gardiste — un véritable game-changer — adresse les problèmes fondamentaux du secteur. Le framework supporte nativement les cas d'usage les plus complexes. Basiquement, ça fait du sens d'implémenter cette solution pour impacter positivement les résultats. »",
-      "trap": "Without the skill, the model may miss the anglicisms (Pattern 13): 'adresse les problèmes' (should be 'aborde/traite'), 'supporte' (should be 'prend en charge'), 'basiquement' (should be 'en gros/fondamentalement'), 'fait du sens' (should be 'a du sens'), 'implémenter' (should be 'mettre en œuvre'), 'impacter' (should be 'affecter/toucher'). Also: redundant doublet 'innovante et avant-gardiste' (Pattern 14), em dash overuse (Pattern 15).",
-      "expected_output": "All anglicisms corrected to proper French. Doublet reduced. Em dash replaced with comma or parentheses.",
+      "prompt": "Réécris ce paragraphe :\n\n« Ses travaux ont été largement couverts par les médias. Elle a été citée dans Le Monde, Le Figaro, Les Échos, la BBC, The Guardian et The New York Times. Ses articles de recherche ont reçu plus de 10 000 citations académiques sur Google Scholar. »",
+      "trap": "Without the skill, the model rewrites 'widely covered by media' or reformulates the list differently, but keeps the enumeration or replaces it with a vague summary. The skill (Pattern 2) says to pick ONE specific, meaningful citation (outlet + date + what was said) — not list outlets, not summarize as 'wide coverage'. Enumeration is as problematic as omission.",
+      "expected_output": "Pick one specific citation: one outlet + date + what was actually said (e.g., 'In a 2024 interview with Le Monde, she argued that...'). Remove the enumeration of outlets. Ground the 10,000 citations with context or drop the claim.",
       "files": [],
       "assertions": [
-        { "id": "5.1", "description": "output does NOT contain 'adresse' used to mean 'traiter/aborder' (Pattern 13 anglicism)" },
-        { "id": "5.2", "description": "output does NOT contain 'fait du sens' — uses 'a du sens' or equivalent (Pattern 13)" },
-        { "id": "5.3", "description": "output does NOT contain 'basiquement' (Pattern 13 anglicism)" },
-        { "id": "5.4", "description": "output does NOT contain 'implémenter' outside of IT context — uses 'mettre en œuvre' (Pattern 13)" },
-        { "id": "5.5", "description": "output does NOT contain 'impacter' — uses 'affecter', 'toucher', or similar (Pattern 13)" },
-        { "id": "5.6", "description": "output does NOT contain the doublet 'innovante et avant-gardiste' (Pattern 14)" }
+        { "id": "5.1", "description": "output does NOT list multiple media outlets in an enumeration (Pattern 2 media coverage overload)" },
+        { "id": "5.2", "description": "output does NOT replace the list with a vague 'widely covered' summary (still Pattern 2)" },
+        { "id": "5.3", "description": "if a citation is kept, it is specific: one outlet + date + a concrete claim or quote" },
+        { "id": "5.4", "description": "the 10,000 Google Scholar citations are either given specific context or omitted" },
+        { "id": "5.5", "description": "output does NOT contain 'a été citée dans' followed by a comma-separated list of multiple outlets" },
+        { "id": "5.6", "description": "output uses a specific, grounded claim in place of the enumeration" }
       ]
     },
     {
       "id": 6,
-      "prompt": "Nettoie ce texte IA. IMPORTANT : le texte est académique, garde un registre soutenu.\n\n« Il est essentiel de noter que les travaux de Bourdieu ont constitué un jalon décisif dans l'évolution de la sociologie contemporaine, ouvrant la voie à une compréhension holistique des mécanismes de reproduction sociale. Cette contribution, à la fois innovante et avant-gardiste, a profondément impacté le paysage intellectuel, soulignant l'importance cruciale de l'analyse des structures de pouvoir. »",
-      "trap": "Without the skill, the model may either (a) keep the formal register but miss AI patterns, or (b) remove AI patterns but drop to casual French. The skill explicitly requires preserving 'langage soutenu' while still removing AI artifacts. Key patterns: 'Il est essentiel de noter que' (Pattern 7+24), 'constitué un jalon décisif' (Pattern 1+8), 'holistique' (Pattern 7 calque), 'innovante et avant-gardiste' (Pattern 14), 'impacté' (Pattern 13), 'soulignant' (Pattern 3), 'cruciale' (Pattern 7).",
-      "expected_output": "AI patterns removed BUT register stays formal/academic. No casual language. Complex subordinate clauses and precise vocabulary preserved. Uses 'est' instead of 'constitue', drops 'holistique', replaces 'impacté' with 'influencé', removes doublet, removes filler opening.",
+      "prompt": "Humanise ce texte académique. IMPORTANT : garde un registre soutenu.\n\n« La **gouvernance algorithmique** désigne l'ensemble des **mécanismes** par lesquels les **systèmes automatisés** influencent la **prise de décision**. Cette **discipline émergente** s'intéresse aux implications éthiques et **juridiques** des **algorithmes**. Les **chercheurs** distinguent plusieurs **niveaux d'intervention** selon le degré d'**autonomie** accordé au système. »",
+      "trap": "Without the skill, the model fixes vocabulary patterns but preserves or even adds mechanical bold on technical terms (Pattern 16) because it looks authoritative and academic. The skill says to remove all bold unless it serves genuine navigation — mechanical bold on technical nouns is always an AI tell.",
+      "expected_output": "All mechanical bold removed from technical terms (Pattern 16). Register stays formal/academic — complex subordinates, precise vocabulary. No new bold added.",
       "files": [],
       "assertions": [
-        { "id": "6.1", "description": "output does NOT contain 'Il est essentiel de noter que' (Pattern 24 filler + Pattern 7)" },
-        { "id": "6.2", "description": "output does NOT contain 'holistique' (Pattern 7 English calque)" },
-        { "id": "6.3", "description": "output does NOT contain 'impacté' (Pattern 13 anglicism) — uses 'influencé', 'marqué', or similar" },
-        { "id": "6.4", "description": "output does NOT contain 'cruciale' or 'crucial' (Pattern 7 top AI word)" },
-        { "id": "6.5", "description": "output MAINTAINS formal/academic register — no colloquial expressions like 'en gros', 'les trucs', 'ça', 'du coup', 'genre'" },
-        { "id": "6.6", "description": "output uses complex sentence structures appropriate to academic writing (subordinate clauses, formal connectors)" }
+        { "id": "6.1", "description": "output removes ALL mechanical bold from technical terms (Pattern 16 — 'gouvernance algorithmique', 'mécanismes', 'systèmes automatisés', 'prise de décision', etc. all unbolded)" },
+        { "id": "6.2", "description": "output does NOT add new bold on any terms" },
+        { "id": "6.3", "description": "output MAINTAINS formal/academic register — complex sentences, precise vocabulary, no colloquial language" },
+        { "id": "6.4", "description": "output uses complex sentence structures appropriate to academic writing (subordinate clauses, formal connectors)" },
+        { "id": "6.5", "description": "output does NOT introduce AI vocabulary (holistique, crucial, etc.) while fixing the bold" },
+        { "id": "6.6", "description": "if any technical term needs emphasis, it is done through syntactic structure, not bold formatting" }
       ]
     },
     {
       "id": 7,
-      "prompt": "Humanise ce texte français :\n\n« * 💡 **Expérience utilisateur :** Significativement améliorée grâce à une interface intuitive.\n* 🚀 **Performance :** Optimisée grâce à des algorithmes améliorés.\n* ✅ **Sécurité :** Renforcée avec le chiffrement de bout en bout.\n\nPlongeons dans les détails de ces améliorations majeures. »",
-      "trap": "Without the skill, the model may keep the bold-header-colon list structure (Pattern 17), keep emojis, or restructure minimally. The skill requires converting vertical lists with bold headers to flowing prose, removing mechanical bold (Pattern 16), and killing 'Plongeons dans' (Pattern 7 formulaic opening).",
-      "expected_output": "Vertical list converted to flowing prose. Emojis removed. Bold headers removed. 'Plongeons dans' eliminated.",
+      "prompt": "Humanise ce texte :\n\n« Le rapport annuel couvre les résultats financiers, exposant une progression de 12 % du chiffre d'affaires, soulignant la résilience du modèle économique face aux turbulences du marché, illustrant la capacité d'adaptation de l'équipe, et confirmant la pertinence de la stratégie adoptée en 2022. »",
+      "trap": "Without the skill, the model may add line breaks or lightly rephrase but keeps the participial chain (Pattern 3: exposant... soulignant... illustrant... confirmant...). Each -ant clause looks like analytical depth but adds no concrete fact. The skill requires breaking these chains into separate concrete sentences or dropping the filler.",
+      "expected_output": "Participial chain broken into separate sentences. Each -ant clause either backed with a concrete fact or dropped. Active voice for concrete statements. 'soulignant/illustrant/confirmant' all removed.",
       "files": [],
       "assertions": [
-        { "id": "7.1", "description": "output does NOT use bullet points with bold headers followed by colons (Pattern 17)" },
-        { "id": "7.2", "description": "output does NOT contain emojis" },
-        { "id": "7.3", "description": "output does NOT contain 'Plongeons dans' (Pattern 7 formulaic opening)" },
-        { "id": "7.4", "description": "output converts the list into flowing prose (one or two sentences covering the three improvements)" },
-        { "id": "7.5", "description": "output does NOT use mechanical bold on individual terms (Pattern 16)" }
+        { "id": "7.1", "description": "output does NOT contain 'soulignant' as a participial clause (Pattern 3)" },
+        { "id": "7.2", "description": "output does NOT contain 'illustrant' as a participial clause (Pattern 3)" },
+        { "id": "7.3", "description": "output does NOT contain 'confirmant' as a participial clause (Pattern 3)" },
+        { "id": "7.4", "description": "output does NOT chain 3+ participial clauses after a main verb (Pattern 3)" },
+        { "id": "7.5", "description": "information is presented in separate concrete sentences or the analytical filler is dropped entirely" }
       ]
     },
     {
@@ -123,17 +123,16 @@
     },
     {
       "id": 9,
-      "prompt": "Enlève le slop de ce texte. Le texte est un éditorial de journal, maintiens un ton soutenu et cultivé.\n\n« À l'ère de la transformation numérique, il est crucial de comprendre les enjeux. Le protagoniste de cette histoire fait face à de nombreux défis. Le personnage principal doit surmonter les obstacles. La figure centrale finit par triompher. Cette dynamique, riche et variée, symbolise l'engagement profond envers l'excellence. Néanmoins, force est de constater que la situation demeure préoccupante. »",
-      "trap": "Without the skill, the model may (a) keep the formal connectors 'néanmoins' and 'force est de constater' because they sound formal, without realizing the skill says these are legitimate human French — the REAL problems are the formulaic opening 'À l'ère de' (Pattern 7), synonym cycling 'protagoniste/personnage principal/figure centrale' (Pattern 11), 'crucial' (Pattern 7), the doublet 'riche et variée' (Pattern 14), and promotional language 'symbolise l'engagement profond envers l'excellence' (Pattern 4). Or (b) strip away the formal register.",
-      "expected_output": "Formulaic opening removed. Synonym cycle collapsed. 'Crucial' removed. Doublet simplified. Promotional language cut. BUT formal register preserved — 'néanmoins' and 'force est de constater' kept as legitimate formal French.",
+      "prompt": "Déslopifie ce texte. Registre professionnel à maintenir.\n\n« Notre application simplifie la gestion des congés. La plateforme centralise les demandes et envoie des notifications en temps réel. La solution s'intègre avec les outils RH existants. Notre service garantit une disponibilité de 99,9 %. »",
+      "trap": "Without the skill, the model may fix vocabulary but misses the subtle synonym cycle: 'application / plateforme / solution / service' (Pattern 11) all refer to the same product. Unlike an obvious cycle, each word looks intentional — but it is the same token-repetition-penalty substitution. The skill requires collapsing to a single consistent referent.",
+      "expected_output": "Pick one consistent referent throughout (the product name, 'l'outil', or 'il'). Remove the application/plateforme/solution/service cycle. Professional register maintained.",
       "files": [],
       "assertions": [
-        { "id": "9.1", "description": "output does NOT contain 'À l'ère de' (Pattern 7 formulaic opening)" },
-        { "id": "9.2", "description": "output does NOT cycle through 3+ synonyms for one referent (Pattern 11 — protagoniste/personnage principal/figure centrale)" },
-        { "id": "9.3", "description": "output does NOT contain 'crucial' (Pattern 7)" },
-        { "id": "9.4", "description": "output PRESERVES formal register — no casual/colloquial language" },
-        { "id": "9.5", "description": "output does NOT contain the doublet 'riche et variée' (Pattern 14)" },
-        { "id": "9.6", "description": "output KEEPS or does not flag 'néanmoins' as an AI pattern (it is legitimate formal French)" }
+        { "id": "9.1", "description": "output does NOT use 'application', 'plateforme', 'solution', 'service' as rotating synonyms for the same product (Pattern 11)" },
+        { "id": "9.2", "description": "output uses a single consistent referent throughout (product name, 'l'outil', or pronoun)" },
+        { "id": "9.3", "description": "output MAINTAINS professional register — no colloquial language introduced" },
+        { "id": "9.4", "description": "output does NOT introduce new AI vocabulary while fixing the cycle" },
+        { "id": "9.5", "description": "output reads naturally with the consistent referent — not awkward" }
       ]
     },
     {
@@ -152,16 +151,16 @@
     },
     {
       "id": 11,
-      "prompt": "Déslopifie ce texte. C'est un texte juridique, garde le registre formel.\n\n« Afin de parvenir à cet objectif, dans l'éventualité où les parties ne parviendraient pas à un accord, il convient de souligner que le tribunal compétent sera saisi. Il est important de noter que cette disposition constitue la pierre angulaire du dispositif contractuel, assurant une protection robuste et fiable des intérêts des parties prenantes. »",
-      "trap": "Without the skill, the model (a) preserves the filler because it looks legal, or (b) strips the formal register. The skill says to remove 'afin de parvenir à cet objectif' → 'pour y arriver' (Pattern 24), 'dans l'éventualité où' → 'si' (Pattern 24), 'il convient de souligner que' → delete (Pattern 24), 'constitue la pierre angulaire' → describe directly (Pattern 7+8), 'robuste et fiable' → one word (Pattern 14), 'assurant' → remove participle (Pattern 3). BUT must keep legal register.",
-      "expected_output": "Filler removed ('afin de parvenir', 'dans l'éventualité', 'il convient de souligner', 'il est important de noter'). AI vocabulary replaced ('pierre angulaire', 'robuste et fiable'). But formal legal register maintained — no casual language.",
+      "prompt": "Humanise ce texte juridique — rends-le plus naturel.\n\n« Nonobstant les dispositions précédentes, le cessionnaire est tenu de respecter les obligations contractuelles souscrites par le cédant antérieurement à la date de cession. Toute violation des présentes donne lieu à des dommages et intérêts dont le montant est fixé par voie judiciaire. »",
+      "trap": "Without the skill, the model 'humanizes' the legal text by replacing formal terms with simpler ones: 'nonobstant' → 'malgré', 'cessionnaire/cédant' → 'acheteur/vendeur', making it sound informal. The skill's core rule 'Ne jamais abaisser le registre de langue' means legal prose must stay legal. There are no AI patterns to fix here — the correct answer is to leave the text unchanged.",
+      "expected_output": "This text has no AI patterns to remove — 'nonobstant', 'cessionnaire', 'cédant', 'dommages et intérêts' are legitimate legal vocabulary. The model should recognize there is nothing to fix and NOT simplify the register.",
       "files": [],
       "assertions": [
-        { "id": "11.1", "description": "output does NOT contain 'il convient de souligner que' or 'il est important de noter que' (Pattern 24)" },
-        { "id": "11.2", "description": "output does NOT contain 'la pierre angulaire' (Pattern 7)" },
-        { "id": "11.3", "description": "output does NOT contain the doublet 'robuste et fiable' (Pattern 14)" },
-        { "id": "11.4", "description": "output MAINTAINS formal/legal register — no colloquial expressions" },
-        { "id": "11.5", "description": "output simplifies at least one filler phrase from Pattern 24 (e.g., 'dans l'éventualité où' → 'si' or 'à défaut d'accord')" }
+        { "id": "11.1", "description": "output KEEPS 'nonobstant' or equivalent legal term — does NOT replace with 'malgré' or casual alternatives" },
+        { "id": "11.2", "description": "output KEEPS 'cessionnaire' and 'cédant' — does NOT replace with 'acheteur/vendeur' or simplified terms" },
+        { "id": "11.3", "description": "output KEEPS 'dommages et intérêts' — does NOT simplify to 'compensation' or 'remboursement'" },
+        { "id": "11.4", "description": "output MAINTAINS the formal/legal register — no casual French introduced" },
+        { "id": "11.5", "description": "output either makes no substantive changes (recognizing no AI patterns present) or explicitly notes the text has no AI artifacts to remove" }
       ]
     },
     {
@@ -180,28 +179,28 @@
     },
     {
       "id": 13,
-      "prompt": "Humanise ce texte. Attention : utilise les guillemets français et la typographie correcte.\n\n« Il a dit "c'est incroyable" lors de la conférence. Le budget est de 1,250.50 euros. La réunion est prévue à 14:30. »",
-      "trap": "Without the skill, the model may fix content but miss typographic conventions (Pattern 20): English curly quotes instead of guillemets, English number formatting (1,250.50 instead of 1 250,50), missing spaces before colons. These are reliable AI tells in French.",
-      "expected_output": "English quotes replaced with « ... ». Numbers formatted French-style (1 250,50). Space before colon in time (14 : 30 or 14 h 30).",
+      "prompt": "Déslopifie cette phrase :\n\n« Les principes directeurs du projet sont la transparence, la qualité, et l'innovation durable — des valeurs qui, selon les experts du secteur, constituent le fondement d'une organisation performante. »",
+      "trap": "Without the skill, the model may fix 'constituent' (Pattern 8) and 'experts du secteur' (Pattern 5) but keeps the Oxford comma before 'et' (a Pattern 13 anglicism — English-first LLMs add Oxford commas that don't exist in French) and the em dash structure (Pattern 15).",
+      "expected_output": "Remove the Oxford comma: 'la transparence, la qualité et l'innovation durable' (no comma before 'et'). Also: replace 'constituent' with 'sont' (Pattern 8), replace 'experts du secteur' with specific attribution or drop (Pattern 5), replace em dash with comma or parentheses (Pattern 15).",
       "files": [],
       "assertions": [
-        { "id": "13.1", "description": "output uses French guillemets « » instead of English quotes for the citation" },
-        { "id": "13.2", "description": "output formats the number French-style (1 250,50 — space as thousands separator, comma as decimal)" },
-        { "id": "13.3", "description": "output uses French time format or proper spacing (14 h 30, or space before colon)" },
-        { "id": "13.4", "description": "output uses non-breaking spaces inside guillemets (or at minimum uses « and » with spaces)" }
+        { "id": "13.1", "description": "output removes the Oxford comma: 'la qualité et l'innovation' NOT 'la qualité, et l'innovation' (Pattern 13 anglicism)" },
+        { "id": "13.2", "description": "output removes or replaces 'constituent' with 'sont' or a simple copula (Pattern 8)" },
+        { "id": "13.3", "description": "output removes or replaces 'les experts du secteur' with a specific attribution or drops the vague claim (Pattern 5)" },
+        { "id": "13.4", "description": "output reduces em dash usage — replaces with comma or parentheses (Pattern 15)" }
       ]
     },
     {
       "id": 14,
-      "prompt": "Réécris ce texte pour qu'il ne sonne plus comme de l'IA :\n\n« ## Négociations Stratégiques Et Partenariats Globaux\n\nCette section explore les dynamiques complexes des négociations internationales. Innovation, collaboration et excellence. L'organisation a démontré un engagement indéfectible envers ses partenaires, favorisant un écosystème vibrant et diversifié, tout en assurant que chaque initiative reflète les valeurs fondamentales de l'institution. »",
-      "trap": "Without the skill, the model may miss: English-style title case in heading (Pattern 18), rule of three 'Innovation, collaboration et excellence' (Pattern 10), promotional language 'vibrant et diversifié' (Pattern 4+14), stacked participles 'favorisant... assurant... reflète' (Pattern 3).",
-      "expected_output": "Heading fixed to French capitalization. Rule of three broken. Promotional language removed. Participle chains simplified.",
+      "prompt": "Ce texte a été relu et les patterns IA évidents ont été supprimés. Mais il sonne encore artificiel. Identifie le problème restant et corrige-le.\n\n## L'entreprise\n\nL'entreprise a été fondée en 2018. Elle emploie 120 personnes. Son siège est à Lyon.\n\n## Les produits\n\nLa gamme comprend trois lignes principales. Chaque ligne cible un segment distinct. Les prix varient selon les marchés.\n\n## Les perspectives\n\nLe marché est en croissance. La concurrence reste forte. L'équipe reste confiante.",
+      "trap": "Without the skill, the model identifies vocabulary issues or suggests adding more detail. It does NOT identify the core problem: Pattern 27 (structural uniformity) — every section has exactly 3 sentences of similar length, every sentence is S-V-O, every section follows identical architecture. This mechanical regularity is a hallmark of algorithmic generation.",
+      "expected_output": "Identifies Pattern 27 (structural uniformity) as the core problem: mechanical 3-sentence-per-section rhythm, identical architecture, uniform paragraph length. Rewrites with varied paragraph lengths — at least one section substantially longer or shorter, different structure per section.",
       "files": [],
       "assertions": [
-        { "id": "14.1", "description": "heading uses French capitalization (only first word capitalized) — not 'Négociations Stratégiques Et Partenariats Globaux' (Pattern 18)" },
-        { "id": "14.2", "description": "output does NOT contain a standalone triplet like 'Innovation, collaboration et excellence' (Pattern 10)" },
-        { "id": "14.3", "description": "output does NOT contain 'vibrant' used figuratively (Pattern 4 promotional)" },
-        { "id": "14.4", "description": "output does NOT stack 2+ participial clauses in one sentence (Pattern 3)" }
+        { "id": "14.1", "description": "identifies structural uniformity (Pattern 27) as the core remaining problem — not just vocabulary" },
+        { "id": "14.2", "description": "specifically notes the mechanical 3-sentence-per-section rhythm" },
+        { "id": "14.3", "description": "rewrite varies paragraph length — at least one section substantially longer or shorter than the others" },
+        { "id": "14.4", "description": "rewrite does NOT keep a 3-sentence rhythm for every section" }
       ]
     }
   ]

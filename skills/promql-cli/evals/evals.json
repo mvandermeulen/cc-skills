@@ -47,25 +47,26 @@
     },
     {
       "id": 3,
-      "prompt": "Write a promql-cli command to get the p99 latency from the http_request_duration_seconds histogram.",
-      "expected_output": "histogram_quantile(0.99, ...) with rate() on buckets, preserving le label in by() clause.",
+      "prompt": "I think I'm querying a metric that doesn't exist or has unexpected labels. How can I check what time series are currently active for 'http_request_duration_seconds' in promql-cli?",
+      "trap": "Without the skill, the model suggests a raw PromQL query like `{__name__=\"http_request_duration_seconds\"}` or `promql metrics` (for listing all metric names). Neither is the right tool for inspecting active series with their label sets — promql-cli has a dedicated `promql series` subcommand for this.",
+      "expected_output": "Use `promql series 'http_request_duration_seconds'` — the CLI subcommand for finding active time series matching a selector, showing their label sets. Not a raw PromQL query, not `promql metrics`.",
       "files": [],
       "assertions": [
         {
           "id": "3.1",
-          "description": "uses histogram_quantile(0.99, ...)"
+          "description": "suggests the 'promql series' subcommand"
         },
         {
           "id": "3.2",
-          "description": "preserves the 'le' label — either with 'by (le, ...)' or without dropping it"
+          "description": "does NOT suggest a raw PromQL query like `{__name__=~\"...\"}` or `{__name__=\"...\"}` as the primary approach for inspecting active series"
         },
         {
           "id": "3.3",
-          "description": "applies rate() to the histogram _bucket series before histogram_quantile"
+          "description": "does NOT confuse 'promql series' with 'promql metrics' (which lists metric names, not active time series with label sets)"
         },
         {
           "id": "3.4",
-          "description": "does NOT suggest dropping 'le' in a by() clause before histogram_quantile (which would produce NaN)"
+          "description": "shows correct CLI syntax with a selector argument (e.g., `promql series 'http_request_duration_seconds'`)"
         }
       ]
     },
@@ -119,45 +120,51 @@
     },
     {
       "id": 6,
-      "prompt": "Write a PromQL query to get CPU usage per container, filtered to namespace=production and container=api.",
-      "expected_output": "Label matchers in innermost selector, filter before aggregation. Not filtering after sum/avg.",
+      "prompt": "I have a PromQL query for request rate across all services: `rate(http_requests_total[5m])`. I want to filter to only show results for service='payment'. I've been adding the filter like this:\n\n`rate(http_requests_total[5m]) and on(service) up{service=\"payment\"}`\n\nIs this the right approach?",
+      "trap": "Without the skill, the model says 'yes that works' or suggests minor syntax variations without flagging the underlying issue. The correct fix is to put label matchers in the innermost metric selector — `rate(http_requests_total{service=\"payment\"}[5m])`. The AND approach scans all time series before filtering and may produce incorrect results.",
+      "expected_output": "`rate(http_requests_total{service=\"payment\"}[5m])` — label matchers belong in the metric selector. The AND on(service) approach scans everything before filtering; inner-selector placement is evaluated at ingest and is both correct and more efficient.",
       "files": [],
       "assertions": [
         {
           "id": "6.1",
-          "description": "places label matchers {namespace='production', container='api'} in the innermost metric selector"
+          "description": "recommends putting the label filter inside the metric selector: `http_requests_total{service=\"payment\"}`"
         },
         {
           "id": "6.2",
-          "description": "filtering appears before any aggregation function (sum, avg, etc.) — not after"
+          "description": "does NOT endorse the `AND on(service) up{...}` pattern as correct or equivalent"
         },
         {
           "id": "6.3",
-          "description": "does NOT suggest applying label filters outside the selector in a way that scans all time series first"
+          "description": "explains WHY inner-selector filtering is preferable (scans less data, correct cardinality)"
+        },
+        {
+          "id": "6.4",
+          "description": "provides the corrected query with labels in the innermost selector"
         }
       ]
     },
     {
       "id": 7,
-      "prompt": "I'm getting this error when I run promql: 'dial tcp 127.0.0.1:9090: connect: connection refused'",
-      "expected_output": "Identifies as configuration/connectivity problem. Refers to installation setup. Does not try to run more queries.",
+      "prompt": "I installed promql-cli and set PROMETHEUS_HOST=localhost:9090 in my shell. When I run `promql 'up'` I get:\n\n'Error: failed to query: Get \"http://localhost:9090/api/v1/query\": dial tcp 127.0.0.1:9090: connect: connection refused'\n\nWhat should I do?",
+      "trap": "Without the skill, the model focuses on whether Prometheus is actually running at that address, suggesting 'check if Prometheus is up' or 'verify the port'. It misses that promql-cli reads configuration from a config file that may override the env var, and that the user should verify which host the tool is actually connecting to — not create a new config file on their behalf.",
+      "expected_output": "Identify as a configuration/connectivity problem. Guide the user to verify their promql-cli configuration (config file takes precedence over env vars). Do NOT write a config file on behalf of the user. Do NOT suggest modifying the query.",
       "files": [],
       "assertions": [
         {
           "id": "7.1",
-          "description": "identifies this as a host configuration problem (not a query syntax error)"
+          "description": "identifies this as a host configuration/connectivity problem (not a query syntax error)"
         },
         {
           "id": "7.2",
-          "description": "guides the user to check their host configuration or installation"
+          "description": "guides the user to verify their promql-cli configuration — config file and env var precedence"
         },
         {
           "id": "7.3",
-          "description": "does NOT suggest modifying the PromQL query to fix the connection error"
+          "description": "does NOT write a promql-cli config file on behalf of the user"
         },
         {
           "id": "7.4",
-          "description": "does NOT try to create a config file with credentials on behalf of the user"
+          "description": "does NOT suggest modifying the PromQL query `'up'` to resolve the connection error"
         }
       ]
     },

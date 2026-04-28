@@ -32,7 +32,7 @@
 <details>
 <summary>Full breakdown (50 assertions)</summary>
 
-Model: claude-sonnet-4-6 — 1 run each — graded inline — adversarial evals (each has a trap the model falls into without the skill)
+Model: claude-sonnet-4-6 — 1 run each — graded by human-as-judge — adversarial evals (each has a trap the model falls into without the skill)
 
 | #    | Assertion                                                                             | With                           | Without                                                                                            |
 | ---- | ------------------------------------------------------------------------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------- |
@@ -107,7 +107,7 @@ Model: claude-sonnet-4-6 — 1 run each — graded inline — adversarial evals 
 <details>
 <summary>Full breakdown (46 assertions)</summary>
 
-Model: claude-sonnet-4-6 — 1 run each — graded inline
+Model: claude-sonnet-4-6 — 1 run each — graded by human-as-judge
 
 | #    | Assertion                                                                  | With                                                                 | Without                                                                      |
 | ---- | -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -179,7 +179,7 @@ Model: claude-sonnet-4-6 — 1 run each — graded inline
 <details>
 <summary>Full breakdown (36 assertions)</summary>
 
-Model: claude-sonnet-4-6 — 1 run each — graded inline
+Model: claude-sonnet-4-6 — 1 run each — graded by human-as-judge
 
 | #    | Assertion                                                               | With                           | Without                                                                |
 | ---- | ----------------------------------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------- |
@@ -241,7 +241,7 @@ Model: claude-sonnet-4-6 — 1 run each — graded inline
 <details>
 <summary>Full breakdown (101 assertions)</summary>
 
-Model: claude-opus-4-6 — 1 run each — graded inline — adversarial evals (each has a trap the model falls into without the skill)
+Model: claude-opus-4-6 — 1 run each — graded by human-as-judge — adversarial evals (each has a trap the model falls into without the skill)
 
 | #    | Assertion                                                                                                | With                           | Without                                                                          |
 | ---- | -------------------------------------------------------------------------------------------------------- | ------------------------------ | -------------------------------------------------------------------------------- |
@@ -379,7 +379,7 @@ Model: claude-opus-4-6 — 1 run each — graded inline — adversarial evals (e
 <details>
 <summary>Full breakdown (95 assertions)</summary>
 
-Model: claude-opus-4-6 — 1 run each — graded inline — adversarial evals (each has a trap the model falls into without the skill)
+Model: claude-opus-4-6 — 1 run each — graded by human-as-judge — adversarial evals (each has a trap the model falls into without the skill)
 
 | #    | Assertion                                                                                 | With                           | Without                                                                        |
 | ---- | ----------------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------ |
@@ -707,7 +707,7 @@ Model: claude-opus-4-6 — 1 run each — graded by human-as-judge — adversari
 <details>
 <summary>Full breakdown (85 assertions)</summary>
 
-Model: claude-sonnet-4-6 — 1 run each — graded inline — adversarial evals (each has a trap the model falls into without the skill)
+Model: claude-sonnet-4-6 — 1 run each — graded by human-as-judge — adversarial evals (each has a trap the model falls into without the skill)
 
 | #    | Assertion                                                                                                  | With                           | Without                                                                                               |
 | ---- | ---------------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------- |

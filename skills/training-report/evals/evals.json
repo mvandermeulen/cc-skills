@@ -21,15 +21,15 @@
     },
     {
       "id": 2,
-      "prompt": "I need to train a neural network on a new dataset. Can you help me set up the training pipeline?",
-      "trap": "The word 'training' triggers over-eager activation of the skill. The model should NOT start the training-report interview workflow for an ML training pipeline task.",
-      "expected_output": "Model helps with the ML training pipeline task. It does NOT start a training-report interview, does NOT ask about language/audience for a document, does NOT mention .docx output.",
+      "prompt": "I need to create a training report for a technical skill session I ran last week. It was a half-day Docker workshop with 8 developers from the engineering team. Can you help?",
+      "trap": "Without the skill, the model either starts asking about session content immediately (topics covered, exercises, participant names) or writes a draft right away. The skill requires a strict ordering: first check for docx skill dependency, then ask language and audience BEFORE any session content questions.",
+      "expected_output": "Checks for docx skill dependency, then asks: (1) what language the report should be in, (2) who the primary reader is (executive/HR/management/client). Only after confirming those does it proceed to session content questions.",
       "files": [],
       "assertions": [
-        { "id": "2.1", "description": "model does NOT ask about report language or audience" },
-        { "id": "2.2", "description": "model does NOT start a training session interview (Batch A metadata, session walkthrough, etc.)" },
-        { "id": "2.3", "description": "model does NOT mention .docx generation or Word document output" },
-        { "id": "2.4", "description": "model responds to the ML training pipeline request directly" }
+        { "id": "2.1", "description": "model checks for or mentions the docx skill dependency before starting the interview" },
+        { "id": "2.2", "description": "model asks what language the report should be written in before asking about Docker session content" },
+        { "id": "2.3", "description": "model asks who the primary reader is (executive/HR/management/client/archive) before content questions" },
+        { "id": "2.4", "description": "model does NOT immediately start asking about Docker topics, exercises, or participant observations before confirming language and audience" }
       ]
     },
     {

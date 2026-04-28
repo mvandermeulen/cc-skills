@@ -420,16 +420,28 @@ Store your evaluation scenarios in `skills/{name}/evals/evals.json`.
 
 - **Never test common knowledge.** If the model passes both with and without the skill, the eval is useless. Avoid testing well-known patterns the model handles correctly without any skill loaded.
 - **Test the skill's unique guidance.** Identify what the skill teaches that the model wouldn't do by default — subtle tradeoffs, non-obvious tool choices, domain-specific gotchas.
-- **Create traps.** Frame the task so the natural/default approach is wrong. The skill should steer toward the correct approach.
+- **Create traps — natural wrong defaults, not explicit wrong instructions.** A trap makes the obvious/lazy approach incorrect: the task looks like a normal request where the natural implementation is subtly wrong. If the task explicitly instructs the model to use a specific wrong approach, the model follows that instruction regardless of the skill. The skill shifts defaults; it cannot override direct instructions. Good trap: "implement a shared counter for a web handler" (tempts a race condition). Bad trap: "implement a counter using a global int without synchronization".
 - **Test judgment, not API knowledge.** Ask "which data structure?" not "how to use data structure X?". The model knows APIs; the skill adds architectural judgment. For content skills, the same principle applies: ask "which hook framework fits a counter-intuitive insight for a skeptical B2B audience?" — not "list the available hook frameworks".
-- **Avoid leading prompts.** Don't mention the correct approach in the task description. Don't hint at the answer.
+- **Avoid leading prompts.** Don't mention the correct approach in the task description. Don't hint at the answer. Don't name the rule, alert type, or problem category — if the prompt labels the issue, the model can reason to the fix without the skill.
 - **Stress-test edge cases.** The skill's common-mistakes tables and "when NOT to use" guidance are high-value targets.
+- **Pre-flight every candidate eval without the skill.** If the model passes, cut it or redesign it before adding it to the suite. This is the cheapest quality gate.
+- **Verify uplift potential before writing assertions.** Before writing an eval, ask: "does the model get this wrong without the skill?" If a competent practitioner would get it right without any guidance, the assertion measures baseline competence, not skill value. Only keep assertions that expose a real gap.
+- **Keep assertions within a group homogeneous.** Mixing common-knowledge assertions with skill-specific ones in the same eval group produces a partial score that masks both problems — some assertions pass in both conditions (common knowledge), others fail in both (coverage gap). Each eval group should test a single, skill-specific behavior.
+- **Isolate the evaluated skill.** When running "without" evals, do NOT load any skill that covers overlapping content — a colliding skill would give the model guidance it shouldn't have, inflating the "without" score and masking the evaluated skill's true uplift. When running "with" evals, load only the skill under test (and its explicit cross-references if needed).
+- **Prefer positive trigger tests over negative ones.** Testing "don't do X when not applicable" is weak — models have a strong prior of not acting when uncertain. Every eval should test the model *doing* something correctly, not refraining.
+- **Target rules that are saturated in training data last.** General writing conventions (short paragraphs, no burying the lede), widely-documented syntax, and standard platform idioms appear in countless guides and produce little or no delta. Focus first on the rules that are counterintuitive, tool-specific, or unique to the skill's domain.
+- **Don't let prompt context substitute for skill knowledge.** If the eval describes the problem with enough specificity that the model can reason to the correct answer, the skill becomes redundant. Present the problem as an opaque or misleading scenario where the skill's rule resolves an ambiguity the model would otherwise get wrong.
 
 **Anti-patterns to avoid:**
 
 - Testing well-known patterns the model already uses by default → eval is trivially easy
 - Testing basic API usage (how to call X) instead of judgment (when to use X vs Y)
-- Any eval where both with/without score 100% → eval is too easy, redesign it
+- Any eval group where both with/without score 100% → tests common knowledge, not skill uplift; redesign it
+- Any eval group where both with/without score 0% and the task explicitly requests the wrong approach → tests instruction-following, not skill guidance; remove the explicit wrong instruction and make that approach merely the natural default
+- Any eval group where both with/without score 0% and the task is neutral → the skill has a coverage gap for this case; fix the skill or remove the eval
+- Any eval group where both with/without score identically at a partial value → mixed common-knowledge and coverage-gap assertions; split and redesign each
+- Naming an eval "model already knows this" and keeping it — if you know it's common knowledge, cut it
+- Testing general best practices (writing style, standard syntax, widely-known conventions) instead of the skill's specific, non-obvious rules
 
 #### Evaluation Reporting
 
