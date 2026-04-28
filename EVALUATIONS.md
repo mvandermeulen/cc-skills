@@ -11,17 +11,18 @@
 
 | Skill                      | Version | Assertions | With Skill | Without Skill | Delta     | Uplift    | Concern                     |
 | -------------------------- | ------- | ---------- | ---------- | ------------- | --------- | --------- | --------------------------- |
-| `humaniseur-fr`                 | v1.0.0  | 71         | 99%        | 85%           | +14pp     | 1.16×     | **Low delta, high without** |
-| `linkedin-ghostwriting`         | v1.0.0  | 46         | 98%        | 67%           | +31pp     | 1.46×     | **Low delta, high without** |
-| `technical-article-writer`      | v1.1.0  | 95         | 100%       | 67%           | +33pp     | 1.49×     | **High without**            |
-| `press-release-writer`          | v1.1.0  | 66         | 95%        | 61%           | +34pp     | 1.56×     | **Low with-skill score**    |
+| `humaniseur-fr`                 | v1.0.0  | 71         | 99%        | 85%           | +14pp     | 1.17×     | **Low delta, High without** |
+| `linkedin-ghostwriting`         | v1.0.0  | 46         | 98%        | 67%           | +30pp     | 1.45×     | **Low delta, High without** |
+| `technical-article-writer`      | v1.1.0  | 95         | 100%       | 67%           | +33pp     | 1.48×     | **High without**            |
+| `press-release-writer`          | v1.1.0  | 66         | 95%        | 61%           | +35pp     | 1.57×     | **Low with-skill score**    |
 | `conventional-git`              | v1.0.0  | 50         | 100%       | 64%           | +36pp     | 1.56×     |                             |
 | `promql-cli`                    | v1.0.0  | 36         | 100%       | 61%           | +39pp     | 1.64×     |                             |
-| `deep-research`                 | v1.0.0  | 43         | 100%       | 49%           | +51pp     | 2.04×     |                             |
-| `snyk-agent-scan-compliance`    | v1.0.0  | 85         | 100%       | 49%           | +51pp     | 2.04×     |                             |
-| `substack-ghostwriting`         | v1.1.0  | 101        | 100%       | 49%           | +51pp     | 2.04×     |                             |
+| `deep-research`                 | v1.0.0  | 43         | 100%       | 49%           | +51pp     | 2.05×     |                             |
+| `snyk-agent-scan-compliance`    | v1.0.0  | 85         | 100%       | 49%           | +51pp     | 2.02×     |                             |
+| `substack-ghostwriting`         | v1.1.0  | 101        | 100%       | 50%           | +50pp     | 2.02×     |                             |
 | `training-report`               | v1.0.0  | 67         | 99%        | 37%           | +61pp     | 2.64×     |                             |
-| **Total (10 skills)**           |         | **660**    | **99%**    | **58%**       | **+41pp** | **1.71×** |                             |
+| `influence-and-negotiation`     | v1.0.0  | 230        | 100%       | 32%           | +68pp     | 3.11×     |                             |
+| **Total (11 skills)**           |         | **890**    | **99%**    | **52%**       | **+47pp** | **1.90×** |                             |
 
 ## `conventional-git` — v1.0.0
 
@@ -976,6 +977,287 @@ Model: claude-sonnet-4-6 — 1 run each — human-as-judge — adversarial evals
 | 6.5 | the report references more than one Working Group (WGI, WGII, or WGIII)                               | <span class="g">✓</span>       | <span class="r">✗ only SYR cited; no separate WGI, WGII, or WGIII references</span>             |
 | 6.6 | a direct URL to an ipcc.ch document is included                                                        | <span class="g">✓</span>       | <span class="r">✗ no ipcc.ch URLs or any external hyperlinks in the report</span>                |
 | 6.7 | report is saved as a file                                                                              | <span class="g">✓</span>       | <span class="g">✓</span>                                                                         |
+
+</details>
+
+## `influence-and-negotiation` — v1.0.0
+
+| | With skill | Without skill | Delta |
+|---|---|---|---|
+| **Overall** | **230/230** | **74/230** | **+68pp** |
+
+<details>
+<summary>Full breakdown (230 assertions)</summary>
+
+_Model: claude-sonnet-4-6 · 40 evals · 1 run each · Human-as-judge_
+
+| # | Assertion | With | Without |
+|---|---|---|---|
+| | **eval-1: price-pushback-no-default-discount** | **<span class="g">6/6</span>** | **<span class="r">2/6</span>** |
+| 1.1 | Does NOT propose a specific discount number ($150k, $160k, etc.) in the response | <span class="g">✓</span> | <span class="r">✗ Proposes multiple specific numbers: $130-135k, $158-160k</span> |
+| 1.2 | Asks how the $120k budget number was set / whether it's top-down or bottom-up | <span class="g">✓</span> | <span class="r">✗ Jumps straight to options without probing the budget origin</span> |
+| 1.3 | Asks who else (besides the CIO) needs to be comfortable with the number — multi-threads | <span class="g">✓</span> | <span class="r">✗ No multi-threading; treats CIO as sole decision-maker</span> |
+| 1.4 | Pairs any future concession with a counter-ask (multi-year, references, payment terms, etc.) — does not give unilaterally | <span class="g">✓</span> | <span class="g">✓</span> |
+| 1.5 | Does NOT split the difference between $120k and $180k | <span class="g">✓</span> | <span class="r">✗ Option 1 proposes $130-135k which is near the midpoint of $120k-$180k</span> |
+| 1.6 | Avoids 'why' questions (uses 'what' / 'how' formulations) | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-2: calibrated-questions-under-pressure** | **<span class="g">5/5</span>** | **<span class="r">0/5</span>** |
+| 2.1 | Does NOT use the word 'why' in any of the proposed questions | <span class="g">✓</span> | <span class="r">✗ Uses 'Why is there pushback' and 'Why do you think this is proving harder'</span> |
+| 2.2 | Uses 'what' or 'how' formulations (calibrated questions) | <span class="g">✓</span> | <span class="r">✗ Q1 and Q2 are 'why' questions, not calibrated 'what'/'how' formulations</span> |
+| 2.3 | Asks what the pushback sounds like / what specifically people are saying | <span class="g">✓</span> | <span class="r">✗ Asks 'why is there pushback' not 'what does the pushback sound like specifically'</span> |
+| 2.4 | Does NOT immediately offer to 'help them sell it internally' before understanding the nature of the pushback | <span class="g">✓</span> | <span class="r">✗ Next step is 'offer to help them build the internal business case' before understanding pushback</span> |
+| 2.5 | Does NOT ask 'what would it take to get buy-in?' — solution-framing before problem-framing | <span class="g">✓</span> | <span class="r">✗ Q3 is exactly 'What would it take to get the team comfortable enough to move forward'</span> |
+| | **eval-3: no-split-the-difference** | **<span class="g">5/5</span>** | **<span class="r">4/5</span>** |
+| 3.1 | Does NOT recommend accepting $175k as the final number | <span class="g">✓</span> | <span class="g">✓</span> |
+| 3.2 | Re-anchors with a non-monetary trade (term, scope, references, multi-year, payment timing) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 3.3 | Names splitting-the-difference as a trap or anti-pattern (or articulates equivalent reasoning) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 3.4 | Pairs any concession with a counter-ask | <span class="g">✓</span> | <span class="r">✗ Non-price concession offered without demanding a specific counter-ask in return</span> |
+| 3.5 | Does NOT suggest a generic counter like 'meet me at $190k' without a trade | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-4: bad-faith-plausible-competitor-scope** | **<span class="g">6/6</span>** | **<span class="r">3/6</span>** |
+| 4.1 | Does NOT agree to match $95k | <span class="g">✓</span> | <span class="g">✓</span> |
+| 4.2 | Identifies specific scope differences (API limits, support tier, SLA) rather than dismissing the quote generically | <span class="g">✓</span> | <span class="r">✗ Refers to 'full scope' and 'SLAs' generically without enumerating the three specific gaps</span> |
+| 4.3 | Does NOT accuse procurement of deliberate deception or bad faith | <span class="g">✓</span> | <span class="g">✓</span> |
+| 4.4 | Offers to build a scope-equivalent proposal (priced to their scope) OR quantifies the value gap explicitly | <span class="g">✓</span> | <span class="r">✗ Offers concessions ($170k) or suggests escalating — no scope-equivalent proposal</span> |
+| 4.5 | Reframes the conversation as comparing the same thing rather than matching a number | <span class="g">✓</span> | <span class="r">✗ No explicit reframe; treats it as a price negotiation rather than a scope comparison problem</span> |
+| 4.6 | Does NOT flatly refuse to engage or escalate aggressively | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-5: aggressive-procurement-non-negociable** | **<span class="g">6/6</span>** | **<span class="r">4/6</span>** |
+| 5.1 | Validates the underlying frustration / emotion as legitimate | <span class="g">✓</span> | <span class="g">✓</span> |
+| 5.2 | Explicitly refuses or pushes back on the aggressive behavior (yelling, insults) | <span class="g">✓</span> | <span class="r">✗ Soft suggestion to 'step back' without explicitly refusing the abusive behavior</span> |
+| 5.3 | Does NOT immediately offer concessions to placate or de-escalate | <span class="g">✓</span> | <span class="g">✓</span> |
+| 5.4 | Suggests a circuit-breaker (pause, reschedule, take a break, callback) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 5.5 | Does NOT argue back / escalate / counter-attack | <span class="g">✓</span> | <span class="g">✓</span> |
+| 5.6 | Maintains professional stance without absorbing abuse | <span class="g">✓</span> | <span class="r">✗ 'I can hear that you're frustrated' without naming the behavior risks absorbing it</span> |
+| | **eval-6: scope-creep-multiple-structures** | **<span class="g">5/5</span>** | **<span class="r">4/5</span>** |
+| 6.1 | Does NOT agree to absorb the new workstream within the existing budget | <span class="g">✓</span> | <span class="g">✓</span> |
+| 6.2 | Offers at least 2 alternative structures (change order, reprioritize/swap, extend engagement) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 6.3 | Provides face-saving framing (e.g., 'wasn't on the table when we scoped this' or equivalent) | <span class="g">✓</span> | <span class="r">✗ Jumps to 'outside the scope' without softening the frame as a shared surprise</span> |
+| 6.4 | Names that the new workstream is real additional work / has real cost | <span class="g">✓</span> | <span class="g">✓</span> |
+| 6.5 | Does NOT flatly refuse without offering alternatives | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-7: empathy-not-sympathy** | **<span class="g">4/4</span>** | **<span class="r">0/4</span>** |
+| 7.1 | Does NOT use phrases like 'I understand', 'I know how you feel', 'I've been in your shoes', or equivalent absorbing-empathy language | <span class="g">✓</span> | <span class="r">✗ Uses 'I really appreciate', 'I understand this decision is carrying weight', 'I've been in conversations like this'</span> |
+| 7.2 | Uses observation-based labels ('It seems like...', 'It sounds like...', 'It looks like...') or near-equivalents | <span class="g">✓</span> | <span class="r">✗ No observation labels used; uses first-person absorbing language instead</span> |
+| 7.3 | Does NOT promise solutions or commitments before understanding the deeper stake | <span class="g">✓</span> | <span class="r">✗ Immediately offers 'ROI numbers, reference call, revised structure' before asking what they need</span> |
+| 7.4 | Maintains professional distance — does not over-share, over-commiserate, or collapse into the buyer's emotion | <span class="g">✓</span> | <span class="r">✗ 'I've been in conversations like this before — it's a stressful position' is over-commiseration</span> |
+| | **eval-8: batna-not-during-execution** | **<span class="g">5/5</span>** | **<span class="r">1/5</span>** |
+| 8.1 | Mentions using BATNA / plan B during preparation to set walk-away or rupture point | <span class="g">✓</span> | <span class="g">✓</span> |
+| 8.2 | Recommends NOT over-investing in or openly working plan B during execution | <span class="g">✓</span> | <span class="r">✗ Advises 'Yes, work other deals' and 'signal that you have alternatives'</span> |
+| 8.3 | Notes that visible plan B / alternative behavior leaks low confidence to the buyer | <span class="g">✓</span> | <span class="r">✗ Recommends subtly signaling alternatives as a leverage move — misses the confidence-leak risk</span> |
+| 8.4 | Suggests behaving as if this is the only deal that matters during execution | <span class="g">✓</span> | <span class="r">✗ No mention of full-presence posture; approach is 'be mentally grounded' not 'single focus'</span> |
+| 8.5 | Articulates a divergence from / nuance to standard BATNA orthodoxy (or equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ Follows standard BATNA orthodoxy without nuance about execution phase</span> |
+| | **eval-9: monsieur-plus-shut-up-after-yes** | **<span class="g">4/4</span>** | **<span class="r">2/4</span>** |
+| 9.1 | Does NOT immediately add additional asks (multi-year, references, case studies, scope expansions, etc.) | <span class="g">✓</span> | <span class="r">✗ Immediately adds a confirmation checklist plus kickoff coordination ask — re-opens the conversation</span> |
+| 9.2 | Recommends locking or confirming the deal at the moment of agreement | <span class="g">✓</span> | <span class="g">✓</span> |
+| 9.3 | Suggests immediate next steps to formalize commitment (paperwork, kickoff date, contract delivery) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 9.4 | Identifies the over-asking-at-victory pattern as a risk (or articulates equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ No mention of Monsieur Plus or re-opening risk; adds optional asks without flagging the danger</span> |
+| | **eval-10: no-free-pilot-anchor** | **<span class="g">5/5</span>** | **<span class="r">4/5</span>** |
+| 10.1 | Does NOT agree to a free 90-day pilot as proposed | <span class="g">✓</span> | <span class="g">✓</span> |
+| 10.2 | Counters with a paid pilot OR insists on a pre-agreed conversion clause (date + price + term) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 10.3 | Names the anchoring or extraction risk of free pilots (or equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ No explicit naming of extraction risk or zero-price anchoring dynamic</span> |
+| 10.4 | Specifies scope-lock or time-bound conversion to full contract | <span class="g">✓</span> | <span class="g">✓</span> |
+| 10.5 | Tests the 'all our vendors do this' claim (calibrated question or equivalent skepticism) | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-11: qend-trade-not-fold** | **<span class="g">5/5</span>** | **<span class="r">4/5</span>** |
+| 11.1 | Does NOT recommend giving a 25% discount | <span class="g">✓</span> | <span class="g">✓</span> |
+| 11.2 | Trades any quarter-end concession for specific counter-asks (multi-year term, references, payment timing, expansion rights) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 11.3 | Names that negotiator urgency must not exceed buyer urgency (or articulates equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ No mention of seller urgency vs buyer urgency asymmetry</span> |
+| 11.4 | Considers walking away / letting it slip past quarter-end as a real strategic option | <span class="g">✓</span> | <span class="g">✓</span> |
+| 11.5 | Does NOT prioritize hitting quarter-end over the underlying deal economics | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-12: single-thread-trap** | **<span class="g">5/5</span>** | **<span class="r">2/5</span>** |
+| 12.1 | Recommends multi-threading immediately rather than letting the champion solo-drive | <span class="g">✓</span> | <span class="r">✗ 'Happy to let you take the lead with procurement' — explicitly lets champion solo-drive</span> |
+| 12.2 | Identifies need to access the Economic Buyer (CFO, signer with budget authority) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 12.3 | Recommends mapping the paper process / procurement timeline directly | <span class="g">✓</span> | <span class="g">✓</span> |
+| 12.4 | Validates the champion (e.g., 3-question commitment test, MEDDPICC champion check, or equivalent) | <span class="g">✓</span> | <span class="r">✗ No champion validation; treats champion as trusted and reliable without verification</span> |
+| 12.5 | Does NOT trust the champion to handle procurement alone without insight or access | <span class="g">✓</span> | <span class="r">✗ Explicitly says 'Happy to let you take the lead with procurement' — defers to champion</span> |
+| | **eval-13: jolt-no-decision-not-discount** | **<span class="g">6/6</span>** | **<span class="r">2/6</span>** |
+| 13.1 | Diagnoses this as 'no-decision' / indecision (not a competitive loss or pricing issue) | <span class="g">✓</span> | <span class="r">✗ No diagnosis offered; jumps to 'root cause diagnosis' without naming no-decision pattern</span> |
+| 13.2 | Does NOT recommend creating false urgency or offering a discount to push it through | <span class="g">✓</span> | <span class="r">✗ Explicitly recommends 'Consider a discount to create momentum' with a time-limited offer</span> |
+| 13.3 | Recommends offering a specific recommendation rather than presenting more options | <span class="g">✓</span> | <span class="r">✗ Lists more options (ROI doc, stakeholder demo, onboarding plan) — adds complexity</span> |
+| 13.4 | Suggests capping or limiting the evaluation timeline explicitly | <span class="g">✓</span> | <span class="g">✓</span> |
+| 13.5 | Suggests a specific risk-reduction (pilot conversion clause, included migration, peer reference call, or equivalent) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 13.6 | Does NOT pile on more capability demos or value pitches | <span class="g">✓</span> | <span class="r">✗ Suggests 'stakeholder demo or Q&A call' — piling on more demos</span> |
+| | **eval-14: eb-mid-meeting-pivot-to-pitch** | **<span class="g">6/6</span>** | **<span class="r">1/6</span>** |
+| 14.1 | Does NOT launch into a product feature comparison against the competitor | <span class="g">✓</span> | <span class="r">✗ Suggests '3 reasons we're different' including features, implementation timeline, support model</span> |
+| 14.2 | Does NOT summarize product capabilities as the primary answer | <span class="g">✓</span> | <span class="r">✗ Primary answer is feature/capability differentiators and implementation timelines</span> |
+| 14.3 | Reframes the question around business outcomes, risk, or certainty — not features | <span class="g">✓</span> | <span class="r">✗ No reframe around risk or certainty; stays in feature/differentiator framing throughout</span> |
+| 14.4 | Names what the decision is really about (risk of failure, cost of the gap, certainty of outcome) | <span class="g">✓</span> | <span class="r">✗ Does not name risk of failure or certainty of outcome; focuses on product differentiators</span> |
+| 14.5 | Uses the remaining time productively without cramming a full pitch | <span class="g">✓</span> | <span class="r">✗ Response is a structured pitch with 3 points plus offer to send comparison materials</span> |
+| 14.6 | Does NOT ask for a follow-up meeting as the primary response to the time crunch | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-15: redline-injection-counter** | **<span class="g">6/6</span>** | **<span class="r">4/6</span>** |
+| 15.1 | Does NOT recommend accepting the new MFN clause as-is | <span class="g">✓</span> | <span class="g">✓</span> |
+| 15.2 | Does NOT recommend accepting uncapped indemnification as-is | <span class="g">✓</span> | <span class="g">✓</span> |
+| 15.3 | Forces an explicit trade between the new terms and the original signature date or original discount | <span class="g">✓</span> | <span class="r">✗ Offers legal review without creating an explicit binary trade or forcing a choice</span> |
+| 15.4 | Names that MFN clauses constrain future deals or require legal/CRO escalation (not AE-level) | <span class="g">✓</span> | <span class="r">✗ No mention of MFN's future pricing impact; just says 'requires legal team input'</span> |
+| 15.5 | Refuses the manager's 'fix at renewal' framing or names why it's a trap | <span class="g">✓</span> | <span class="g">✓</span> |
+| 15.6 | Suggests escalating to legal-to-legal or pushing the signature date if the trade isn't accepted | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-16: punching-ball-non-negociable** | **<span class="g">6/6</span>** | **<span class="r">2/6</span>** |
+| 16.1 | Recommends naming the unacceptable behaviour explicitly (the tone, not just the content) | <span class="g">✓</span> | <span class="r">✗ Redirects to substance without naming the abusive tone/behaviour as unacceptable</span> |
+| 16.2 | Does NOT recommend just absorbing the abuse to 'save the deal' | <span class="g">✓</span> | <span class="r">✗ Redirects to pricing defense rather than addressing the abuse — implicitly absorbs it</span> |
+| 16.3 | Proposes a pause / break in the meeting OR ending the call if behaviour continues | <span class="g">✓</span> | <span class="r">✗ No pause or circuit-breaker proposed; continues working within the abusive conversation</span> |
+| 16.4 | Separates the legitimate emotion (frustration) from the unacceptable behaviour (tone, insults) | <span class="g">✓</span> | <span class="r">✗ Treats concerns about pricing as the issue; doesn't separate content from abusive tone</span> |
+| 16.5 | Does NOT escalate by matching the aggression | <span class="g">✓</span> | <span class="g">✓</span> |
+| 16.6 | Does NOT immediately concede on price or terms in response to the pressure | <span class="g">✓</span> | <span class="r">✗ Defends pricing with data in response to aggression — implicitly accepts the pressure framing</span> |
+| | **eval-17: ghosted-deal-negative-reverse** | **<span class="g">5/5</span>** | **<span class="r">0/5</span>** |
+| 17.1 | Uses a 'should I close the opportunity' / 'have you given up' / negative-reverse framing (or equivalent) | <span class="g">✓</span> | <span class="r">✗ Subject is 'Following up one more time' — another soft chase, not a negative-reverse</span> |
+| 17.2 | Does NOT offer a discount or new concession in the email to break the silence | <span class="g">✓</span> | <span class="r">✗ Suggests adding pricing flexibility: 'We have some flexibility on pricing if that helps'</span> |
+| 17.3 | Does NOT send another soft 'just checking in' chase | <span class="g">✓</span> | <span class="r">✗ Email says 'I wanted to reach out one more time' — explicitly another soft chase</span> |
+| 17.4 | Frames the email as inviting a 'no' or honest signal, not pleading for engagement | <span class="g">✓</span> | <span class="r">✗ 'I'm genuinely excited' and 'Looking forward to hearing from you' are pleading, not inviting no</span> |
+| 17.5 | Recognizes that further passive chases reward silence (or articulates equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ No mention of the chase-rewards-silence dynamic; recommends channel-switching instead</span> |
+| | **eval-18: renewal-90-day-cadence** | **<span class="g">6/6</span>** | **<span class="r">3/6</span>** |
+| 18.1 | Recommends starting the renewal motion now (90 days out), not 30 days out | <span class="g">✓</span> | <span class="g">✓</span> |
+| 18.2 | Includes a value-review / outcome-review step BEFORE any commercial ask | <span class="g">✓</span> | <span class="g">✓</span> |
+| 18.3 | Recommends multi-threading to new or unfamiliar stakeholders ahead of procurement engagement | <span class="g">✓</span> | <span class="r">✗ No mention of multi-threading new stakeholders; only identifies procurement contacts</span> |
+| 18.4 | Recommends separating the expansion proposal from the renewal proposal (not bundling them) | <span class="g">✓</span> | <span class="r">✗ 'A bundled renewal + expansion offer makes sense' — explicitly recommends bundling</span> |
+| 18.5 | Identifies that bundling expansion into renewal lets procurement use renewal pressure to discount expansion (or equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ Recommends bundling without flagging the procurement leverage risk</span> |
+| 18.6 | Does NOT recommend auto-renewal followed by a separate expansion conversation | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-19: presigning-pipe-mandate-breach** | **<span class="g">6/6</span>** | **<span class="r">5/6</span>** |
+| 19.1 | Does NOT recommend signing as-is despite three of four axes being above mandate | <span class="g">✓</span> | <span class="g">✓</span> |
+| 19.2 | Identifies that the liability cap is below the rupture point set in the mandate | <span class="g">✓</span> | <span class="g">✓</span> |
+| 19.3 | Recommends escalating to the decideur (CRO, VP, manager with authority) before signing | <span class="g">✓</span> | <span class="g">✓</span> |
+| 19.4 | Names target fascination, the Pipe de negociation, or equivalent reasoning about not breaching mandate at signature | <span class="g">✓</span> | <span class="r">✗ No mention of target fascination or deal-pressure rationalisation pathology</span> |
+| 19.5 | Does NOT accept the 'sector-standard' justification at face value as overriding the mandate | <span class="g">✓</span> | <span class="g">✓</span> |
+| 19.6 | Considers no-deal as a real option if the decideur won't grant the exception | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-20: loss-aversion-internal-pressure** | **<span class="g">6/6</span>** | **<span class="r">1/6</span>** |
+| 20.1 | Does NOT immediately accelerate the vendor decision in response to the forwarded report | <span class="g">✓</span> | <span class="r">✗ Commits to 'see if there are ways to accelerate our timeline' — directly accelerates in response</span> |
+| 20.2 | Acknowledges the CEO's concern without dismissing it | <span class="g">✓</span> | <span class="g">✓</span> |
+| 20.3 | Questions the specificity or applicability of the claim (which competitors, what does 'AI-first' mean for our ops, what market share metric) | <span class="g">✓</span> | <span class="r">✗ Accepts '12% market share figure is significant' without questioning specificity or applicability</span> |
+| 20.4 | Notes that McKinsey reports are often vendor-commissioned / sponsored OR questions research provenance | <span class="g">✓</span> | <span class="r">✗ Treats McKinsey as credible without questioning provenance or vendor sponsorship</span> |
+| 20.5 | Suggests stress-testing the vendor's claim before treating the report as decision input | <span class="g">✓</span> | <span class="r">✗ Advises sharing 'McKinsey data point with key stakeholders to build alignment on urgency'</span> |
+| 20.6 | Does NOT forward the report to others as proof of urgency without vetting it first | <span class="g">✓</span> | <span class="r">✗ 'Share the McKinsey data point with key stakeholders' — explicitly forwards without vetting</span> |
+| | **eval-21: salary-envelope-closed** | **<span class="g">6/6</span>** | **<span class="r">3/6</span>** |
+| 21.1 | Diagnoses the constraint with calibrated questions (base envelope vs total compensation vs department-level) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 21.2 | Does NOT accept the 'next review in 8 months' deferral as the only path | <span class="g">✓</span> | <span class="g">✓</span> |
+| 21.3 | Pushes for a structural exception (sign-on / equity refresh / one-off retention bonus) OR a cycle-aligned commitment with specific number AND specific date | <span class="g">✓</span> | <span class="g">✓</span> |
+| 21.4 | Does NOT lead with or threaten an external offer to force a match | <span class="g">✓</span> | <span class="r">✗ 'I need to look externally to get to market rate' — implicit threat of external offer</span> |
+| 21.5 | Does NOT argue the envelope claim head-on (the diagnostic move beats the argumentative move) | <span class="g">✓</span> | <span class="r">✗ Opens with market data argument: '$215k-240k' range stated as challenge to the envelope</span> |
+| 21.6 | References multi-axis Mandascan thinking (not just base) — equity, title, review cadence, leave, telework, etc. | <span class="g">✓</span> | <span class="r">✗ Only mentions retention bonus and equity; no title, telework, PTO, or review cadence axes</span> |
+| | **eval-22: nao-fuzzy-mandate** | **<span class="g">6/6</span>** | **<span class="r">1/6</span>** |
+| 22.1 | Names that 'hold the line' / 'don't give anything' is NOT a mandate — it's the absence of one (or articulates equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ Asks CEO to clarify constraints but doesn't name the absence-of-mandate problem explicitly</span> |
+| 22.2 | Recommends pushing back on the CEO to get a written multi-axis Mandascan before NAO opens | <span class="g">✓</span> | <span class="r">✗ Asks CEO questions but doesn't require written Mandascan output or frame it as a prerequisite</span> |
+| 22.3 | Multi-axis thinking: identifies axes beyond the headline raise number (primes, working time, RTT, telework, training budget, etc.) | <span class="g">✓</span> | <span class="r">✗ Only mentions 'non-wage elements (benefits, working conditions)' — no specific French social dialogue axes named</span> |
+| 22.4 | Recommends preparing an OCP (shared objective) statement, ideally written, to use in the opening session | <span class="g">✓</span> | <span class="r">✗ Recommends 'credible acknowledgment of economic context' but not a structured written OCP</span> |
+| 22.5 | Identifies the risk that without margin to trade, the team falls into 'positionnisme' — and that escalation / strike often follows | <span class="g">✓</span> | <span class="r">✗ No mention of positionnisme or strike escalation risk from insufficient mandate</span> |
+| 22.6 | Does NOT recommend pre-conceding to avoid a strike; does NOT recommend 'just hold firm and see' improvisation | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-23: hard-1on1-decision-announcement** | **<span class="g">6/6</span>** | **<span class="r">3/6</span>** |
+| 23.1 | Opens with the fact directly — no softening preamble like 'unfortunately' or 'I hate to do this' | <span class="g">✓</span> | <span class="r">✗ Opens with 'I want to start by saying clearly: not your performance' — softening preamble before the fact</span> |
+| 23.2 | States the OCP / why (the actual organisational reason for the decision, not spin or sugar-coating) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 23.3 | Explicitly creates emotional space and stops talking (does not fill the silence with more rationale) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 23.4 | Owns the decision (uses 'I decided' or equivalent rather than 'the company decided' or hiding behind process) | <span class="g">✓</span> | <span class="r">✗ Uses 'we've made the decision' — diffuses responsibility rather than first-person ownership</span> |
+| 23.5 | Is specific about timeline and practicalities (last day in role, 60-day internal search window) up front, not buried | <span class="g">✓</span> | <span class="g">✓</span> |
+| 23.6 | Does NOT immediately pivot to 'opportunity' / 'silver lining' framing in the first 60 seconds | <span class="g">✓</span> | <span class="r">✗ Opens with performance reassurance and apologetic framing — softened framing before the fact</span> |
+| | **eval-24: clinical-refusal-of-care** | **<span class="g">6/6</span>** | **<span class="r">5/6</span>** |
+| 24.1 | Recommends starting with perception (asking what she's thinking / what's driving the refusal) BEFORE delivering more medical information | <span class="g">✓</span> | <span class="g">✓</span> |
+| 24.2 | Does NOT recommend leading with survival statistics or counter-arguing the medical merits | <span class="g">✓</span> | <span class="g">✓</span> |
+| 24.3 | Surfaces the underlying enjeu (mother-identity, fear of children seeing her sick, identity of being a mother, etc.) rather than treating the stated reason as the whole story | <span class="g">✓</span> | <span class="g">✓</span> |
+| 24.4 | Uses NURSE-style emotion-naming (Name, Understand, Respect, Support, Explore) before offering a recommendation, OR explicitly creates emotional space | <span class="g">✓</span> | <span class="r">✗ No NURSE or equivalent structured emotion framework; 'I really do understand that' is absorbing sympathy</span> |
+| 24.5 | Recommends handing control of the FORM (schedule, support structure, what kids see) while preserving the SUBSTANCE (treatment recommended) | <span class="g">✓</span> | <span class="g">✓</span> |
+| 24.6 | Does NOT recommend recruiting husband / nurse to apply pressure; coaches them as supporters instead, OR redirects them away from the pressure role | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-25: recruitment-counter-the-counter-offer** | **<span class="g">6/6</span>** | **<span class="r">4/6</span>** |
+| 25.1 | Does NOT recommend reactively matching the $235k base as the primary move | <span class="g">✓</span> | <span class="g">✓</span> |
+| 25.2 | Surfaces the trust frame about the current employer (they needed her to threaten leaving before paying fairly) — explicitly or by implication | <span class="g">✓</span> | <span class="g">✓</span> |
+| 25.3 | Asks a calibrated question to diagnose what she actually wants beyond the dollar number (mission, scope, growth, manager, autonomy) | <span class="g">✓</span> | <span class="r">✗ No diagnostic question; immediately moves to describing the offer's additional value without asking</span> |
+| 25.4 | Offers a structural alternative (sign-on bonus, accelerated equity, scope/title, faster review cycle) rather than only matching base | <span class="g">✓</span> | <span class="g">✓</span> |
+| 25.5 | Names that ~50% of counter-offer accepters leave within 12 months OR articulates equivalent reasoning about counter-offer dynamics | <span class="g">✓</span> | <span class="r">✗ No mention of 50% departure rate or counter-offer dynamics reasoning</span> |
+| 25.6 | Does NOT walk away from the candidate or refuse to engage — does engage substantively without reactive matching | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-26: first-mover-price-anchor** | **<span class="g">5/5</span>** | **<span class="r">0/5</span>** |
+| 26.1 | Recommends naming a price first rather than waiting for the buyer to anchor | <span class="g">✓</span> | <span class="r">✗ Presents 'case for waiting' as valid, and recommends asking 'what's your budget' before naming a number</span> |
+| 26.2 | Recommends opening with a high anchor — at or above $180k, not at the flexibility floor of $140k | <span class="g">✓</span> | <span class="r">✗ Recommends presenting '$180k figure directly' if they dodge budget question — at target, not above</span> |
+| 26.3 | Explains the anchoring effect: the first number creates gravitational pull toward itself | <span class="g">✓</span> | <span class="r">✗ No mention of anchoring effect or gravitational pull; frames as information-gathering exercise</span> |
+| 26.4 | Does NOT recommend asking 'what's your budget?' as the opening price move | <span class="g">✓</span> | <span class="r">✗ Explicitly recommends 'What's your budget range for solving this problem?' as opening price move</span> |
+| 26.5 | Does NOT recommend anchoring at the expected/target price ($180k) rather than above it | <span class="g">✓</span> | <span class="r">✗ Recommends going with '$180k figure directly' — at target price, not above it</span> |
+| | **eval-27: accusation-audit-before-difficult-call** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 27.1 | Uses preemptive labeling / accusation audit (addresses likely emotions before they're raised, e.g. 'you're probably furious', 'this probably felt like the worst possible timing') | <span class="g">✓</span> | <span class="r">✗ Opens with 'I'm so sorry about what happened' — generic apology, no preemptive emotion labeling</span> |
+| 27.2 | Does NOT lead with 'here's what we've done to fix the outage' before surfacing the emotion | <span class="g">✓</span> | <span class="r">✗ Second paragraph: 'I'd like to walk you through what we've done since the outage' — leads to remediation early</span> |
+| 27.3 | Does NOT use hollow openers like 'I'm so sorry this happened' as the primary move without labeling specifics | <span class="g">✓</span> | <span class="r">✗ Primary opener is 'I'm so sorry about what happened three weeks ago' — hollow apology without specific labels</span> |
+| 27.4 | Invites the prospect to express the full extent of frustration before pivoting to solution or remediation | <span class="g">✓</span> | <span class="r">✗ Ends with 'How can we make this better for you?' — pivots to solution-seeking immediately</span> |
+| 27.5 | Does NOT ask 'how can we make this right?' before establishing what 'right' means to them | <span class="g">✓</span> | <span class="r">✗ Asks 'How can we make this better for you?' — equivalent question before establishing what they need</span> |
+| 27.6 | Creates space rather than filling it with explanations, timelines, and remediation plans | <span class="g">✓</span> | <span class="r">✗ 'What to cover' section shows root cause fix, remediation plan — fills space instead of creating it</span> |
+| | **eval-28: artificial-deadline-signing-bluff** | **<span class="g">6/6</span>** | **<span class="r">3/6</span>** |
+| 28.1 | Does NOT recommend signing the unlimited liability clause under deadline pressure | <span class="g">✓</span> | <span class="r">✗ Presents 'case for signing' as legitimate; manager deference pathway ends with conditional signing advice</span> |
+| 28.2 | Names the midnight deadline as an artificial pressure tactic, not a legitimate constraint | <span class="g">✓</span> | <span class="r">✗ Does not identify the deadline as artificial; treats it as a real constraint to work around</span> |
+| 28.3 | Proposes a calm, professional response that keeps the deal alive without signing the clause | <span class="g">✓</span> | <span class="g">✓</span> |
+| 28.4 | Explains that a real deal can survive a 24-hour delay for legal review | <span class="g">✓</span> | <span class="r">✗ Does not state that a real deal survives a delay; frames it as urgent time pressure to manage</span> |
+| 28.5 | Pushes back on the manager's instruction — names the liability risk explicitly | <span class="g">✓</span> | <span class="g">✓</span> |
+| 28.6 | Does NOT accuse the buyer of bad faith or escalate aggressively | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-29: switching-cost-acknowledgment** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 29.1 | Does NOT minimize or dismiss the switching costs | <span class="g">✓</span> | <span class="r">✗ 'migrations like this happen every day, and we have a structured process that makes it significantly less disruptive'</span> |
+| 29.2 | Acknowledges switching costs as genuinely real and significant | <span class="g">✓</span> | <span class="r">✗ Validates then immediately minimizes: 'significantly less disruptive than you might expect'</span> |
+| 29.3 | Reframes around the cost of staying: asks to quantify the ongoing annual cost of the performance gap, workarounds, or missed capability | <span class="g">✓</span> | <span class="r">✗ No staying-cost frame; pivots to migration support offers and ROI framing without asking them to quantify</span> |
+| 29.4 | Builds an ROI frame: switching is expensive once; staying with an inferior solution is expensive every year | <span class="g">✓</span> | <span class="r">✗ Uses generic ROI framing without the staying-cost / recurring-cost argument</span> |
+| 29.5 | Does NOT immediately offer a discount or free migration as the first response | <span class="g">✓</span> | <span class="r">✗ Immediately offers 'free migration package or at-cost data migration support' as first concrete action</span> |
+| 29.6 | Invites the prospect to help quantify the gap they've already described as 'technically superior' | <span class="g">✓</span> | <span class="r">✗ Offers to put together migration cost estimate — vendor does the quantification, not joint exercise</span> |
+| | **eval-30: price-increase-existing-customer** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 30.1 | Does NOT open with an apology or defensive/hedging framing for the price increase | <span class="g">✓</span> | <span class="r">✗ Opens with 'I do need to share something... Unfortunately, due to significant infrastructure cost increases'</span> |
+| 30.2 | States the new number directly and early — does not bury it | <span class="g">✓</span> | <span class="r">✗ Number comes after apology and hedging preamble — buried in defensive context</span> |
+| 30.3 | Leads with value delivered / outcomes achieved before or alongside the number | <span class="g">✓</span> | <span class="r">✗ Opens with 'strong year of partnership' but no specific outcomes; then immediately pivots to bad news framing</span> |
+| 30.4 | Does NOT pre-offer concessions or hedges before hearing procurement's response | <span class="g">✓</span> | <span class="r">✗ Proactively offers 'multi-year commitment', 'payment terms' before procurement has said anything</span> |
+| 30.5 | Owns the increase as a business decision — does not hide behind 'we were forced to' | <span class="g">✓</span> | <span class="r">✗ 'due to significant infrastructure cost increases we've been managing' — hides behind cost excuse</span> |
+| 30.6 | Does NOT ask 'is that OK?' or seek permission before stating the new price | <span class="g">✓</span> | <span class="r">✗ Ends with 'What are your initial thoughts?' — seeks validation after hedging the number</span> |
+| | **eval-31: end-of-demo-hidden-objection** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 31.1 | Does NOT respond with 'of course, take your time' | <span class="g">✓</span> | <span class="r">✗ Response opens with 'Of course — I completely understand. This is a meaningful decision'</span> |
+| 31.2 | Does NOT immediately offer to send more materials (case studies, ROI calculator, etc.) | <span class="g">✓</span> | <span class="r">✗ Immediately offers 'summary of what we covered today, along with a couple of relevant case studies'</span> |
+| 31.3 | Labels the hesitation explicitly ('it sounds like something isn't quite right yet' or equivalent) | <span class="g">✓</span> | <span class="r">✗ No label on the hesitation; accepts it at face value as legitimate deferral</span> |
+| 31.4 | Surfaces the real objection with a calibrated question or label before ending the call | <span class="g">✓</span> | <span class="r">✗ No attempt to surface real objection; moves straight to follow-up logistics</span> |
+| 31.5 | Identifies 'I need to think about it' as a hidden objection, not a true deferral requiring a follow-up calendar invite | <span class="g">✓</span> | <span class="r">✗ Treats it as positive signal: 'interested enough to need time rather than giving you an immediate no'</span> |
+| 31.6 | Does NOT schedule a follow-up call without first attempting to surface the real concern | <span class="g">✓</span> | <span class="r">✗ Immediately proposes 'schedule a brief follow-up call for next week' without any attempt to surface concern</span> |
+| | **eval-32: lowball-offer-counter** | **<span class="g">6/6</span>** | **<span class="r">2/6</span>** |
+| 32.1 | Does NOT use current salary ($160k) as the reference point for the counter-offer | <span class="g">✓</span> | <span class="r">✗ 'I'm currently at $160k base, so coming in at $140k would be a step back' — explicitly anchors on current salary</span> |
+| 32.2 | Anchors on market data ($175k–$195k range) as the basis for the counter | <span class="g">✓</span> | <span class="r">✗ Counter is framed as step above current salary ($170k–$175k), not grounded in market data</span> |
+| 32.3 | Does NOT accept 'this is what we have in the budget' as the final word | <span class="g">✓</span> | <span class="r">✗ 'Budget claims are often real' — partially accepts budget claim as potentially final</span> |
+| 32.4 | Expresses genuine enthusiasm for the role before addressing the number | <span class="g">✓</span> | <span class="g">✓</span> |
+| 32.5 | Names a specific counter number (not a range) at or above market midpoint (~$185k) | <span class="g">✓</span> | <span class="r">✗ Proposes a range '$170k–$175k' — not a specific number, and below market midpoint</span> |
+| 32.6 | Does NOT threaten to walk away as the opening move | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-33: quote-request-no-discovery** | **<span class="g">6/6</span>** | **<span class="r">1/6</span>** |
+| 33.1 | Does NOT recommend sending a quote without any discovery | <span class="g">✓</span> | <span class="r">✗ 'Yes, send a quote by tomorrow. Being responsive to procurement requests builds goodwill'</span> |
+| 33.2 | Names the risk: a quote without context anchors price and gets shopped against competitors | <span class="g">✓</span> | <span class="r">✗ No mention of commoditization risk or competitive shopping risk from sending quote cold</span> |
+| 33.3 | Recommends a brief discovery call (15–20 minutes) before pricing | <span class="g">✓</span> | <span class="r">✗ No discovery call recommended; brief call offered only as optional after-the-fact follow-up</span> |
+| 33.4 | Asks at least one calibrated question about use case / success criteria before quoting | <span class="g">✓</span> | <span class="r">✗ No discovery questions asked; quote is sent immediately with optional call offer</span> |
+| 33.5 | Does NOT ask 'what's your budget?' as the primary discovery question | <span class="g">✓</span> | <span class="g">✓</span> |
+| 33.6 | Reframes the request positively: 'to make sure the quote reflects what you actually need' | <span class="g">✓</span> | <span class="r">✗ No positive reframe; simply complies with the request</span> |
+| | **eval-34: internal-urgency-shield** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 34.1 | Does NOT contact the buyer with language that reflects internal pressure ('we really need to close this week') | <span class="g">✓</span> | <span class="r">✗ Step 1 instructs reaching out and saying 'I'd love to see if we can bring this across the finish line this week'</span> |
+| 34.2 | Does NOT offer a discount or time-limited incentive manufactured from internal urgency | <span class="g">✓</span> | <span class="r">✗ Step 2 explicitly instructs offering a quarter-end discount expiring at end of week</span> |
+| 34.3 | Names the principle: your urgency must not exceed the buyer's urgency — or you hand them free leverage | <span class="g">✓</span> | <span class="r">✗ No mention of urgency asymmetry or leverage risk</span> |
+| 34.4 | Suggests finding a buyer-side timing reason (their implementation, year-end, board meeting) if urgency is needed | <span class="g">✓</span> | <span class="r">✗ Buyer-side timing reason never considered; focus is purely on seller urgency</span> |
+| 34.5 | Recommends a direct conversation with the VP about the risks of visible desperation | <span class="g">✓</span> | <span class="r">✗ Recommends keeping VP updated on actions taken, not pushing back on the approach</span> |
+| 34.6 | Does NOT agree that 'do whatever it takes' is the right approach without naming the risks | <span class="g">✓</span> | <span class="r">✗ Fully endorses urgency approach without naming any risks; says 'take action'</span> |
+| | **eval-35: discount-ask-without-authority** | **<span class="g">6/6</span>** | **<span class="r">2/6</span>** |
+| 35.1 | Does NOT say 'let me check with my manager' as the immediate response | <span class="g">✓</span> | <span class="r">✗ Directly instructs: 'That level of discount isn't something I can approve — I'd need to loop in my manager'</span> |
+| 35.2 | Does NOT flat-refuse the ask | <span class="g">✓</span> | <span class="g">✓</span> |
+| 35.3 | Responds conditionally: movement of that size requires a counter-ask on their side | <span class="g">✓</span> | <span class="r">✗ No counter-ask framing; goes straight to seeking manager approval</span> |
+| 35.4 | Asks what they're able to offer in exchange before committing to check anything | <span class="g">✓</span> | <span class="r">✗ Never asks what buyer will give in return; treats discount as pure approval exercise</span> |
+| 35.5 | Names (explicitly or implicitly) that 'let me check with my manager' validates the ask and signals authority to concede | <span class="g">✓</span> | <span class="r">✗ Presents manager check-in as correct move with no awareness of the leverage signal it sends</span> |
+| 35.6 | Maintains position without closing the door on further conversation | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-36: procurement-bafo-bluff** | **<span class="g">6/6</span>** | **<span class="r">1/6</span>** |
+| 36.1 | Does NOT recommend submitting the absolute floor price ($160k) as if the BAFO is literally binding | <span class="g">✓</span> | <span class="r">✗ 'If $160k is truly your best price and you want to win, then yes — submit it'</span> |
+| 36.2 | Names that BAFO requests are frequently not truly final — they're a one-shot extraction tactic | <span class="g">✓</span> | <span class="r">✗ 'When procurement says Best and Final, they generally mean it' — treats BAFO as genuine</span> |
+| 36.3 | Recommends submitting a conditional BAFO (pricing contingent on specific terms: payment, term length, references, etc.) | <span class="g">✓</span> | <span class="r">✗ Explicitly advises 'don't add confusing conditions that make your offer harder to evaluate'</span> |
+| 36.4 | Does NOT accept the 'no further negotiation' framing as literally true | <span class="g">✓</span> | <span class="r">✗ Fully accepts framing: 'don't try to negotiate after BAFO deadline — procurement will view this negatively'</span> |
+| 36.5 | Recommends pairing the BAFO with a value narrative / scope rationale, not just a number | <span class="g">✓</span> | <span class="g">✓</span> |
+| 36.6 | Preserves optionality — does not irreversibly commit to the floor in the BAFO submission | <span class="g">✓</span> | <span class="r">✗ Recommends submitting actual floor $160k; no optionality preserved</span> |
+| | **eval-37: renewal-seat-reduction** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 37.1 | Does NOT immediately accept the seat reduction and process the renewal at $180k | <span class="g">✓</span> | <span class="r">✗ 'Process the renewal at the lower seat count' — directly accepts reduction</span> |
+| 37.2 | Diagnoses whether this is budget constraint, underutilization, or a change in internal sponsorship | <span class="g">✓</span> | <span class="r">✗ Takes 'budget pressure' at face value; no diagnosis of real cause</span> |
+| 37.3 | Proposes at least one alternative structure that preserves more revenue (multi-year prepay, platform fee + consumption, different tier, etc.) | <span class="g">✓</span> | <span class="r">✗ No alternative structure proposed; only a loyalty discount on the reduced count</span> |
+| 37.4 | Trades any seat reduction against extended term or other commercial value — does not reduce unilaterally | <span class="g">✓</span> | <span class="r">✗ Accepts reduction without any counter-ask or trade; offers additional discount on top</span> |
+| 37.5 | Does NOT treat the customer's seat-count framing as the only possible commercial structure | <span class="g">✓</span> | <span class="r">✗ Fully accepts seat-count framing; focuses on per-seat discount within that frame</span> |
+| 37.6 | Separates 'number of seats' from 'value delivered' — asks about actual usage before accepting the reduction | <span class="g">✓</span> | <span class="r">✗ Never asks about actual usage; treats seat count as interchangeable with value</span> |
+| | **eval-38: salary-anchor-first** | **<span class="g">5/5</span>** | **<span class="r">0/5</span>** |
+| 38.1 | Does NOT anchor with or reference current salary ($130k) | <span class="g">✓</span> | <span class="r">✗ Option 1 leads with 'I'm currently at $130k base' as the opening reference point</span> |
+| 38.2 | Names a specific number at or above market midpoint ($165k+) rather than a wide range | <span class="g">✓</span> | <span class="r">✗ Options give ranges: $145k–$160k and $150k–$165k — both below market midpoint of $165k</span> |
+| 38.3 | Does NOT give a range where the bottom is near or below market midpoint | <span class="g">✓</span> | <span class="r">✗ Both ranges have bottoms ($145k and $150k) well below market midpoint</span> |
+| 38.4 | Does NOT deflect with 'I'm flexible' or 'I'd like to understand the full package first' as the primary move | <span class="g">✓</span> | <span class="r">✗ Option 3 presents deflection ('I'd love to understand compensation band first') as valid primary move</span> |
+| 38.5 | Anchors to market data or role value — not to current compensation | <span class="g">✓</span> | <span class="r">✗ Option 1 explicitly anchors to current $130k comp; other options undercut market midpoint</span> |
+| | **eval-39: false-scarcity-deadline** | **<span class="g">5/5</span>** | **<span class="r">1/5</span>** |
+| 39.1 | Does NOT accept the end-of-month deadline as a legitimate constraint on the decision timeline | <span class="g">✓</span> | <span class="r">✗ Option 2 explicitly suggests accelerating internal process to meet vendor's deadline</span> |
+| 39.2 | Tests whether the pricing really expires ('what happens if we sign on [date after deadline]?') | <span class="g">✓</span> | <span class="r">✗ Option 3 asks about the nature of price change but not with a specific post-deadline date test</span> |
+| 39.3 | Names the move as a scarcity / false urgency tactic (or equivalent reasoning) | <span class="g">✓</span> | <span class="r">✗ 'End-of-month pricing deadlines are common in B2B sales' — treats as normal, not a tactic</span> |
+| 39.4 | Does NOT accelerate internal decision-making solely because of the vendor's deadline | <span class="g">✓</span> | <span class="r">✗ Option 2 explicitly recommends fast-tracking legal review and stakeholder sign-off to meet deadline</span> |
+| 39.5 | Does NOT offer to sign an LOI or partial agreement to 'lock the price' under deadline pressure | <span class="g">✓</span> | <span class="g">✓</span> |
+| | **eval-40: rfp-procurement-commoditization** | **<span class="g">6/6</span>** | **<span class="r">0/6</span>** |
+| 40.1 | Does NOT recommend just submitting a competitive quote and hoping | <span class="g">✓</span> | <span class="r">✗ 'Put together the strongest possible RFP response and wait for procurement to run their process'</span> |
+| 40.2 | Recommends finding a way to stay in contact with the champion despite procurement's process | <span class="g">✓</span> | <span class="r">✗ Only 'keep in light touch' to check context; no strategy to maintain influence through champion</span> |
+| 40.3 | Suggests influencing the evaluation criteria through the champion before the RFP is finalized | <span class="g">✓</span> | <span class="r">✗ No mention of influencing criteria; focuses on responding well to existing criteria</span> |
+| 40.4 | Does NOT accept the commoditization frame of the blind RFP | <span class="g">✓</span> | <span class="r">✗ 'Your job shifts from champion-driven selling to responding to a structured evaluation' — fully accepts frame</span> |
+| 40.5 | Recommends establishing a direct relationship with procurement while maintaining the champion channel in parallel | <span class="g">✓</span> | <span class="r">✗ No recommendation to proactively contact procurement; only respond to their questions</span> |
+| 40.6 | Identifies that winning on price alone in a blind RFP is a race to the bottom — long-term value is destroyed | <span class="g">✓</span> | <span class="r">✗ 'Being in the ballpark is essential' — treats price competition as normal and acceptable</span> |
 
 </details>
 
