@@ -17,7 +17,7 @@
 > - **Knowledge bases and wikis:** internal Confluence / Notion wiki, company handbook, HR policy portal, product documentation, pricing playbook, deal desk guidelines, legal FAQ
 > - **Counterparty intelligence:** LinkedIn profile, company press release, public financials, industry benchmark, Glassdoor reviews, funding announcement, recent news, analyst report, court filing, regulatory disclosure
 > - **Web / open sources:** web search on the counterparty's company, recent articles or interviews featuring the decision-maker, industry news, competitor announcements, job postings (signals priorities and pain), patents, conference talks
-> - **Side signals:** a Slack thread with your champion, a rumour from your N2, something said off-record after the last call, a reaction you noticed in the room, a mutual contact's opinion_
+> - **Side signals:** a Slack thread with your champion, a rumour from your N2, something said off-record after the last call, a reaction you noticed in the room, a mutual contact's opinion\_
 >
 > _Paste directly, attach, or link. Partial and messy is fine — raw beats polished summaries."_
 

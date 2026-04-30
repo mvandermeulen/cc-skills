@@ -163,8 +163,8 @@ _Updated at the end of every deep research run. Used in subsequent sessions to s
 ## Org map
 
 | Name | Title | Reports to | Role in this deal | Champion / Neutral / Blocker | Source |
-| ---- | ----- | ---------- | ----------------- | ---------------------------- | ------ |
-|      |       |            |                   |                              |        |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
 
 ## Informal influence (sociogramme)
 
@@ -173,8 +173,8 @@ _Updated at the end of every deep research run. Used in subsequent sessions to s
 ## MICE per stakeholder
 
 | Name | M (money) | I (ideology) | C (compromise) | E (ego) | Primary driver | Source | Confidence |
-| ---- | --------- | ------------ | -------------- | ------- | -------------- | ------ | ---------- |
-|      |           |              |                |         |                |        | 0–10 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  | 0–10 |
 
 ## POE per stakeholder
 
