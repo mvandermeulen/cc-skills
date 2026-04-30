@@ -2,7 +2,7 @@
 
 Five types of "no" and how to recognise each.
 
-### Emotional "no"
+## Emotional "no"
 
 **Signal.** Visible micro-expressions of fear, anger, sadness, surprise. Voice change. Body language shift (leaning back, crossed arms, broken eye contact). Buyer is reactive, not analytical.
 
@@ -20,7 +20,7 @@ _"Tell me what's driving the timing pressure."_
 
 The "emotion before facts" rule is the single most-violated discipline in objection handling. Reps default to logical refutation; logical refutation produces escalation when the buyer is emotional.
 
-### Belief-based "no"
+## Belief-based "no"
 
 **Signal.** Calm. Articulated. Value-grounded. The buyer can explain why they're saying no, in their own framework, coherently.
 
@@ -32,7 +32,7 @@ B2B sales translation: a buyer says _"we're a build-not-buy shop."_ Don't argue.
 
 Salary translation: a manager says _"we don't give raises mid-cycle on principle."_ Don't argue the principle. Surface the enjeu — usually a precedent worry, fairness perception across the team, or budget signalling to their own boss. Find a structure that addresses the enjeu (one-off retention bonus instead of base raise, a delayed but committed cycle-aligned raise, a scope/title change that justifies an exception) without crossing the principle.
 
-### Bad-faith "no"
+## Bad-faith "no"
 
 **Signal.** The buyer makes a verifiably false claim and refuses to admit it even when shown evidence. _"My competitor offered this for half the price."_ — but you know the competitor's list price and the math doesn't work.
 
@@ -48,7 +48,7 @@ The face-saving exit is non-negotiable. If you corner them publicly, they will d
 
 **Alternative move — the "park-it" technique.** When the false claim is too risky to engage even with the reality principle (e.g., procurement is using it as a wedge to test your reaction, or the relationship is fragile), park the claim entirely and move past it: _"Let me put that point aside for now and continue on the technical terms — we can come back to it."_ Then never come back to it. The buyer often won't either, because re-raising the false claim re-opens the discomfort. Use this when confronting the lie risks breaking the relationship more than letting it pass; reserve the three-step protocol for cases where the claim has to be neutralized factually before progress is possible.
 
-### Identity-protective "no"
+## Identity-protective "no"
 
 **Signal.** Aggression. Theatrics. _"You don't understand our business / our scale / our culture."_ Withdrawal. The buyer is asserting that they still control something, often because the negotiation is touching their sense of agency or competence.
 
@@ -58,7 +58,7 @@ The face-saving exit is non-negotiable. If you corner them publicly, they will d
 
 B2B translation: when an enterprise buyer pushes back hard on the proposal as a whole, often what they actually need is to control the **form** of the engagement (kickoff structure, named team members, escalation protocols) even when the **substance** (price, scope, terms) is settled. Hand them control of the form and the substance lands.
 
-### Tactical "no"
+## Tactical "no"
 
 **Signal.** Procurement playbook moves. Time pressure that doesn't trace to a real consequence. "Our budget is X." Multiple authority figures extracting serial concessions.
 

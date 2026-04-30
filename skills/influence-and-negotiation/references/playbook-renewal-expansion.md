@@ -4,7 +4,7 @@
 
 **The 90-day cadence:**
 
-### T-90 — value review (no commercial ask)
+## T-90 — value review (no commercial ask)
 
 Schedule a "year-in-review" with the champion + at least one user and one finance contact.
 
@@ -14,17 +14,17 @@ Schedule a "year-in-review" with the champion + at least one user and one financ
 
 No ask in this meeting. The output is a written value summary you and the buyer agree on.
 
-### T-60 — internal stakeholder mapping
+## T-60 — internal stakeholder mapping
 
 Multi-thread (see [Multi-threading sequence](playbook-multi-threading.md)) BEFORE the renewal. New stakeholders since the original deal — new EB, new CFO, new procurement lead. They didn't sign the original; their priors aren't aligned with renewal.
 
 Expand the conversation by introducing your customer success executive or specialist to the new stakeholder before procurement gets involved.
 
-### T-45 — expansion proposal (separate from renewal)
+## T-45 — expansion proposal (separate from renewal)
 
 If the data supports expansion (additional seats, new modules, sister entity), propose it as a **separate** track from the renewal. Why: bundling expansion into renewal lets procurement use renewal pressure to discount expansion. Separating them forces each to stand on its own merit.
 
-### T-30 — renewal commercial ask
+## T-30 — renewal commercial ask
 
 Bring the renewal commercial proposal. By now, the value review is documented, multi-threading is done, and expansion is a parallel conversation.
 
@@ -34,7 +34,7 @@ The commercial ask is **not** "sign the same deal again." It's structured:
 - **Multi-year option** (3-year locks rate; trade for usage commit and reference rights).
 - **Expansion option** (separate price, separate scope).
 
-### T-10 — escalation if needed
+## T-10 — escalation if needed
 
 If procurement is grinding, the EB you multi-threaded at T-60 is now a known stakeholder you can escalate to. _"We're inside ten days. I want to make sure your finance team has what they need; can we get on a call with [EB] to align?"_
 

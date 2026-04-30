@@ -5,6 +5,7 @@
     ],
     // Glob patterns to ignore
     "ignores": [
+        ".git/**",
         "node_modules",
         "vendor/**",
         "skills/*/evals/workspace/**",

@@ -6,7 +6,7 @@
 
 **The four moves** (J-O-L-T):
 
-### J — Judge the indecision
+## J — Judge the indecision
 
 Distinguish indecision from disinterest. Calibrated questions:
 
@@ -15,7 +15,7 @@ Distinguish indecision from disinterest. Calibrated questions:
 
 Relief = no real fit; respect the no. Frustration = indecision, which JOLT addresses.
 
-### O — Offer your recommendation
+## O — Offer your recommendation
 
 Most AEs lay out options to "let the buyer choose." That **increases** indecision because it adds decision load.
 
@@ -23,13 +23,13 @@ Make the call. _"Based on what you've told me, I'd recommend the standard tier w
 
 The buyer's job is now to disagree with a specific recommendation, not to construct a decision from scratch. Indecision drops.
 
-### L — Limit the explore
+## L — Limit the explore
 
 Cap the evaluation. _"Based on your team's capacity and the discovery we've done, I think two more meetings will get us to a decision. Beyond that, the analysis cost outweighs the differentiation between options."_
 
 You're explicitly removing the option to keep evaluating forever — which is what FOMU defaults to.
 
-### T — Take risk off the table
+## T — Take risk off the table
 
 Specific risk-reduction asks the buyer hasn't articulated:
 

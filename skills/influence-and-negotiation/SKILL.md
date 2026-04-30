@@ -146,7 +146,7 @@ Three operating principles inherited from the references:
 ## When NOT to use this skill
 
 - **Cold outreach copywriting** — different skill entirely; the toolkit here presupposes a conversation has started.
-- **Pre-conversation research / market intelligence** — use a research-specific skill; this one starts at the meeting.
+- **Standalone market research without a specific negotiation** — "what's the market salary for X?" or "benchmark SaaS pricing in this category" without an active deal or conversation; use a dedicated research skill for those. Research tied to an active negotiation (BATNA grounding, stakeholder profiling, competitive intel in Phases 0–4) is in scope.
 - **Legal contract drafting** — this skill prepares the negotiation around contracts, not the contract language itself; leave clause drafting to legal.
 - **Crisis negotiation** (hostage, suicide, kidnapping) — out of scope; this skill adapts only the professional commercial / managerial portion of high-stakes negotiation theory.
 - **Personal / family conflicts** — the methodology transfers but the worked examples and emotional stakes are different enough that you'll get better fit from a domain-specific resource.
@@ -196,7 +196,7 @@ Read [references/discovery.md](references/discovery.md). Then use `AskUserQuesti
 - **Formal structure** — _"Who else is involved on their side? What's the decision-making chain — who approves, who can veto?"_
 - **Informal influence** — _"Who do people defer to in the room even if they don't have the title? Is there someone off-stage who'll influence the outcome?"_
 - **Motivation per stakeholder** — _"What does [name] personally get if this goes well? What do they lose if it doesn't?"_ (MICE: Money, Ideology, Compromise, Ego)
-- **Process gaps** — _"What formal steps still need to happen — legal review, board sign-off, infosec, family meeting, HR validation?"_
+- **Process gaps** — _"What formal steps still need to happen — legal review, board sign-off, infosec, exec sponsor alignment, HR validation?"_
 - **Alternatives** — _"What's their fallback if this doesn't close? Have they mentioned any other options or comparisons?"_
 
 Build the map from what the user tells you — formal (organigramme) layered with informal (sociogramme). Domain shapes who's on it: Economic Buyer + Champion + Procurement (sales); manager + skip-level + HR (salary); union delegates + internal-election dates (NAO); candidate + partner + current manager (recruitment).
@@ -251,7 +251,7 @@ Pre-write before the meeting:
 - **OCP statement** — see [references/tactics.md](references/tactics.md#ocp--objectif-commun-partagé). One sentence both sides can sign on, ready to deploy when the room turns competitive but cooperation is genuinely available.
 - **Pause tactique triggers** — pre-decide which signals will cause you to call a break (mandate breach approaching, surprise move, internal disagreement, punching-ball). Pre-decide the script.
 
-**Mutual Action Plan (where applicable).** For mid-stage commercial deals, recruitment with multi-step approvals, or any negotiation with hidden gating steps, draft a MAP — see [references/playbook-map.md](references/playbook-map.md). It surfaces the legal / infosec / board / family-meeting / HR-validation steps that otherwise hide and creates joint ownership of the timeline. Stalls become diagnostic.
+**Mutual Action Plan (where applicable).** For mid-stage commercial deals, recruitment with multi-step approvals, or any negotiation with hidden gating steps, draft a MAP — see [references/playbook-map.md](references/playbook-map.md). It surfaces the legal / infosec / board / compliance-review / HR-validation steps that otherwise hide and creates joint ownership of the timeline. Stalls become diagnostic.
 
 **Team negotiation preparation.** For high-stakes negotiations running with N1 + N2 or a full team (enterprise sales, NAO with HR + line management, M&A), read [references/team-negotiation.md](references/team-negotiation.md) and align on signalling protocol, mandate ownership, and effet fusible setup before the meeting.
 

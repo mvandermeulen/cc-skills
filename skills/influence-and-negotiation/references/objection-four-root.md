@@ -2,7 +2,7 @@
 
 Almost all commercial objections reduce to one of four. Knowing which root you're facing tells you which calibrated question to ask first. (Equivalents in salary / NAO domains noted at the end of this section.)
 
-### 1. Price
+## 1. Price
 
 **Common surface form.** _"It's too expensive."_ / _"We're 30% over budget."_ / _"Your competitor is half the price."_
 
@@ -16,7 +16,7 @@ Almost all commercial objections reduce to one of four. Knowing which root you'r
 
 **When the same objection repeats across 3+ calls** — especially price or budget — it is almost never the actual reason. The buyer's stated demand (the **position**) is masking a deeper **enjeu** (career stake, board mandate, internal political risk, fear of being held responsible if it goes wrong). See the POE iceberg (Position / Objectif / Enjeu) in [references/preparation.md](preparation.md). The right next move is not another budget play — it's a calibrated question to your champion targeting their personal stake: _"What's at stake for you personally if this works — or doesn't?"_ The repeated objection won't be solved by re-pitching value; it'll be solved by addressing whatever is making the champion unable to push internally.
 
-### 2. Timing
+## 2. Timing
 
 **Common surface form.** _"Not now."_ / _"Maybe next quarter."_ / _"We're in the middle of a reorg."_
 
@@ -28,7 +28,7 @@ Almost all commercial objections reduce to one of four. Knowing which root you'r
 
 **If real timing.** Don't fight it. Lock in the future commitment. Use the time to deepen MEDDPICC, multi-thread, and harden the champion.
 
-### 3. Authority
+## 3. Authority
 
 **Common surface form.** _"I'd love to do this but I need to check with [my boss / procurement / security / legal]."_
 
@@ -45,7 +45,7 @@ Calibrated questions:
 
 If they can answer these crisply, the authority gap is real and you have a multi-threading problem. If they can't, the "authority gap" is often tactical and you should name the pattern.
 
-### 4. No need
+## 4. No need
 
 **Common surface form.** _"We're managing fine with our current setup."_ / _"This isn't a priority right now."_
 
@@ -59,7 +59,7 @@ SPIN's Implication questions:
 
 If after this the buyer still says "no need," respect the no. They're right and you're forcing it. Walk away — and watch them quietly come back in 6 months when the cost compounds.
 
-### Cross-domain equivalents of the four root objections
+## Cross-domain equivalents of the four root objections
 
 The same four roots appear in other domains under different surface forms. The diagnostic move is the same — calibrated question first, response after.
 
