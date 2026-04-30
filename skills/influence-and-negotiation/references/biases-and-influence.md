@@ -2,7 +2,7 @@
 
 Negotiation is an exchange between two limbic systems wearing suits. The prepared negotiator recognises the biases at play — both the ones they want to use ethically, and the ones the counterparty is using on them — and adapts.
 
-This file maps the 9 cognitive biases and 7 ethical influence levers, with applications across B2B sales, salary negotiation, NAO, internal management, clinical, and recruitment contexts. The frontier between influence and manipulation lives in [references/manipulation.md](manipulation.md).
+This file maps the 9 cognitive biases and 7 ethical influence levers, with applications across B2B sales, salary negotiation, NAO, internal management, and recruitment contexts. The frontier between influence and manipulation lives in [references/manipulation.md](manipulation.md).
 
 ## The line — influence vs manipulation
 
@@ -11,7 +11,7 @@ The criterion is the counterparty's free will:
 - **Influence** — propose a new perception of reality; the counterparty consents in full awareness. Their decision remains theirs.
 - **Manipulation** — coerce, hide, or trick. The counterparty acts in a way they would not have chosen with full information.
 
-Practical implication: every lever below has an ethical use AND a manipulative version. The negotiator who closes via manipulation wins this deal and loses the next three (lost references, lost expansion, lost trust, lost adherence). The discipline is to win without crossing the line — see [references/manipulation.md](manipulation.md) for the named patterns to refuse.
+Practical implication: every lever below has an ethical use AND a manipulative version. The negotiator who closes via manipulation wins this deal and loses the next three (lost references, lost expansion, lost trust). The discipline is to win without crossing the line — see [references/manipulation.md](manipulation.md) for the named patterns to refuse.
 
 ## The 9 cognitive biases
 
@@ -21,7 +21,7 @@ For each: definition, ethical use in B2B, classic mistake, defence when used aga
 
 The first number sets the perceptual frame. Already detailed in [references/tactics.md](tactics.md#anchoring) — pre-anchor with your range, counter-extreme if they go first, use non-round numbers, hold silence after the anchor.
 
-**Defence when anchored against you.** Use the principle of reality: name the public market data that contradicts their number. _"Your $100K reference doesn't match the public list pricing — let me share what we're seeing in the market."_ Then immediately counter-anchor.
+**Defence when anchored against you.** Use the reality principle: name the public market data that contradicts their number. _"Your $100K reference doesn't match the public list pricing — let me share what we're seeing in the market."_ Then immediately counter-anchor.
 
 ### 2. Loss aversion (aversion à la perte)
 
@@ -67,7 +67,7 @@ One salient trait colours all others. A consultant from a prestigious firm is ju
 
 How a question is posed shapes the answer.
 
-- **Ethical use.** Reframe pure cost into TCO. _"$200K is the licence. The question is the 5-year operating cost — what does keeping the legacy system cost you per quarter?"_ See reframing in [references/tactics.md](tactics.md#reframing).
+- **Ethical use.** Reframe pure cost into TCO. _"$200K is the licence. The question is the 5-year operating cost — what does keeping the legacy system cost you per quarter?"_ See reframing in [references/tactics.md](tactics.md#reframing-recadrage).
 - **Classic mistake.** Reframing past the buyer's actual frame ("you're not buying software, you're buying transformation"). Reads as evasive.
 - **Defence.** Surface the frame: _"Help me understand which lens you're using to evaluate — cost, risk, or strategic fit?"_ Naming it neutralises it.
 
@@ -89,7 +89,7 @@ Receive a favour, feel pressure to return one.
 
 ## The 7 ethical influence levers
 
-The first 7 biases above also operate as **levers** the negotiator deliberately deploys. The discipline is precision: the right lever for the right phase, deployed visibly enough that the buyer recognises the legitimacy.
+Five of the nine biases above — Reciprocity, Commitment-consistency, Scarcity, Social proof, and Contrast — also operate as **levers** the negotiator deliberately deploys. Two additional levers (Liking/sympathy and Authority) are relational and positional strategies not listed as cognitive biases above. The discipline is precision: the right lever for the right phase, deployed visibly enough that the buyer recognises the legitimacy.
 
 | Lever | When to use it | One-line tactic |
 | --- | --- | --- |
@@ -100,6 +100,8 @@ The first 7 biases above also operate as **levers** the negotiator deliberately 
 | Authority | Technical objection handling, redline rounds | Bring the specialist in (named architect, customer-success lead). |
 | Scarcity | Closing window | Real constraints only; document them. |
 | Contrast | Pricing presentation | 3-tier offer; design the middle tier to match the buyer's need. |
+
+_Cialdini's seventh lever, Unity (shared identity — "we're the same kind"), is intentionally omitted. It is real but rarely the primary driver in B2B negotiation; embed it through stakeholder alignment and multi-threading rather than as a standalone tactic._
 
 ## Combining biases — the high-leverage moments
 
@@ -119,4 +121,4 @@ Procurement is trained too. The biases above are also their playbook — fake sc
 2. **Test verifiability.** Real constraints survive a calibrated question; fake ones evaporate.
 3. **Decline the implicit trade** and propose a real one. _"Let me set the budget claim aside for the moment and continue on technical fit — we can come back."_
 
-This is the bridge into bad-faith territory. When detection turns to confirmation that the buyer is acting in bad faith, switch to the protocol in [references/objections.md](objections.md#bad-faith-no) and the manipulation taxonomy in [references/manipulation.md](manipulation.md).
+This is the bridge into bad-faith territory. When detection turns to confirmation that the buyer is acting in bad faith, switch to the protocol in [references/objection-refusal-triage.md](objection-refusal-triage.md#bad-faith-no) and the manipulation taxonomy in [references/manipulation.md](manipulation.md).

@@ -1,12 +1,12 @@
 # Discovery
 
-Discovery is where deals are won or lost — and the same principle applies in salary negotiation, recruitment, clinical consultations, and difficult management conversations. This file covers qualification frameworks (MEDDIC/MEDDPICC), the discovery question framework (SPIN), the conversation contract (upfront agreement), the calibrated-question playbook, and behavioural reading.
+Discovery is where deals are won or lost — and the same principle applies in salary negotiation, recruitment, and difficult management conversations. This file covers qualification frameworks (MEDDIC/MEDDPICC), the discovery question framework (SPIN), the conversation contract (upfront agreement), the calibrated-question playbook, and behavioural reading.
 
 The mainstream consensus across modern professional negotiation: layer the frameworks. MEDDPICC for qualification + SPIN for discovery questions + tactical empathy for live response. Don't pick one.
 
-## MEDDIC / MEDDPICC
+## MEDDPICC (extends MEDDIC)
 
-A B2B sales qualification methodology developed at scale-stage enterprise software companies. The right tool for $50K+ ACV with 5+ stakeholders and 90+ day cycles. MEDDPICC adds Paper process and Competition for enterprise (>$100K ACV). Roughly 73% of SaaS companies selling above $100K ARR use it — vendor-published number, treat as directional.
+A B2B sales qualification methodology developed at scale-stage enterprise software companies. The right tool for $50K+ ACV with 5+ stakeholders and 90+ day cycles. MEDDPICC adds Paper process and Competition for enterprise (>$100K ACV). Roughly 73% of SaaS companies selling above $100K ARR use it.
 
 The letters:
 
@@ -54,7 +54,7 @@ Template: _"I want to make sure we use this 30 minutes well. My plan was to walk
 
 Why it works: it removes the buyer's defensive crouch (_"this guy is going to pitch me"_) and earns you permission to ask harder questions. Reduces wasted cycles dramatically. Common mistake: negotiators treat it as a script and rush through it; the value is in the counterparty's verbal _"yes, that works"_ — that's the contract.
 
-The same pattern applies in domains beyond commercial selling: a hiring manager opens an interview with _"my plan is to spend 20 minutes on your background, then dig into one specific project, then leave 10 minutes for your questions — by the end you'll know whether to advance or not"_; a clinician opens a hard consultation with _"I'd like to share where things stand and then leave plenty of time for your questions and decisions"_; a manager opens a difficult one-on-one with _"I want to share something hard, hear your reaction, and figure out together what we do — does that work as a structure?"_
+The same pattern applies in domains beyond commercial selling: a hiring manager opens an interview with _"my plan is to spend 20 minutes on your background, then dig into one specific project, then leave 10 minutes for your questions — by the end you'll know whether to advance or not"_; a manager opens a difficult one-on-one with _"I want to share something hard, hear your reaction, and figure out together what we do — does that work as a structure?"_
 
 ## Calibrated questions library
 
@@ -86,7 +86,7 @@ A library of 20 calibrated questions, organised by what they surface:
 
 **Deflect unreasonable demands:**
 
-- _"How am I supposed to do that?"_ (canonical line — works across sales, salary, NAO, internal, clinical)
+- _"How am I supposed to do that?"_ (canonical line — works across sales, salary, NAO, internal management)
 - _"What would you do in my position?"_
 - _"Help me understand what makes that the right number for you."_
 
@@ -108,14 +108,14 @@ Use these instead of pitching. The buyer's answers carry the deal forward; your 
 
 Four observable signal families worth tracking, each with detect / interpret / react.
 
-### Micro-expressions — the 7 universal emotions
+### Micro-expressions — 7 widely documented emotions
 
-The 7 universal facial emotions (anger, fear, joy, sadness, surprise, disgust, contempt) flash for ½ to 1/25 of a second, often before the cortex suppresses them. You won't catch them all live; record calls (with permission), review afterward. Even imperfect detection rate beats no detection.
+The 7 facial emotions most consistently documented in cross-cultural research (anger, fear, joy, sadness, surprise, disgust, contempt) flash for ½ to 1/25 of a second, often before the cortex suppresses them. You won't catch them all live; record calls (with permission), review afterward. Even imperfect detection rate beats no detection.
 
 | Emotion | Detect | Interpret | React tactically |
 | --- | --- | --- | --- |
 | **Anger** | Brows drawn down and together (lion's wrinkle), lips pressed or rolled inward | Sense of injustice, attempt to dominate | Let them vent without interrupting; verbalise the emotion separately from the behaviour: _"I can hear the frustration. Help me understand what triggered it."_ |
-| **Fear** | Brows raised and drawn together, upper eyelid raised (sclera visible above iris), lips pulled horizontally | Worry about consequences, threat to a vital stake | Secure with facts; offer an OCP framing — see [references/tactics.md](tactics.md#ocp-objectif-commun-partagé). Never argue past fear — the cortex isn't online. |
+| **Fear** | Brows raised and drawn together, upper eyelid raised (sclera visible above iris), lips pulled horizontally | Worry about consequences, threat to a vital stake | Secure with facts; offer an OCP framing — see [references/tactics.md](tactics.md#ocp--objectif-commun-partagé). Never argue past fear — the cortex isn't online. |
 | **Joy** | Lip corners raised + orbicularis oculi contracted (crow's feet) | Genuine satisfaction with the proposal — even when the stated position remains hard | Maintain your offer. The micro-expression of joy is the strongest signal that you've hit the buyer's enjeu. Concede further and you're paying for something already won. |
 | **Sadness** | Inner brow corners raised, eyelids drooping, lip corners pulled down | Sense of loss, fatigue with the conflict | Verbalise to neutralise the limbic activation; bring the discussion back to facts gently. _"It seems like this is wearing on the team — let's take stock of where we actually are."_ |
 | **Surprise** | Brows arched, eyes wide (sclera visible), mouth slack-open | Unexpected information, momentary destabilisation | Watch the **next** expression. Surprise alone is neutral — it's followed within ~1 second by fear (bad news for them) or joy (good news). The follower tells you the actual valence. |
@@ -138,14 +138,14 @@ The four conventional proxemic zones (research consensus):
 
 | Zone | Distance | Meaning when adopted |
 | --- | --- | --- |
-| Intimate | 0–45 cm | Reserved for trust + private conversations; rare in professional contexts (clinical exam-room a known exception) |
+| Intimate | 0–45 cm | Reserved for trust + private conversations; rare in professional contexts |
 | Personnelle | 45–60 cm | Comfort, confidence — the counterparty is open |
 | Sociale | 60–360 cm | Neutral / formal — default for first meetings |
 | Publique | > 360 cm | Disengagement — the counterparty is mentally elsewhere |
 
 **Reading the counterparty's choice.** Where they sit and how far they lean tells you their state. Leaning forward into personal zone during your offer = they like it; pulling back into social zone = they're disengaging or running internal cost calc.
 
-**The positionnement désaxé technique.** When in-person, place yourself at right angles to the counterparty rather than directly opposite. Direct facing reads as competitive (boxing stance); right-angle reads as cooperative (working on a shared problem). Use a corner of the table or a side-by-side seating where possible. The clinical equivalent: take the chair beside the patient's bed, not the chair across the desk.
+**The positionnement désaxé technique.** When in-person, place yourself at right angles to the counterparty rather than directly opposite. Direct facing reads as competitive (boxing stance); right-angle reads as cooperative (working on a shared problem). Use a corner of the table or a side-by-side seating where possible.
 
 **Video-call proxémie.** On video, watch:
 

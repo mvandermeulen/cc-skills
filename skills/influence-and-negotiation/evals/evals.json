@@ -97,7 +97,7 @@
     {
       "id": 8,
       "name": "batna-not-during-execution",
-      "prompt": "I'm prepping for a tough enterprise renewal negotiation next week. My VP keeps pressing me on 'what's our backup plan if this customer churns? Have you been working on alternatives? Should we be openly working other deals to put pressure on them?' How should I think about BATNA / plan B for this negotiation?",
+      "prompt": "I'm preparing for a tough enterprise renewal negotiation next week. My VP keeps pressing me on 'what's our backup plan if this customer churns? Have you been working on alternatives? Should we be openly working other deals to put pressure on them?' How should I think about BATNA / plan B for this negotiation?",
       "trap": "Default LLM advice: cultivate BATNA aggressively as orthodoxy says (always have a strong alternative, develop it openly). Skill: BATNA in preparation only (sets walk-away); during execution, don't over-invest in plan B because it leaks low confidence.",
       "assertions": [
         { "id": "8.1", "description": "Mentions using BATNA / plan B during preparation to set walk-away or rupture point" },
@@ -309,20 +309,6 @@
         { "id": "23.4", "description": "Owns the decision (uses 'I decided' or equivalent rather than 'the company decided' or hiding behind process)" },
         { "id": "23.5", "description": "Is specific about timeline and practicalities (last day in role, 60-day internal search window) up front, not buried" },
         { "id": "23.6", "description": "Does NOT immediately pivot to 'opportunity' / 'silver lining' framing in the first 60 seconds" }
-      ]
-    },
-    {
-      "id": 24,
-      "name": "clinical-refusal-of-care",
-      "prompt": "I'm an oncologist. My patient is a 42-year-old mother of two with stage III breast cancer. Surgery went well; adjuvant chemo would improve 5-year survival by ~18 percentage points. She just told me: 'I won't do chemo. I can't be sick again for my kids — I'd rather take the risk.' Her husband and the oncology nurse are pushing her to reconsider. How should I handle the next 30 minutes with her?",
-      "trap": "Default LLM advice: explain the survival statistics carefully, recruit the family to apply gentle pressure, emphasise the medical risk of refusing. Skill: don't argue the medical case; surface perception first (SPIKES P-step); surface the enjeu (likely mother-identity, not statistics); use NURSE statements before any recommendation; offer form-control while preserving substance; coach the family to support, not pressure.",
-      "assertions": [
-        { "id": "24.1", "description": "Recommends starting with perception (asking what she's thinking / what's driving the refusal) BEFORE delivering more medical information" },
-        { "id": "24.2", "description": "Does NOT recommend leading with survival statistics or counter-arguing the medical merits" },
-        { "id": "24.3", "description": "Surfaces the underlying enjeu (mother-identity, fear of children seeing her sick, identity of being a mother, etc.) rather than treating the stated reason as the whole story" },
-        { "id": "24.4", "description": "Uses NURSE-style emotion-naming (Name, Understand, Respect, Support, Explore) before offering a recommendation, OR explicitly creates emotional space" },
-        { "id": "24.5", "description": "Recommends handing control of the FORM (schedule, support structure, what kids see) while preserving the SUBSTANCE (treatment recommended)" },
-        { "id": "24.6", "description": "Does NOT recommend recruiting husband / nurse to apply pressure; coaches them as supporters instead, OR redirects them away from the pressure role" }
       ]
     },
     {

@@ -1,6 +1,6 @@
 # Manipulation — taxonomy and counter-protocols
 
-Anyone running high-stakes negotiations is a target for manipulation more often than they realise. Procurement is trained, union delegates rotate tactics, aggressive candidates and patients cycle through moves, and even non-professional counterparties learn the patterns by osmosis. This file names the 10 manipulation patterns recurrent across negotiation traditions, with detection signals and counter-responses that don't escalate.
+Anyone running high-stakes negotiations is a target for manipulation more often than they realise. Procurement is trained, union delegates rotate tactics, aggressive candidates cycle through moves, and even non-professional counterparties learn the patterns by osmosis. This file names the 10 manipulation patterns recurrent across negotiation traditions, with detection signals and counter-responses that don't escalate.
 
 The line — see [references/biases-and-influence.md](biases-and-influence.md#the-line--influence-vs-manipulation). Influence acts on the counterparty while preserving free will. Manipulation strips it via coercion, deceit, or emotional hijack. The negotiator who wins by manipulation poisons the well for renewal, expansion, trust, and word-of-mouth.
 
@@ -14,7 +14,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator argues the truth, gets dragged into a "no it isn't / yes it is" loop, and either concedes to escape or breaks the relationship by cornering the buyer.
 
-**Response.** The full bad-faith protocol lives in [references/objections.md](objections.md#bad-faith-no): drop ego → principle of reality → face-saving exit. The lighter-touch alternative is **park-it** — _"Let me set that point aside and continue on the technical terms."_ Then never come back to it. Choose park-it when the relationship is fragile and confronting risks more than letting pass.
+**Response.** The full bad-faith protocol lives in [references/objection-refusal-triage.md](objection-refusal-triage.md#bad-faith-no): drop ego → reality principle → face-saving exit. The lighter-touch alternative is **park-it** — _"Let me set that point aside and continue on the technical terms."_ Then never come back to it. Choose park-it when the relationship is fragile and confronting risks more than letting pass.
 
 ### 2. Bluff
 
@@ -30,7 +30,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator feels their personal reputation or career is on the line and concedes to protect themselves rather than the organisation.
 
-**Response.** Maintain emotional control. Verbalise the underlying concern, not the threat. _"It seems like the timing is creating real pressure on your side. Help me understand the deadline so we can think through it together."_ Refuse to engage with the personal frame; redirect to the OCP (Objectif Commun Partagé — see [references/tactics.md](tactics.md#ocp-objectif-commun-partagé)).
+**Response.** Maintain emotional control. Verbalise the underlying concern, not the threat. _"It seems like the timing is creating real pressure on your side. Help me understand the deadline so we can think through it together."_ Refuse to engage with the personal frame; redirect to the OCP (Objectif Commun Partagé — see [references/tactics.md](tactics.md#ocp--objectif-commun-partagé)).
 
 ### 4. Punching-ball (verbal harassment)
 
@@ -38,7 +38,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator loses cognitive bandwidth, makes errors, or concedes just to escape the discomfort.
 
-**Response.** This is a **non-négociable** behaviour — see [references/objections.md](objections.md#le-non-négociable). _"I hear that you're under pressure. The tone won't help us reach a deal — and I won't be useful to you if we continue this way. Let's pause for ten minutes and come back to it."_ Then call a pause tactique — see [references/tactics.md](tactics.md#pause-tactique). If the behaviour continues on resumption, end the meeting.
+**Response.** This is a **non-négociable** behaviour — see [references/objection-non-negociable.md](objection-non-negociable.md). _"I hear that you're under pressure. The tone won't help us reach a deal — and I won't be useful to you if we continue this way. Let's pause for ten minutes and come back to it."_ Then call a pause tactique — see [references/tactics.md](tactics.md#pause-tactique--the-strategic-break). If the behaviour continues on resumption, end the meeting.
 
 ### 5. Faux pivot (false-pivot diversion)
 
@@ -70,7 +70,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator escalates concessions in the follow-up emails ("happy to revisit pricing if helpful") to break the silence — concessions the buyer didn't ask for.
 
-**Response.** Don't fill the silence with concessions. Use the **negative reverse**: _"I haven't heard back — I want to make sure I'm not assuming something. Should I close the opportunity for now?"_ This invites a "no" that breaks the silence, and if the answer is "yes, close it," you've saved months of misallocated effort. See [references/objections.md](objections.md#late-stage-stall--ghosting).
+**Response.** Don't fill the silence with concessions. Use the **negative reverse**: _"I haven't heard back — I want to make sure I'm not assuming something. Should I close the opportunity for now?"_ This invites a "no" that breaks the silence, and if the answer is "yes, close it," you've saved months of misallocated effort. See [references/objection-ghosting.md](objection-ghosting.md).
 
 ### 9. Démoralisation (defeatism induction)
 
@@ -86,7 +86,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator has mentally booked the deal, has internal pressure to close, and concedes to avoid re-opening.
 
-**Response.** Always run a **wrap-up / back-brief** before signature — see [references/tactics.md](tactics.md#back-brief--wrap-up). Have the buyer reformulate every key term in their own words. New asks at signature are an explicit signal to delay: _"Adding that changes the deal structure. Let me take it back internally and come back to you with what's possible."_ The buyer's urgency is your leverage in this round; trade it.
+**Response.** Always run a **wrap-up / back-brief** before signature — see [references/tactics.md](tactics.md#back-brief-and-wrap-up). Have the buyer reformulate every key term in their own words. New asks at signature are an explicit signal to delay: _"Adding that changes the deal structure. Let me take it back internally and come back to you with what's possible."_ The buyer's urgency is your leverage in this round; trade it.
 
 ## Detection summary — the four tells
 

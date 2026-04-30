@@ -39,7 +39,7 @@ Avoid _"I think you feel…"_ — sounds presumptive. Avoid _"I understand…"_ 
 
 When you label something they were about to say, the wind comes out of their objection. They often respond _"yeah, exactly"_ — and now they're working with you on solving it instead of fighting it.
 
-### Accusation Audit
+### Accusation audit
 
 Front-load every negative thing the counterparty might say about you. Saying it first kills its power.
 
@@ -87,7 +87,7 @@ Use sparingly. Voice modulation comes across as theatrical when you push it; it 
 
 ### Ackerman bargaining model
 
-Used for price counter-offers when you must engage on a number:
+Used for price counter-offers when you must engage on a number. **Buyer-side model** (buyer opens low, converges up toward seller's asking price — selling-side flips the math):
 
 1. Set your target price.
 2. First offer: **65%** of target.
@@ -95,8 +95,6 @@ Used for price counter-offers when you must engage on a number:
 4. Use lots of empathy and "no" questions to make them counter before raising your offer.
 5. On final offer, use **non-round figures** ($37,893 not $38,000) — signals careful calculation.
 6. On final offer, throw in a **non-monetary item** — proves you're at the limit.
-
-(Confidence note on the 65/85/95/100 numbers: widely cited in summaries; verify against _Never Split the Difference_ if precision matters.)
 
 ## TLS — Tactical Listening Skills
 
@@ -123,18 +121,18 @@ Beyond the calibrated questions covered above:
 - **Closed questions** — confirm a fact ("Does the budget cover services as well as license?")
 - **Projection questions** — _"If you had to accept this proposal as it stands today, what would happen?"_ Forces the counterparty to mentally test the deal as if it were already done.
 
-The "no pourquoi" / "no why" rule shows up across multiple negotiation traditions — convergent finding from independent research streams.
+The "no why" rule is consistent across modern commercial negotiation traditions. Caveat: in root-cause problem-solving contexts (e.g. Toyota 5-Whys, postmortems), "why" is actively encouraged — the rule applies specifically to live negotiation exchanges where "why" triggers defensiveness, not to diagnostic analysis.
 
 ## The four powers of negotiation
 
 The legitimacy you bring to the table comes from one of four sources:
 
-1. **Pouvoir institutionnel** — title, status, "I'm the VP of Sales." Most fragile because it depends on the counterparty recognising it. The buyer's procurement officer doesn't care about your title. In clinical contexts, this is the white coat — reassures children, triggers resistance with adolescents.
+1. **Pouvoir institutionnel** — title, status, "I'm the VP of Sales." Most fragile because it depends on the counterparty recognising it. The buyer's procurement officer doesn't care about your title.
 2. **Pouvoir situationnel** — knowledge, expertise, technical competence. "I've solved this exact problem 50 times." Powerful when relevant.
 3. **Pouvoir personnel** — physical presence, age, energy level. Includes negative variants: fatigue and stress are personal-power leaks.
-4. **Pouvoir relationnel** — capacity for empathy, relationship-building, presence. **Most effective in conflict** — across commercial, social, clinical, and managerial contexts.
+4. **Pouvoir relationnel** — capacity for empathy, relationship-building, presence. **Most effective in conflict** — across commercial, social, and managerial contexts.
 
-The lesson: in tense moments, drop institutional claims ("As your VP, I'm telling you…" / "As the doctor, I'm telling you…") and lean into relational power (real listening, empathy, naming what's at stake for them). Institutional power often backfires because it triggers resistance to authority. The classic clinical move — taking off the white coat, sitting at the patient's level, switching from "doctor" to "person who's been with you on this" — is the same move as a manager dropping the title in a hard one-on-one.
+The lesson: in tense moments, drop institutional claims ("As your VP, I'm telling you…") and lean into relational power (real listening, empathy, naming what's at stake for them). Institutional power often backfires because it triggers resistance to authority — the same move as a manager dropping the title in a hard one-on-one.
 
 ## The four relational stances
 
@@ -147,7 +145,7 @@ The four ways you can show up emotionally with the counterparty:
 | Empathie | Perception + verbalisation + acceptance of legitimacy, **without sharing** | Productive, lowers heat |
 | Sympathie | Sharing the emotion | Dangerous — costs you objectivity |
 
-The right stance in any professional negotiation is **empathie**, not sympathie. Verbalise their emotion without absorbing it. Sympathie ("I feel terrible too about this contract delay" / "I'm devastated by your diagnosis too") collapses your distance and removes your ability to push back when needed. The clinician who falls into sympathy with a refusing patient negotiates against themselves; the manager who absorbs a report's frustration personally cannot then deliver a hard performance message.
+The right stance in any professional negotiation is **empathie**, not sympathie. Verbalise their emotion without absorbing it. Sympathie ("I feel terrible too about this contract delay") collapses your distance and removes your ability to push back when needed. The manager who absorbs a report's frustration personally cannot then deliver a hard performance message.
 
 ## Anchoring
 
@@ -205,7 +203,6 @@ Cross-domain examples:
 - **B2B sales.** _"You need a vendor your CISO will sign off on without a second review. I need a deal structure that makes implementation viable. The shared objective is a contract that both teams can defend internally."_
 - **NAO / social.** _"We're both in a situation that's costly for everyone. My proposal: we want this site operating sustainably so we can guarantee the 500 jobs here over the next three years. Can we negotiate within that frame?"_
 - **Internal management.** _"Our shared goal is to preserve every role in the department through this cycle. The salary freeze is what makes that possible — the alternative was reductions. Are you willing to work within that constraint with me?"_
-- **Clinical.** _"We both want you on a regimen you'll actually follow for the next 12 months. The substance is the dose. The form — when, how, what we tell whom — is yours to shape. Let's negotiate what makes adherence possible."_
 
 When to use it. Three high-leverage moments:
 
@@ -221,7 +218,7 @@ A pause tactique is a deliberate suspension of the negotiation, called by you, l
 
 When to call one:
 
-- **Mandate breach approaching.** You're about to concede past a Mandascan bascule; your N2 signals; the right move is to pause and validate with the décideur.
+- **Mandate breach approaching.** You're about to concede past the Escalation (bascule) point in your Mandascan; your N2 signals; the right move is to pause and validate with the décideur.
 - **Cognitive saturation.** You're tired, the buyer has been hammering for 40 minutes, decisions are getting sloppy. The pause restores judgement.
 - **Surprise.** A new ask, a new stakeholder, an unexpected redline appears. Don't react — pause, regroup, respond.
 - **Punching-ball.** The buyer has shifted to verbal harassment. Calling the break IS the response — see [references/manipulation.md](manipulation.md#4-punching-ball-verbal-harassment).
@@ -257,7 +254,7 @@ How to run a back-brief — three forms:
 2. **Structured back-brief** (15 minutes, end of pricing or term-sheet negotiation). The buyer reformulates each axis in their words. You note differences in interpretation immediately, while both parties are still in the room.
 3. **Pre-signature wrap-up** (30 minutes, before final signature). Walk through every key term — dates, prices, scope, exclusions, obligations. Have the buyer say each one out loud.
 
-The wrap-up is your insurance against the closing pathologies (Monsieur Plus, target fascination — see [references/debrief.md](debrief.md#the-5-closing-pathologies)) and against last-minute manipulation. Reps who skip it pay for it in implementation friction or churn within 6 months.
+The wrap-up is your insurance against the closing pathologies (Syndrome Monsieur Plus, target fascination — see [references/debrief.md](debrief.md#the-5-closing-pathologies)) and against last-minute manipulation. Reps who skip it pay for it in implementation friction or churn within 6 months.
 
 ## Pipe de négociation — the closing checklist
 
@@ -286,14 +283,6 @@ The Pipe at signature time — three worked examples:
 | Title | IC senior | Staff | Staff | ✓ |
 | Review cadence | 18-month | 12-month | 12-month | ✓ |
 
-**Clinical** (treatment plan signature):
-
-| Axis | Rupture | Objective | Final | Within mandate? |
-| --- | --- | --- | --- | --- |
-| Treatment regimen | <50% adherence projected | 80%+ adherence | Modified-schedule plan, 85% projected | ✓ |
-| Follow-up cadence | None scheduled | Weekly first month | Bi-weekly first month + on-demand | ✓ |
-| Family / support involvement | Patient isolated | Coached support team | Spouse coached, oncology psych referred | ✓ |
-
 Run before signature in any domain. If any axis is below rupture, **stop**. No pressure, no "we've come this far." Either escalate to the décideur for an exception, or no-agreement. The Pipe protects against target fascination — the natural urge to land the outcome even when the landing has gone wrong.
 
-Diagnostic counter-question. When you're tempted to skip the Pipe ("it's done, why slow it down"), that urge is itself the signal that you should run it. Calm, well-going closes survive the Pipe trivially. Closes that are tempting to rush are the ones that produce 6-month-out churn / regret / non-adherence.
+Diagnostic counter-question. When you're tempted to skip the Pipe ("it's done, why slow it down"), that urge is itself the signal that you should run it. Calm, well-going closes survive the Pipe trivially. Closes that are tempting to rush are the ones that produce 6-month-out churn / regret.
