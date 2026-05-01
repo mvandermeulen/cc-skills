@@ -10,7 +10,7 @@ Splitting the work across roles preserves the cognitive bandwidth each role actu
 
 ## The four roles
 
-Use as many as the deal warrants. SMB: solo or N1 + observer. Mid-market: N1 + N2. Enterprise: full N1 + N2 + SUP + Décideur in retreat.
+Use as many as the deal warrants. SMB: solo or N1 + observer. Mid-market: N1 + N2. Enterprise: full N1 + N2 + SUP + Decision-Maker in retreat.
 
 ### N1 — primary negotiator
 
@@ -25,7 +25,7 @@ One step back, slightly off-axis. Speaks rarely (only for a deliberate technique
 - Track the Mandascan in real-time. When the N1 approaches a bascule (escalation point), signal.
 - Read micro-expressions on the buyer side that the N1 will miss while focused on speaking.
 - Note exactly what was agreed, in the buyer's words. The "main courante" (running log) becomes the back-brief reference at wrap-up.
-- Detect _effet tunnel_ — the N1 fixating on a sub-axis and losing the global view. When detected, signal a pause.
+- Detect _tunnel effect_ — the N1 fixating on a sub-axis and losing the global view. When detected, signal a pause.
 
 The N2 is the team's situational awareness. A team without an N2 is a single negotiator with a witness, not a team.
 
@@ -33,19 +33,19 @@ The N2 is the team's situational awareness. A team without an N2 is a single neg
 
 For trinôme negotiations (typically enterprise). Holds strategic continuity across rounds. Doesn't necessarily attend every call — they validate the mandate, review between-round debriefs, and arbitrate when N1 and N2 disagree on tactics.
 
-The SUP is who the negotiator calls during a pause tactique to validate breaching the bascule.
+The SUP is who the negotiator calls during a tactical pause to validate breaching the bascule.
 
-### Décideur — decision-maker, deliberately in retreat
+### Decision-Maker — deliberately in retreat
 
-The CRO, VP Sales, or executive who can sign exceptions to the mandate. The discipline: **the décideur is not in the room** during normal negotiation. Their absence creates the **effet fusible** (fuse effect).
+The CRO, VP Sales, or executive who can sign exceptions to the mandate. The discipline: **the decision-maker is not in the room** during normal negotiation. Their absence creates the **effet fusible** (fuse effect).
 
 #### Effet fusible
 
 The N1's most useful refusal: _"I'd love to do that. I genuinely don't have the authority — let me check with my CRO."_ This is not weakness; it's a structural block on the buyer's escalation pressure. The negotiator cannot be argued past their authority limit because they don't have it. The CRO, in turn, has the discretion to grant the exception or hold the line — without the buyer feeling personally rebuffed.
 
-The fuse only works if the décideur is genuinely absent from the room. Reps who let the décideur join early lose the fuse and now have to argue the mandate themselves. The discipline is to keep the décideur dialled in only at moments where their presence creates value: a senior alignment meeting, signature, or escalation arbitration.
+The fuse only works if the decision-maker is genuinely absent from the room. Reps who let the decision-maker join early lose the fuse and now have to argue the mandate themselves. The discipline is to keep the decision-maker dialled in only at moments where their presence creates value: a senior alignment meeting, signature, or escalation arbitration.
 
-The fuse also works in reverse. When the buyer brings their own décideur in early, that's a signal — they're either cutting their own fuse (a sign of urgency on their side) or skipping a layer to apply pressure on you (a sign of escalation theatre — see [references/objection-procurement-playbook.md](objection-procurement-playbook.md#the-escalation-ladder)).
+The fuse also works in reverse. When the buyer brings their own decision-maker in early, that's a signal — they're either cutting their own fuse (a sign of urgency on their side) or skipping a layer to apply pressure on you (a sign of escalation theatre — see [references/objections.md](objections.md#the-escalation-ladder)).
 
 ## In-room signalling
 
@@ -77,7 +77,7 @@ Buyers exploit visible internal disagreement on the seller side. Disciplines:
 - **One voice in the room.** Only the N1 speaks during the negotiation proper. The N2's role is observation, not parallel negotiation.
 - **No interruptions.** If the N2 has critical information, signal a pause — don't interject.
 - **Silent rule on numbers.** The N2 never volunteers a number out loud, even to confirm the N1's. Once a number is stated by anyone on your side, it becomes a buyer anchor.
-- **Re-alignment in the pause.** During pauses tactiques, re-align the N1 and N2 on Mandascan and tactic before resuming. Coming back to the room with visible disagreement (different body language, hesitation when answering) tells the buyer to push.
+- **Re-alignment in the pause.** During tactical pauses, re-align the N1 and N2 on Mandascan and tactic before resuming. Coming back to the room with visible disagreement (different body language, hesitation when answering) tells the buyer to push.
 
 ## When to bring the specialist
 
@@ -95,7 +95,7 @@ The patterns that destroy team-negotiation effectiveness, observed repeatedly:
 
 - **N1 + N2 both speaking.** Buyer plays them against each other. Solution: enforce one-voice rule.
 - **N2 absent or asleep.** N1 carries cognitive load, breaches mandate. Solution: N2 attendance is mandatory; if they can't focus, replace them.
-- **Décideur joins too early.** Fuse blown; buyer escalates faster. Solution: décideur dials in only at mandated moments.
+- **Decision-Maker joins too early.** Fuse blown; buyer escalates faster. Solution: decision-maker dials in only at mandated moments.
 - **Specialist over-shares roadmap.** Buyer extracts unannounced features as "promises." Solution: specialist is briefed on what they cannot say.
 - **Between-round debrief skipped.** Team carries forward unverified buyer claims. Solution: 15-minute debrief is non-optional after every round.
 - **Internal disagreement leaks visibly.** Buyer reads the gap. Solution: re-align in pause; if alignment fails, end the meeting and reschedule.

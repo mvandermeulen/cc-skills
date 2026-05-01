@@ -4,7 +4,7 @@ AI agent skills are reusable instruction sets that extend your assistant with do
 
 For Golang-related skills, please visit [cc-skills-golang](https://github.com/samber/cc-skills-golang).
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Bootstrapped with Claude. **Edited, tested, reviewed and reworked by a human**.
 >
 > **No AI slop here.** AI-made skills are useless.
@@ -161,7 +161,7 @@ See [EVALUATIONS.md](./EVALUATIONS.md) for the full per-skill breakdown.
 
 ## 🎯 Tuning Skill Triggers
 
-If a skill triggers too often or not often enough, please [open an issue](https://github.com/samber/cc-skills-golang/issues) suggesting a description change. The `description` field in SKILL.md frontmatter is the primary triggering mechanism: small wording adjustments can significantly improve trigger accuracy. Some `SKILL.md` might have a `When to use` section which is another level of exclusion. Finally, `SKILL.md` is an entrypoint for lazy loading references with deep knowledge located in `references/`.
+If a skill triggers too often or not often enough, please [open an issue](https://github.com/samber/cc-skills/issues) suggesting a description change. The `description` field in SKILL.md frontmatter is the primary triggering mechanism: small wording adjustments can significantly improve trigger accuracy. Some `SKILL.md` might have a `When to use` section which is another level of exclusion. Finally, `SKILL.md` is an entrypoint for lazy loading references with deep knowledge located in `references/`.
 
 ## 🔄 Overlap
 

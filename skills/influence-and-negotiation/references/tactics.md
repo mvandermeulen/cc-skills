@@ -185,9 +185,9 @@ The "concession initiale" — a small unilateral concession at the start as a co
 
 Three strategies, picked deliberately based on the rapport de force (power balance) and the enjeu:
 
-- **Compétition** — zero-sum. Use for procurement-driven RFPs, multi-vendor bake-offs, low-trust environments. Tactic: point-par-point. Mood: businesslike.
-- **Coopération** — joint value creation. Use for sole-source partnerships, strategic alliances, expansion deals into existing accounts. Tactic: globalisation. Mood: collaborative.
-- **Coopétition** — start in compétition, switch to coopération once trust is established. Use for renewal and expansion conversations where the first round is hard but the long-term relationship matters. Default for renewals with existing customers.
+- **Competition** — zero-sum. Use for procurement-driven RFPs, multi-vendor bake-offs, low-trust environments. Tactic: point-par-point. Mood: businesslike.
+- **Cooperation** — joint value creation. Use for sole-source partnerships, strategic alliances, expansion deals into existing accounts. Tactic: globalisation. Mood: collaborative.
+- **Coopetition** — start in competition, switch to cooperation once trust is established. Use for renewal and expansion conversations where the first round is hard but the long-term relationship matters. Default for renewals with existing customers.
 
 Pick deliberately in Phase 4 (planning); the choice shapes every move that follows.
 
@@ -210,15 +210,15 @@ When to use it. Three high-leverage moments:
 2. **After a punching-ball moment.** When the counterparty has been aggressive and the room is hostile, the OCP reorients without requiring them to apologise. They can rejoin the cooperative frame face-saving.
 3. **At the start of redline / escalation cycles.** Procurement and legal (or union delegates, or HR escalation) often optimise locally; an OCP statement upstream gives leverage to push back on local optimisations that breach the global goal.
 
-When NOT to use it. In compétition mode. The OCP signals coopération, and announcing it in a hostile bake-off reads as weakness — the buyer pockets the friendly gesture and continues squeezing. Save the OCP for environments where cooperation is genuinely available.
+When NOT to use it. In competition mode. The OCP signals cooperation, and announcing it in a hostile bake-off reads as weakness — the buyer pockets the friendly gesture and continues squeezing. Save the OCP for environments where cooperation is genuinely available.
 
-## Pause tactique — the strategic break
+## Tactical pause — the strategic break
 
-A pause tactique is a deliberate suspension of the negotiation, called by you, lasting 10–60 minutes. Underused by negotiators; overused by experienced procurement. The pause is a leverage tool — using it changes the negotiation dynamics, and refusing to use it when needed produces concession errors.
+A tactical pause is a deliberate suspension of the negotiation, called by you, lasting 10–60 minutes. Underused by negotiators; overused by experienced procurement. The pause is a leverage tool — using it changes the negotiation dynamics, and refusing to use it when needed produces concession errors.
 
 When to call one:
 
-- **Mandate breach approaching.** You're about to concede past the Escalation (bascule) point in your Mandascan; your N2 signals; the right move is to pause and validate with the décideur.
+- **Mandate breach approaching.** You're about to concede past the Escalation (bascule) point in your Mandascan; your N2 signals; the right move is to pause and validate with the decision-maker.
 - **Cognitive saturation.** You're tired, the buyer has been hammering for 40 minutes, decisions are getting sloppy. The pause restores judgement.
 - **Surprise.** A new ask, a new stakeholder, an unexpected redline appears. Don't react — pause, regroup, respond.
 - **Punching-ball.** The buyer has shifted to verbal harassment. Calling the break IS the response — see [references/manipulation.md](manipulation.md#4-punching-ball-verbal-harassment).
@@ -235,7 +235,7 @@ What you do during the pause:
 - N2 captures verbatim what was said, especially numbers and commitments.
 - N1 reads the N2's notes, NOT their own memory. Working memory degrades under stress; the main courante is your truth source.
 - Mandascan check — where are you on each axis vs the bornes?
-- Décideur consultation if any axis is at bascule.
+- Decision-Maker consultation if any axis is at bascule.
 - One-sentence summary of the next move when you walk back in.
 
 The discipline: never come back from a pause less prepared than when you went in. Coming back unaligned tells the buyer you blew the pause — and gives them the next push.
@@ -254,11 +254,11 @@ How to run a back-brief — three forms:
 2. **Structured back-brief** (15 minutes, end of pricing or term-sheet negotiation). The buyer reformulates each axis in their words. You note differences in interpretation immediately, while both parties are still in the room.
 3. **Pre-signature wrap-up** (30 minutes, before final signature). Walk through every key term — dates, prices, scope, exclusions, obligations. Have the buyer say each one out loud.
 
-The wrap-up is your insurance against the closing pathologies (Syndrome Monsieur Plus, target fascination — see [references/debrief.md](debrief.md#the-5-closing-pathologies)) and against last-minute manipulation. Reps who skip it pay for it in implementation friction or churn within 6 months.
+The wrap-up is your insurance against the closing pathologies (More-More Syndrome, target fascination — see [references/debrief.md](debrief.md#the-5-closing-pathologies)) and against last-minute manipulation. Reps who skip it pay for it in implementation friction or churn within 6 months.
 
-## Pipe de négociation — the closing checklist
+## Negotiation Pipeline — the closing checklist
 
-The Pipe de négociation is a structured closing checklist that verifies the proposed accord still fits the original mandate before signature. Aviation analogy: pre-landing checklist — even the most experienced pilots run it because muscle memory misses things under stress.
+The Negotiation Pipeline is a structured closing checklist that verifies the proposed accord still fits the original mandate before signature. Aviation analogy: pre-landing checklist — even the most experienced pilots run it because muscle memory misses things under stress.
 
 The Pipe at signature time — three worked examples:
 
@@ -283,6 +283,6 @@ The Pipe at signature time — three worked examples:
 | Title | IC senior | Staff | Staff | ✓ |
 | Review cadence | 18-month | 12-month | 12-month | ✓ |
 
-Run before signature in any domain. If any axis is below rupture, **stop**. No pressure, no "we've come this far." Either escalate to the décideur for an exception, or no-agreement. The Pipe protects against target fascination — the natural urge to land the outcome even when the landing has gone wrong.
+Run before signature in any domain. If any axis is below rupture, **stop**. No pressure, no "we've come this far." Either escalate to the decision-maker for an exception, or no-agreement. The Negotiation Pipeline protects against target fascination — the natural urge to land the outcome even when the landing has gone wrong.
 
 Diagnostic counter-question. When you're tempted to skip the Pipe ("it's done, why slow it down"), that urge is itself the signal that you should run it. Calm, well-going closes survive the Pipe trivially. Closes that are tempting to rush are the ones that produce 6-month-out churn / regret.

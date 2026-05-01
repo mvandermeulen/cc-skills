@@ -8,13 +8,13 @@ The line — see [references/biases-and-influence.md](biases-and-influence.md#th
 
 For each: the tell, why it works on average negotiators, and the response that neither escalates nor concedes.
 
-### 1. Mauvaise foi (bad faith)
+### 1. Bad faith
 
 **Tell.** A verifiably false claim asserted with conviction. _"Vendor X offered the same scope at half the price"_ — but you've checked Vendor X's public pricing and the math doesn't work.
 
 **Why it works.** The negotiator argues the truth, gets dragged into a "no it isn't / yes it is" loop, and either concedes to escape or breaks the relationship by cornering the buyer.
 
-**Response.** The full bad-faith protocol lives in [references/objection-refusal-triage.md](objection-refusal-triage.md#bad-faith-no): drop ego → reality principle → face-saving exit. The lighter-touch alternative is **park-it** — _"Let me set that point aside and continue on the technical terms."_ Then never come back to it. Choose park-it when the relationship is fragile and confronting risks more than letting pass.
+**Response.** The full bad-faith protocol lives in [references/objections.md](objections.md#bad-faith-no): drop ego → reality principle → face-saving exit. The lighter-touch alternative is **park-it** — _"Let me set that point aside and continue on the technical terms."_ Then never come back to it. Choose park-it when the relationship is fragile and confronting risks more than letting pass.
 
 ### 2. Bluff
 
@@ -38,7 +38,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator loses cognitive bandwidth, makes errors, or concedes just to escape the discomfort.
 
-**Response.** This is a **non-négociable** behaviour — see [references/objection-non-negociable.md](objection-non-negociable.md). _"I hear that you're under pressure. The tone won't help us reach a deal — and I won't be useful to you if we continue this way. Let's pause for ten minutes and come back to it."_ Then call a pause tactique — see [references/tactics.md](tactics.md#pause-tactique--the-strategic-break). If the behaviour continues on resumption, end the meeting.
+**Response.** This is a **non-negotiable** behaviour — see [references/objections.md](objections.md#the-non-negotiable). _"I hear that you're under pressure. The tone won't help us reach a deal — and I won't be useful to you if we continue this way. Let's pause for ten minutes and come back to it."_ Then call a tactical pause — see [references/tactics.md](tactics.md#tactical-pause--the-strategic-break). If the behaviour continues on resumption, end the meeting.
 
 ### 5. Faux pivot (false-pivot diversion)
 
@@ -56,9 +56,9 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Response.** Don't chase. Ladder your follow-ups (Day 3 / Day 7 / Day 14) and state the current proposal stands as-is until they re-engage. The "no-question" framing works here: _"Have you given up on this project?"_ — invites a "no" that re-opens the conversation without you conceding anything.
 
-### 7. Coopétition simulée (false cooperation)
+### 7. Coopetition simulée (false cooperation)
 
-**Tell.** Early collaborative tone, OCP language, "we're partners on this" — then a hard switch back to extraction tactics in the closing round. The buyer used the cooperative phase to extract your information; now they pivot to compétition with the asymmetric advantage.
+**Tell.** Early collaborative tone, OCP language, "we're partners on this" — then a hard switch back to extraction tactics in the closing round. The buyer used the cooperative phase to extract your information; now they pivot to competition with the asymmetric advantage.
 
 **Why it works.** The negotiator, having shared more than they would have in a hostile negotiation, has no leverage left when the tactics flip.
 
@@ -70,7 +70,7 @@ For each: the tell, why it works on average negotiators, and the response that n
 
 **Why it works.** The negotiator escalates concessions in the follow-up emails ("happy to revisit pricing if helpful") to break the silence — concessions the buyer didn't ask for.
 
-**Response.** Don't fill the silence with concessions. Use the **negative reverse**: _"I haven't heard back — I want to make sure I'm not assuming something. Should I close the opportunity for now?"_ This invites a "no" that breaks the silence, and if the answer is "yes, close it," you've saved months of misallocated effort. See [references/objection-ghosting.md](objection-ghosting.md).
+**Response.** Don't fill the silence with concessions. Use the **negative reverse**: _"I haven't heard back — I want to make sure I'm not assuming something. Should I close the opportunity for now?"_ This invites a "no" that breaks the silence, and if the answer is "yes, close it," you've saved months of misallocated effort. See [references/objections.md](objections.md#late-stage-stall--ghosting).
 
 ### 9. Démoralisation (defeatism induction)
 
@@ -93,11 +93,11 @@ For each: the tell, why it works on average negotiators, and the response that n
 The patterns above share four recurring tells. Watch for any of them.
 
 1. **Disproportionate emotional energy** vs the substantive stake — punching-ball, faux pivot, démoralisation.
-2. **Unverifiable specificity** — bluff, mauvaise foi, fake competing bid, fake budget claims.
-3. **Sudden state change** — désintérêt, coopétition simulée switch, last-minute clôture additions.
+2. **Unverifiable specificity** — bluff, bad faith, fake competing bid, fake budget claims.
+3. **Sudden state change** — désintérêt, coopetition simulée switch, last-minute clôture additions.
 4. **Personal address shift** — intimidation, démoralisation, "you don't get it" identity attacks.
 
-When you detect one or more, **slow the conversation down**. Pause tactique, calibrated questions, no immediate concessions. Manipulation depends on speed and the negotiator's internal urgency. Removing both removes the leverage.
+When you detect one or more, **slow the conversation down**. Tactical pause, calibrated questions, no immediate concessions. Manipulation depends on speed and the negotiator's internal urgency. Removing both removes the leverage.
 
 ## What manipulation costs the buyer (relationship-level)
 

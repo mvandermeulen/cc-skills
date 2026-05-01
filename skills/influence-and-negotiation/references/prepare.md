@@ -17,7 +17,7 @@
 
 - All of the above for each named stakeholder.
 - Recent funding / news / 10-K signals (if public) on the buyer's company.
-- Organigramme update — has anything changed in their organisation since last call?
+- Org chart update — has anything changed in their organisation since last call?
 - 5–6 calibrated questions, ranked by importance.
 - Top 3 objections — pre-write a label for each.
 - Concession ladder check: do you have at least 3 trades you can offer?
@@ -25,7 +25,7 @@
 **Enterprise ($100K+, 5+ stakeholders) — 2 hours+:**
 
 - Full multi-stakeholder MEDDPICC review with named people.
-- Sociogramme — who influences whom; has it shifted?
+- Influence map — who influences whom; has it shifted?
 - Pre-mortem: surprise procurement move (escalation, fake competing bid, fiscal-year leverage); pre-write the redirect.
 - N1 + N2 alignment on Mandascan; agree signalling protocol.
 - Specialist briefing if attending: what they can and cannot say.
@@ -41,12 +41,12 @@ The "own side" varies by domain:
 
 - **B2B sales:** the mandate comes from manager / VP / CRO.
 - **Salary:** the mandate is yours alone — what you'll accept across base, variable, equity, leave, training, telework.
-- **Social / NAO:** the mandate is co-built with the décideur (DRH, COMEX) and validated by legal.
+- **Social / NAO:** the mandate is co-built with the decision-maker (DRH, COMEX) and validated by legal.
 - **Internal management:** the mandate is what your scope, your N+1, and HR allow you to commit to (raise budget, role change, scope).
 - **Diplomatic / cross-cultural:** the mandate is signed by ministry / executive sponsor and accounts for protocole.
 - **Recruitment:** the mandate is the compensation band, scope, and start-date flexibility approved by HR + hiring executive.
 
-A mandate is not "close the deal at any cost" or "don't lose this one." It's a written, axis-by-axis specification of what you can sign. Co-build it bottom-up — you know the operational reality better than your décideur does. If the mandate amounts to _"on ne lâche rien"_ (give nothing up), that's a refusal to mandate, not a strong mandate. Push back: a director told their team _"on ne lâche rien"_ before a labor negotiation; the team had no margin, the union escalated, and an 11-day strike followed. The instruction wasn't strength — it was the absence of a strategy.
+A mandate is not "close the deal at any cost" or "don't lose this one." It's a written, axis-by-axis specification of what you can sign. Co-build it bottom-up — you know the operational reality better than your decision-maker does. If the mandate amounts to _"on ne lâche rien"_ (give nothing up), that's a refusal to mandate, not a strong mandate. Push back: a director told their team _"on ne lâche rien"_ before a labor negotiation; the team had no margin, the union escalated, and an 11-day strike followed. The instruction wasn't strength — it was the absence of a strategy.
 
 What a clear mandate looks like:
 
@@ -120,13 +120,13 @@ Use these for **preparation**:
 
 The discipline: BATNA is for sizing the rupture point in preparation, then put away. In the room, behave as if this is the only deal.
 
-## Stakeholder mapping — organigramme + sociogramme
+## Stakeholder mapping — org chart + influence map
 
 Two layered diagrams. Most systems-of-record (CRM, HRIS, EHR) only capture the first.
 
-**Organigramme** — formal hierarchy. Title, role, reports-to. Build by reading the public-facing organisational structure (company website, LinkedIn, filings; the union's federation chart; the family's stated decision-makers; the hiring committee roster). White-source intel.
+**Org chart** — formal hierarchy. Title, role, reports-to. Build by reading the public-facing organisational structure (company website, LinkedIn, filings; the union's federation chart; the family's stated decision-makers; the hiring committee roster). White-source intel.
 
-**Sociogramme** — real influence relationships. Who actually persuades whom? Who has the CFO's / DRH's / treating consultant's ear? Who's the "informal" decision-maker who never shows up on the org chart? Build by listening to your champion / advocate and by behavioural reading during meetings (who do people glance at before answering?).
+**Influence map** — real influence relationships. Who actually persuades whom? Who has the CFO's / DRH's / treating consultant's ear? Who's the "informal" decision-maker who never shows up on the org chart? Build by listening to your champion / advocate and by behavioural reading during meetings (who do people glance at before answering?).
 
 In every domain studied: the real decision often passes through informal influencers invisible on the formal map. Negotiators who only map the formal hierarchy get ambushed in the closing meeting by a person they didn't know existed — the procurement consultant, the spouse, the federation lawyer, the supervising consultant, the recruiter's manager.
 

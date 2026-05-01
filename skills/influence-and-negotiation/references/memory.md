@@ -30,7 +30,7 @@ Detect what's available and use the best method for reading and writing the flat
 negotiation-{slug}/
   memory.md       ← entrypoint: status, index, load order, structure definition — READ THIS FIRST
   context.md      ← situation, parties, mandate (Mandascan)
-  stakeholders.md ← org map, sociogramme, MICE, POE per person
+  stakeholders.md ← org map, influence map, MICE, POE per person
   numbers.md      ← all quantitative data: offers, amounts, volumes, changes over time
   log.md          ← session-by-session append-only event log
   strategy.md     ← decisions made, rationale, next session plan
@@ -166,7 +166,7 @@ _Updated at the end of every deep research run. Used in subsequent sessions to s
 | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |
 
-## Informal influence (sociogramme)
+## Informal influence
 
 [Who actually influences whom. Who do people glance at before answering. Who's off-stage but shapes the outcome.]
 

@@ -1,6 +1,6 @@
 # Objections
 
-<!-- toc: refusal-triage | four-root | jolt | ghosting | procurement | non-negociable | face-saving -->
+<!-- toc: refusal-triage | four-root | jolt | ghosting | procurement | the-non-negotiable | face-saving -->
 
 ## Refusal triage
 
@@ -148,18 +148,11 @@ The diagnostic questions translate directly. _"How was that number set?"_ become
 
 ## The "no decision" trap (JOLT)
 
-A separate failure mode from the four root objections. Industry research consistently shows 40–60% of pipeline that doesn't close is **no decision**, not lost-to-competitor. The buyer wants to change but can't get to a "yes" — typically because the personal career risk of buying is greater than the ambient cost of staying still.
+Distinct from the four root objections: the buyer is engaged but can't commit — typically because the personal career risk of buying exceeds the ambient cost of staying still (FOMU, not FOMO). Classic urgency tactics make it worse.
 
-The diagnosis: **fear of messing up (FOMU)**, not fear of missing out (FOMO). The classic urgency / FOMO moves make FOMU **worse** because they amplify perceived risk.
+**When to use:** buyer says yes to capability, no to commitment. Deal stalls without a substantive new objection. Apply JOLT before discounting or adding urgency pressure.
 
-The full JOLT runbook lives in [playbooks.md#jolt](playbooks.md#jolt--the-no-decision-protocol). Summary of the four moves:
-
-- **J — Judge** the indecision. Distinguish indecision from disinterest with calibrated questions. Relief at "deal off" = no real fit; frustration = indecision.
-- **O — Offer** your recommendation. Stop laying out options. Make the call. The buyer's job becomes disagreeing with a specific recommendation, not constructing a decision.
-- **L — Limit** the explore. Cap the evaluation explicitly. _"I think two more meetings will get us to a decision; beyond that, the analysis cost outweighs the differentiation."_
-- **T — Take** risk off the table. Specific risk-reductions that target the FOMU: pilot conversion clause, included migration, "what went wrong" reference call.
-
-When to use JOLT vs the four root objections triage: if the buyer is **engaged but not converging** — saying yes to capability, no to commitment — JOLT applies. If they're disengaged or actively raising substantive issues, work the root objection first.
+Full runbook (Judge / Offer / Limit / Take risk off) → [playbooks.md#jolt](playbooks.md#jolt--the-no-decision-protocol).
 
 ---
 
@@ -286,7 +279,7 @@ Procurement is trained to talk 30%, listen 70%. Negotiators trained to do the re
 
 ---
 
-## Le non-négociable
+## The Non-Negotiable
 
 Some behaviours must be refused immediately and explicitly, even when the underlying emotion is legitimate. Letting them pass equals tacit acceptance, which reinforces the behaviour (the law-of-effect principle: behaviours that are tolerated repeat).
 
@@ -300,7 +293,7 @@ Cross-domain examples:
 - **Internal management.** A direct report insults a colleague in front of you during a heated 1:1. _"I understand you're frustrated about the situation, and the frustration is legitimate. The way you just spoke about [colleague] isn't acceptable, and we need to be clear about that going forward — separately from whatever else we're solving today."_
 - **Recruitment.** A candidate makes an offensive comment about a protected category during the final round. _"I'm going to stop the conversation here. That comment isn't compatible with how we work, and the right outcome is for me to end this process today."_
 
-The non-négociable line is not about ego — it's about preserving the conditions for productive negotiation, mentorship, care, or trust. Negotiators who absorb abuse to "save the outcome" save the wrong outcome.
+The non-negotiable line is not about ego — it's about preserving the conditions for productive negotiation, mentorship, care, or trust. Negotiators who absorb abuse to "save the outcome" save the wrong outcome.
 
 ---
 

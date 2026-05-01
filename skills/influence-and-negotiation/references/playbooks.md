@@ -145,7 +145,7 @@ The ask is not "tell me about your business." The ask is "name the question the 
 
 ---
 
-## Renewal & expansion — the 90-day coopétition cadence
+## Renewal & expansion — the 90-day coopetition cadence
 
 **Trigger.** 90 days before the renewal date. This is when most AEs make the most expensive mistake of the year: starting renewal conversations 30 days out, when the buyer has all the leverage.
 

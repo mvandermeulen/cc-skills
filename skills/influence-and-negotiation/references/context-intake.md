@@ -13,7 +13,7 @@
 > - **Meeting notes / transcripts:** call notes, voice-memo transcription, CRM activity log, Notion page, shared doc from the last meeting, auto-generated meeting summary (Fireflies, Otter, Granola, etc.)
 > - **Prior analyses / reports:** previous negotiation debrief, deal summary, internal briefing, consultant report, HR case file, union delegation minutes, board presentation, QBR deck
 > - **Counterparty-facing documents:** proposal you sent, term sheet, contract redlines, RFP received, statement of work, job offer letter, counter-offer email, union demands document, competitor quote, LOI
-> - **Internal documents:** org chart, sociogramme, salary band / compensation grid, HR policy, mandate letter, budget approval email, board directive, internal talking points, approval chain, legal constraints memo
+> - **Internal documents:** org chart, influence map, salary band / compensation grid, HR policy, mandate letter, budget approval email, board directive, internal talking points, approval chain, legal constraints memo
 > - **Knowledge bases and wikis:** internal Confluence / Notion wiki, company handbook, HR policy portal, product documentation, pricing playbook, deal desk guidelines, legal FAQ
 > - **Counterparty intelligence:** LinkedIn profile, company press release, public financials, industry benchmark, Glassdoor reviews, funding announcement, recent news, analyst report, court filing, regulatory disclosure
 > - **Web / open sources:** web search on the counterparty's company, recent articles or interviews featuring the decision-maker, industry news, competitor announcements, job postings (signals priorities and pain), patents, conference talks
@@ -79,7 +79,7 @@ Cross-reference sources against each other. Flag contradictions explicitly — e
 
 - **URL or reference** — document name, URL, system (CRM, LinkedIn, email), or "stated by user"
 - **Date retrieved** — the date you accessed it
-- **Confidence** — integer 0–10: how certain you are the claim is accurate. 9–10: directly stated or documented; 6–8: strongly implied or corroborated across sources; 3–5: inferred, plausible but unverified; 0–2: rumour or single unverifiable signal. Also note the source type per `preparation.md` Intel grading: `white` (open-source), `grey` (active monitoring), `black` (do not use).
+- **Confidence** — integer 0–10: how certain you are the claim is accurate. 9–10: directly stated or documented; 6–8: strongly implied or corroborated across sources; 3–5: inferred, plausible but unverified; 0–2: rumour or single unverifiable signal. Also note the source type per `prepare.md` Intel grading: `white` (open-source), `grey` (active monitoring), `black` (do not use).
 
 Claims with confidence ≤ 5 or grey-source grading are usable for internal preparation only — never include them in counterparty-facing material or shared docs.
 

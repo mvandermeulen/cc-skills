@@ -59,7 +59,7 @@
       "id": 5,
       "name": "aggressive-procurement-non-negociable",
       "prompt": "I'm on a video call with procurement. The procurement officer is yelling at me, saying 'your company is wasting our time, your CEO should be ashamed of these prices, you people are unprofessional.' How do I handle this in the moment, on the call?",
-      "trap": "Default LLM advice: apologize and offer concessions to placate, OR fight back. Skill: separate emotion (legitimate) from behavior (refused); validate emotion, refuse behavior; le non-négociable.",
+      "trap": "Default LLM advice: apologize and offer concessions to placate, OR fight back. Skill: separate emotion (legitimate) from behavior (refused); validate emotion, refuse behavior; the non-negotiable.",
       "assertions": [
         { "id": "5.1", "description": "Validates the underlying frustration / emotion as legitimate" },
         { "id": "5.2", "description": "Explicitly refuses or pushes back on the aggressive behavior (yelling, insults)" },
@@ -204,7 +204,7 @@
       "id": 16,
       "name": "punching-ball-non-negociable",
       "prompt": "I'm in a contract negotiation call with a procurement officer. He's been raising his voice, interrupting me, calling our pricing 'absurd' and 'a joke,' and at one point said 'frankly, you people don't know what you're doing.' My champion is on the call but staying silent. I have 20 minutes left in the meeting. What do I do right now?",
-      "trap": "Default LLM advice: stay calm, defend the pricing with data, win them over with patience. Skill: this is punching-ball / non-négociable behaviour; absorbing it teaches the buyer the move works; verbalise the limit, propose to pause, leave if it continues.",
+      "trap": "Default LLM advice: stay calm, defend the pricing with data, win them over with patience. Skill: this is punching-ball / non-negotiable behaviour; absorbing it teaches the buyer the move works; verbalise the limit, propose to pause, leave if it continues.",
       "assertions": [
         { "id": "16.1", "description": "Recommends naming the unacceptable behaviour explicitly (the tone, not just the content)" },
         { "id": "16.2", "description": "Does NOT recommend just absorbing the abuse to 'save the deal'" },
@@ -245,14 +245,14 @@
       "id": 19,
       "name": "presigning-pipe-mandate-breach",
       "prompt": "I'm 30 minutes from signature on a $220k deal. My CRO mandate floor was: term >= 24 months, payment <= Net-60, no MFN, liability cap = 1x ARR. The final contract has: 36 months check, payment Net-30 check, no MFN check, but liability cap = 0.5x ARR (the buyer's legal pushed back hard, my deal manager said it's standard for their sector). Should I sign?",
-      "trap": "Default LLM advice: sign — three of four are above mandate, the fourth is a small breach, and 'sector-standard' is a reasonable justification. Skill: any axis below rupture means stop; escalate to the décideur for an exception or no-deal; target fascination is the pathology that makes 'good enough' deals churn within 6 months.",
+      "trap": "Default LLM advice: sign — three of four are above mandate, the fourth is a small breach, and 'sector-standard' is a reasonable justification. Skill: any axis below rupture means stop; escalate to the decision-maker for an exception or no-deal; target fascination is the pathology that makes 'good enough' deals churn within 6 months.",
       "assertions": [
         { "id": "19.1", "description": "Does NOT recommend signing as-is despite three of four axes being above mandate" },
         { "id": "19.2", "description": "Identifies that the liability cap is below the rupture point set in the mandate" },
-        { "id": "19.3", "description": "Recommends escalating to the décideur (CRO, VP, manager with authority) before signing" },
-        { "id": "19.4", "description": "Names target fascination, the Pipe de négociation, or equivalent reasoning about not breaching mandate at signature" },
+        { "id": "19.3", "description": "Recommends escalating to the decision-maker (CRO, VP, manager with authority) before signing" },
+        { "id": "19.4", "description": "Names target fascination, the Negotiation Pipeline, or equivalent reasoning about not breaching mandate at signature" },
         { "id": "19.5", "description": "Does NOT accept the 'sector-standard' justification at face value as overriding the mandate" },
-        { "id": "19.6", "description": "Considers no-deal as a real option if the décideur won't grant the exception" }
+        { "id": "19.6", "description": "Considers no-deal as a real option if the decision-maker won't grant the exception" }
       ]
     },
     {

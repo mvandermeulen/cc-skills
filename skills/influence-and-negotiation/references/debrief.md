@@ -45,18 +45,18 @@ For long multi-round negotiations (enterprise renewals, complex partnerships), r
 
 **Between-round debriefs use the lighter 6-question framework**, not the full RetEx grid — see [references/team-negotiation.md](team-negotiation.md#between-round-debrief--the-6-questions). Different cadence, different output.
 
-### PMR — Performance Minimale Requise
+### MRP — Minimum Required Performance
 
-The PMR is the minimum competency level required to operate professionally at a given role and seniority. Sized empirically via thousands of cadre interviews and hundreds of assisted negotiations.
+The MRP is the minimum competency level required to operate professionally at a given role and seniority. Sized empirically via thousands of cadre interviews and hundreds of assisted negotiations.
 
 For commercial roles, an indicative scale:
 
 | Level | Competencies the negotiator should master |
 | --- | --- |
-| Débutant (junior AE) | 5 (empathie, assertivité, POE, stratégie/tactique, débriefing) |
-| Confirmé (mid AE) | ~10 (+ Mandascan, calibrated questions, accusation audit, refusal triage, multi-thread sequence) |
-| Avancé (senior AE) | 15–20 (+ behavioural reading, manipulation taxonomy, MAP, JOLT, MFN escalation, team negotiation) |
-| Référent (principal / sales coach) | 23+ (full PACIFICAT process spine — Preparation → Accueil → Compréhension → Influence → Finalisation → Consolidation → Analyse → Transmission — + cross-deal pattern recognition + coaching delivery) |
+| Beginner | 5 (empathie, assertivité, POE, stratégie/tactique, débriefing) |
+| Intermediate | ~10 (+ Mandascan, calibrated questions, accusation audit, refusal triage, multi-thread sequence) |
+| Advanced | 15–20 (+ behavioural reading, manipulation taxonomy, MAP, JOLT, MFN escalation, team negotiation) |
+| Expert (principal / sales coach) | 23+ (full PACIFICAT process spine — Preparation → Accueil → Compréhension → Influence → Finalisation → Consolidation → Analyse → Transmission — + cross-deal pattern recognition + coaching delivery) |
 
 The PMR is not for HR scoring. It's a **self-assessment grid** — the negotiator names which competencies they're below threshold on, and structures development around closing those gaps. Using the PMR as a quarterly check-in produces faster compounding than ad-hoc skill development.
 
@@ -76,7 +76,7 @@ Run BRRAC over 30–60 minutes, often a few days after the loss (not the same da
 
 The named ways high-stakes outcomes die in sight of the line — across deals, salary asks, NAO rounds, and internal decisions. Use these as a debrief checklist — for any lost outcome, ask which pathology hit.
 
-### 1. Refus de l'échec (refusing to accept failure)
+### 1. Fear of Failure (refusing to accept failure)
 
 The negotiator locks onto a partial outcome as a "consolation prize" because they can't accept the no-outcome. Ends up with an arrangement that's bad for everyone — implementation suffers, the relationship is damaged, the side that "won" wins less than they would have with no agreement.
 
@@ -90,7 +90,7 @@ The negotiator locks onto a partial outcome as a "consolation prize" because the
 
 **Counter.** Walk-away is a real option. "No outcome" is sometimes the best outcome. Internalise that no-deal / no-raise / no-agreement is a normal outcome, not a personal failure.
 
-### 2. Prééminence du plan B (premature plan B)
+### 2. Plan B Preeminence (premature plan B priority)
 
 You start defending the backup plan harder than the primary. The counterparty reads the lower commitment and squeezes harder on plan A, knowing you've mentally moved on.
 
@@ -117,9 +117,9 @@ Personal investment in winning overrides the mandate. The negotiator pushes past
 
 **Sign in retrospect.** The mandate was met; the negotiator kept pushing.
 
-**Counter.** Pipe de négociation (closing checklist with mandate floors). Stop the moment the mandate is satisfied. Save the over-asking for the next round.
+**Counter.** Negotiation Pipeline (closing checklist with mandate floors). Stop the moment the mandate is satisfied. Save the over-asking for the next round.
 
-### 4. Syndrome Monsieur Plus (over-asking at the moment of victory)
+### 4. More-More Syndrome (over-asking at the moment of victory)
 
 The counterparty says "OK, let's do it" and the negotiator responds with "great, and one more thing — can we also add X, Y, and Z?" The counterparty recoils, the agreement cracks, sometimes irretrievably.
 
