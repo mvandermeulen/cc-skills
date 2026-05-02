@@ -1,6 +1,6 @@
 # Worked scenarios
 
-<!-- toc: saas-price-pushback | enterprise-rfp | asymmetric-power | nao-opening | salary-ask | services-sow -->
+<!-- toc: saas-price-pushback | enterprise-rfp | asymmetric-power | annual-collective-bargaining-opening | salary-ask | services-sow -->
 
 Six end-to-end examples. Each follows the skill's workflow and shows the trap, the move, and the likely outcome. Load the anchor that matches the user's situation.
 
@@ -111,39 +111,39 @@ Multi-thread aggressively. Find the actual technical buyer who needs your produc
 
 ---
 
-## NAO opening + strike de-escalation
+## Annual collective bargaining opening + strike de-escalation
 
-**Context.** You're the DRH of a 1,200-person industrial site. NAO opens in two weeks. Sector wage growth has been 2.8% YoY; your company's net margin dropped from 4.1% to 2.6% over the last 18 months due to raw-material cost inflation. The CGT delegation is asking for 5% across-the-board plus a 13th month bonus and a structural reduction in overtime. The previous DRH gave the team _"on ne lâche rien"_ before NAO last year, and an 8-day strike followed.
+**Context.** You're the CHRO of a 1,200-person industrial site. Annual collective bargaining opens in two weeks. Sector wage growth has been 2.8% YoY; your company's net margin dropped from 4.1% to 2.6% over the last 18 months due to raw-material cost inflation. The CGT (largest French labour confederation) delegation is asking for 5% across-the-board plus a 13th month bonus and a structural reduction in overtime. The previous CHRO gave the team _"hold the line, give nothing"_ before annual collective bargaining last year, and an 8-day strike followed.
 
-**The trap.** Two parallel traps. (1) Repeat the previous DRH's error — give a fuzzy mandate ("hold the line, see what happens") and improvise live, which produces concession errors, escalation, or another strike. (2) Pre-concede on the headline number to avoid a strike, signalling weakness that union delegates will exploit on every secondary axis (RTT, telework, training budget).
+**The trap.** Two parallel traps. (1) Repeat the previous CHRO's error — give a fuzzy mandate ("hold the line, see what happens") and improvise live, which produces concession errors, escalation, or another strike. (2) Pre-concede on the headline number to avoid a strike, signalling weakness that union delegates will exploit on every secondary axis (comp-time days, telework, training budget).
 
 **The skill's playbook.**
 
-**Phase 1 — Mandate co-construction with the decision-maker (CEO + CFO).** Get a written mandate, axis-by-axis, signed by COMEX:
+**Phase 1 — Mandate co-construction with the decision-maker (CEO + CFO).** Get a written mandate, axis-by-axis, signed by ExCo:
 
-- Augmentation générale — Mandascan with 5 points (entry 0.5% / ideal 1.2% / objective 1.8% / bascule 2.4% (call CFO) / rupture 3.0% (no agreement)).
-- Augmentation individuelle — separate envelope; what % of payroll for merit allocation.
-- Primes (one-off, intéressement, profit-sharing) — easier to grant because they don't compound, harder to demand year-over-year.
-- Working time / RTT / telework — non-monetary, often higher psychological value to delegates than base raise (and to membership in some cohorts).
+- General raise — Mandascan with 5 points (entry 0.5% / ideal 1.2% / objective 1.8% / bascule 2.4% (call CFO) / rupture 3.0% (no agreement)).
+- Individual raise — separate envelope; what % of payroll for merit allocation.
+- Bonuses (one-off, performance-linked variable pay, profit-sharing) — easier to grant because they don't compound, harder to demand year-over-year.
+- Working time / comp-time days / telework — non-monetary, often higher psychological value to delegates than base raise (and to membership in some cohorts).
 - Training budget — commitment, not money out the door this year.
 
 Without this written mandate, the team has no margin to trade — the exact condition that produced last year's 8-day strike.
 
-**Phase 4 — OCP statement, written, in opening session.** Open with the shared objective in plain language:
+**Phase 4 — SCO statement, written, in opening session.** Open with the shared objective in plain language:
 
 > _"Before we open the specific demands, I want to share the frame I'm working in. Our shared objective: keep this site operating sustainably so we guarantee the 1,200 jobs here over the next three years. Sector wage growth has been 2.8%; our net margin has dropped from 4.1% to 2.6%. The number we land on has to fit inside both of those constraints. I'm here to negotiate hard within that frame, not outside it. Are you willing to work within that frame too?"_
 
-If the delegates accept the OCP, you've shifted from positionnisme to coopetition. If they refuse it openly, the strategy is competition this round — adjust accordingly.
+If the delegates accept the SCO, you've shifted from positionnisme to coopetition. If they refuse it openly, the strategy is competition this round — adjust accordingly.
 
 **Phase 6 — Live response to aggressive moves.**
 
 - **Punching-ball.** A delegate raises voice, calls the proposal "an insult to workers." Verbalise the legitimate emotion, refuse the unacceptable behaviour: _"I can hear the frustration — the gap between 5% and what's possible is real, and I want to address it. The tone won't help us reach an agreement. Let's take 20 minutes and come back."_ Tactical pause. If the behaviour resumes, end the session and reschedule.
-- **Ultimatum.** _"Without 4% confirmed by Friday, we file the strike notice."_ Diagnose: _"What specifically happens at Friday? Is that a CSE meeting trigger, a federation directive, or a tactical deadline?"_ Real deadlines have specific consequences; tactical ones evaporate under the question.
+- **Ultimatum.** _"Without 4% confirmed by Friday, we file the strike notice."_ Diagnose: _"What specifically happens at Friday? Is that a works council meeting trigger, a federation directive, or a tactical deadline?"_ Real deadlines have specific consequences; tactical ones evaporate under the question.
 - **Strike in progress.** Don't concede mid-strike under stress — that teaches the delegation the move works. Identify the **single non-negotiable issue** for the union (often face-saving, sometimes structural). Resolving that one item, even symbolically, often unblocks the whole round.
 
-**Likely outcomes.** Cooperation: OCP accepted, agreement at ~1.8% AGS + restructured primes + telework expansion. Coopetition: brief 2-day strike as the delegation needs to bring something back to membership; agreement at ~2.0%. Competition: hard strike, federation involvement required.
+**Likely outcomes.** Cooperation: SCO accepted, agreement at ~1.8% AGS + restructured bonuses + telework expansion. Coopetition: brief 2-day strike as the delegation needs to bring something back to membership; agreement at ~2.0%. Competition: hard strike, federation involvement required.
 
-**The patterns illustrated.** Co-built written mandate, not "on ne lâche rien". OCP in writing in opening session. Don't concede mid-strike. Identify the union's single non-negotiable.
+**The patterns illustrated.** Co-built written mandate, not "hold the line, give nothing". SCO in writing in opening session. Don't concede mid-strike. Identify the union's single non-negotiable.
 
 ---
 

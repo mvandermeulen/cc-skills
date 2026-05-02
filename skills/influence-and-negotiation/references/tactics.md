@@ -98,22 +98,22 @@ Used for price counter-offers when you must engage on a number. **Buyer-side mod
 
 ## TLS — Tactical Listening Skills
 
-A core in-the-room toolkit for live negotiation, sub-divided into TLS écoute (listening), TLS questionnement (questioning), and freins relationnels (relational obstacles).
+A core in-the-room toolkit for live negotiation, sub-divided into TLS — Listening, TLS — Questioning, and relational friction points.
 
-### TLS écoute
+### TLS — Listening
 
 - **Paraphrase** — restate using **the counterparty's own words**. Confirms you heard. Lead-in: _"You said X…"_
 - **Reformulation** — restate using **your own words**. Confirms understanding and collects "yes" tokens. Lead-in: _"If I've got this right…"_ / _"In other words…"_
-- **Prolongement** (extension) — extend the counterparty's logic to invite them to develop further. _"And then what happens?"_ / _"Tell me more about how that played out."_
-- **Retournement** (turning) — flip a statement back as a question. They say _"this is too expensive."_ You say _"too expensive?"_ — close to a mirror but in a more conversational register.
-- **Recentrage** (refocusing) — pull the conversation back to the actual axis after a digression. Lead-ins: _"Au final…"_ / _"To bring this back to…"_
+- **Extension** — extend the counterparty's logic to invite them to develop further. _"And then what happens?"_ / _"Tell me more about how that played out."_
+- **Turning** — flip a statement back as a question. They say _"this is too expensive."_ You say _"too expensive?"_ — close to a mirror but in a more conversational register.
+- **Refocusing** — pull the conversation back to the actual axis after a digression. Lead-ins: _"In the end…"_ / _"To bring this back to…"_
 - **Identification of emotions** — verbalise what you see. Same family as labeling.
 - **Silence plein** — see [silence diagnosis in references/prepare.md](prepare.md#silence-diagnosis).
-- **Écho** — echoing a key phrase to slow the conversation and weight the moment.
-- **Encourageurs minimaux** — minimal encouragements (_"hmm"_, _"go on"_, _"I see"_) that keep them talking without interrupting.
-- **Implication personnelle** — sharing a small piece of your own experience to deepen rapport. Use sparingly and authentically; manufactured stories destroy trust.
+- **Echo** — echoing a key phrase to slow the conversation and weight the moment.
+- **Minimal encouragers** — minimal encouragements (_"hmm"_, _"go on"_, _"I see"_) that keep them talking without interrupting.
+- **Personal disclosure** — sharing a small piece of your own experience to deepen rapport. Use sparingly and authentically; manufactured stories destroy trust.
 
-### TLS questionnement
+### TLS — Questioning
 
 Beyond the calibrated questions covered above:
 
@@ -127,10 +127,10 @@ The "no why" rule is consistent across modern commercial negotiation traditions.
 
 The legitimacy you bring to the table comes from one of four sources:
 
-1. **Pouvoir institutionnel** — title, status, "I'm the VP of Sales." Most fragile because it depends on the counterparty recognising it. The buyer's procurement officer doesn't care about your title.
-2. **Pouvoir situationnel** — knowledge, expertise, technical competence. "I've solved this exact problem 50 times." Powerful when relevant.
-3. **Pouvoir personnel** — physical presence, age, energy level. Includes negative variants: fatigue and stress are personal-power leaks.
-4. **Pouvoir relationnel** — capacity for empathy, relationship-building, presence. **Most effective in conflict** — across commercial, social, and managerial contexts.
+1. **Institutional power** — title, status, "I'm the VP of Sales." Most fragile because it depends on the counterparty recognising it. The buyer's procurement officer doesn't care about your title.
+2. **Situational power** — knowledge, expertise, technical competence. "I've solved this exact problem 50 times." Powerful when relevant.
+3. **Personal power** — physical presence, age, energy level. Includes negative variants: fatigue and stress are personal-power leaks.
+4. **Relational power** — capacity for empathy, relationship-building, presence. **Most effective in conflict** — across commercial, social, and managerial contexts.
 
 The lesson: in tense moments, drop institutional claims ("As your VP, I'm telling you…") and lean into relational power (real listening, empathy, naming what's at stake for them). Institutional power often backfires because it triggers resistance to authority — the same move as a manager dropping the title in a hard one-on-one.
 
@@ -161,7 +161,7 @@ The first number sets the frame. Whoever anchors first usually wins the price di
 
 **Silence after the anchor** — count to 4 minimum. The next person to speak gives ground.
 
-## Reframing (recadrage)
+## Reframing
 
 When the buyer's frame doesn't fit yours, change the frame, not the numbers.
 
@@ -179,11 +179,11 @@ Three rules:
 2. **Globalisation** (preferred for cooperation) — bundle all open issues into one round, allow rollbacks. Useful when there's trust and the goal is joint value.
 3. **Point-par-point** (preferred for competition) — issue by issue, no rollback. Useful in adversarial procurement situations where you want to lock in each win.
 
-The "concession initiale" — a small unilateral concession at the start as a cooperative signal — is only safe with a verified-cooperative counterparty. Procurement teams (and aggressive union delegations) read it as weakness and demand more. Default to one-for-one unless you have specific reasons to think the counterparty is cooperative.
+The "initial concession" — a small unilateral concession at the start as a cooperative signal — is only safe with a verified-cooperative counterparty. Procurement teams (and aggressive union delegations) read it as weakness and demand more. Default to one-for-one unless you have specific reasons to think the counterparty is cooperative.
 
 ## Strategy choice
 
-Three strategies, picked deliberately based on the rapport de force (power balance) and the enjeu:
+Three strategies, picked deliberately based on the power relations and the underlying stake:
 
 - **Competition** — zero-sum. Use for procurement-driven RFPs, multi-vendor bake-offs, low-trust environments. Tactic: point-par-point. Mood: businesslike.
 - **Cooperation** — joint value creation. Use for sole-source partnerships, strategic alliances, expansion deals into existing accounts. Tactic: globalisation. Mood: collaborative.
@@ -191,9 +191,9 @@ Three strategies, picked deliberately based on the rapport de force (power balan
 
 Pick deliberately in Phase 4 (planning); the choice shapes every move that follows.
 
-## OCP — Objectif Commun Partagé
+## SCO — Shared Common Objective
 
-The OCP is the explicit framing of a shared goal that justifies cooperation between parties whose immediate positions conflict. Verbalising it shifts the conversation from competitive (you vs me) to cooperative (us vs the problem).
+The SCO is the explicit framing of a shared goal that justifies cooperation between parties whose immediate positions conflict. Verbalising it shifts the conversation from competitive (you vs me) to cooperative (us vs the problem).
 
 Format: a single sentence both sides can sign on. Specific, time-bound, mutually beneficial.
 
@@ -201,16 +201,16 @@ Cross-domain examples:
 
 - **B2B sales.** _"We both want a system live by Q3 that the AP team will actually use. That's the goal — let's see what trade structure makes that work."_
 - **B2B sales.** _"You need a vendor your CISO will sign off on without a second review. I need a deal structure that makes implementation viable. The shared objective is a contract that both teams can defend internally."_
-- **NAO / social.** _"We're both in a situation that's costly for everyone. My proposal: we want this site operating sustainably so we can guarantee the 500 jobs here over the next three years. Can we negotiate within that frame?"_
+- **Annual collective bargaining / social.** _"We're both in a situation that's costly for everyone. My proposal: we want this site operating sustainably so we can guarantee the 500 jobs here over the next three years. Can we negotiate within that frame?"_
 - **Internal management.** _"Our shared goal is to preserve every role in the department through this cycle. The salary freeze is what makes that possible — the alternative was reductions. Are you willing to work within that constraint with me?"_
 
 When to use it. Three high-leverage moments:
 
-1. **Opening of round 2+.** When a substantive negotiation has been heating up, opening the next round with an OCP resets the frame. _"Before we re-open the term-length conversation, can we re-state what we're both trying to achieve here?"_
-2. **After a punching-ball moment.** When the counterparty has been aggressive and the room is hostile, the OCP reorients without requiring them to apologise. They can rejoin the cooperative frame face-saving.
-3. **At the start of redline / escalation cycles.** Procurement and legal (or union delegates, or HR escalation) often optimise locally; an OCP statement upstream gives leverage to push back on local optimisations that breach the global goal.
+1. **Opening of round 2+.** When a substantive negotiation has been heating up, opening the next round with an SCO resets the frame. _"Before we re-open the term-length conversation, can we re-state what we're both trying to achieve here?"_
+2. **After a punching-ball moment.** When the counterparty has been aggressive and the room is hostile, the SCO reorients without requiring them to apologise. They can rejoin the cooperative frame face-saving.
+3. **At the start of redline / escalation cycles.** Procurement and legal (or union delegates, or HR escalation) often optimise locally; an SCO statement upstream gives leverage to push back on local optimisations that breach the global goal.
 
-When NOT to use it. In competition mode. The OCP signals cooperation, and announcing it in a hostile bake-off reads as weakness — the buyer pockets the friendly gesture and continues squeezing. Save the OCP for environments where cooperation is genuinely available.
+When NOT to use it. In competition mode. The SCO signals cooperation, and announcing it in a hostile bake-off reads as weakness — the buyer pockets the friendly gesture and continues squeezing. Save the SCO for environments where cooperation is genuinely available.
 
 ## Tactical pause — the strategic break
 
@@ -245,7 +245,7 @@ The discipline: never come back from a pause less prepared than when you went in
 Before any agreement is finalised, the buyer reformulates the deal in their own words. This is not paperwork courtesy — it's a defensive move against:
 
 - **Selective memory.** Buyer remembers concessions you made, forgets concessions they made.
-- **Manipulation de clôture.** A new term materialises at signature; the wrap-up surfaces it.
+- **Closing Manipulation.** A new term materialises at signature; the wrap-up surfaces it.
 - **Genuine misunderstanding.** Two parties used the same word ("deployment") to mean different things ("install" vs "go-live across all sites").
 
 How to run a back-brief — three forms:

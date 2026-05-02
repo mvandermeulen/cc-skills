@@ -45,7 +45,7 @@ Using 3 to 20 parallel sub-agents, actively search all available sources to surf
 - **Split by source** (preferred for context efficiency) — each agent exhausts one platform or system: one agent on LinkedIn, one on web news, one on CRM, one on email threads, one on regulatory filings, one on industry forums. Findings from the same source collide often (two agents querying LinkedIn will retrieve overlapping profiles); findings from two different sources rarely do. This means source-split agents produce less redundant context and require lighter deduplication before synthesis.
 - **Split by topic** — each agent covers one analytical question: counterparty company, key decision-makers, deal history, competitive landscape, industry context, procurement history, internal dynamics, our own commitment history, pricing benchmarks, soft intelligence. Best when the domain is well-scoped and sources are few (B2B deal, salary ask with 2–3 platforms). Expect some overlap — multiple topic-agents will independently query the same LinkedIn profile or news source.
 
-The table below is a **B2B example only** — this skill covers salary, NAO, recruitment, internal management, cross-cultural, and more. Adapt the split to the domain and the available sources.
+The table below is a **B2B example only** — this skill covers salary, annual collective bargaining, recruitment, internal management, cross-cultural, and more. Adapt the split to the domain and the available sources.
 
 | Agent (B2B example) | Target | What to surface |
 | --- | --- | --- |

@@ -75,7 +75,7 @@ Going for the EB meeting before step 3 is asking for their time without a reason
 - **Objection FAQ** (procurement, security, finance). What internal stakeholders will ask, and the 1-paragraph answer.
 - **Comparison sheet** (you vs status quo / you vs competitor). Honest about the trade-offs — champions distrust over-claimed comparisons.
 
-**Failure signal.** The champion refuses to introduce you to the EB despite a clean ask. Either they don't have the political capital (build it), they're not actually pro-deal (re-qualify), or they're protecting their gatekeeper position (an enjeu issue — surface it directly).
+**Failure signal.** The champion refuses to introduce you to the EB despite a clean ask. Either they don't have the political capital (build it), they're not actually pro-deal (re-qualify), or they're protecting their gatekeeper position (an underlying stake issue — surface it directly).
 
 ---
 
@@ -225,7 +225,7 @@ If procurement is grinding, the EB you multi-threaded at T-60 is now a known sta
 **Three-part structure:**
 
 1. **The fact.** Specific, complete, no euphemism. _"As of next quarter, salaries are frozen across the organisation."_ / _"We've decided to eliminate the X role. Your last day is [date]."_ / _"I'm placing you on a performance plan starting Monday."_ No softeners, no preamble.
-2. **The OCP (the why).** Not the spin — the actual shared goal that makes the decision defensible. _"This freeze preserves every role through the cycle. The alternative was reductions."_ / _"This plan exists to give you a real path to either turning this around or finding a better fit elsewhere."_ The OCP must be true; manipulation here destroys trust that compounds for years.
+2. **The SCO (the why).** Not the spin — the actual shared goal that makes the decision defensible. _"This freeze preserves every role through the cycle. The alternative was reductions."_ / _"This plan exists to give you a real path to either turning this around or finding a better fit elsewhere."_ The SCO must be true; manipulation here destroys trust that compounds for years.
 3. **The emotional space.** _"I expect this will land hard. Take the rest of the day; my office is open tomorrow for questions."_ Then **stop talking**. Most managers fill the silence with more rationale; the silence is what the report needs to process.
 
 **Layoff-specific additions:**

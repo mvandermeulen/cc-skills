@@ -1,6 +1,6 @@
 # Debrief
 
-Per industry survey data, only ~17% of professional negotiators systematically debrief. The rest repeat their mistakes. Debriefing is the cheapest performance lever in any negotiation-heavy role — a 15-minute structured pass after every commercial milestone, every NAO round, every difficult one-on-one — catches patterns that pipeline reviews, HR records, and CRM notes miss.
+Per industry survey data, only ~17% of professional negotiators systematically debrief. The rest repeat their mistakes. Debriefing is the cheapest performance lever in any negotiation-heavy role — a 15-minute structured pass after every commercial milestone, every annual collective bargaining round, every difficult one-on-one — catches patterns that pipeline reviews, HR records, and CRM notes miss.
 
 This file covers two debrief modes (RetEx and defusing), the 5 closing pathologies, the lost-outcome taxonomy, and a structured win/loss interview template.
 
@@ -25,14 +25,14 @@ Run defusing **before** RetEx when emotions are visible. Skipping it is a false 
 
 ### RetEx — cold technical analysis
 
-The retour d'expérience. Structured 6-step agenda:
+The retrospective. Structured 6-step agenda:
 
-1. **Rassemblement des faits** — chronological event list. Use the N2's main courante (running log) as the source of truth, not memory.
-2. **Analyse des faits** — clarify objectively to obtain a shared factual narrative. Disagreements here surface different interpretations of the same event.
-3. **Recensement des pratiques efficaces** — specific tactics, moments, scripts that produced movement. Bank these for the playbook.
-4. **Recensement des erreurs** — specific tactics that landed flat or produced backlash. Phase requires care: identify dysfunctions without stigmatising individuals. The named facilitator (see below) enforces this.
-5. **Propositions d'amélioration** — concrete, falsifiable, actionable. Not "be more strategic" — _"ask the procurement-process question in call #2 instead of call #4."_
-6. **Plan d'amélioration et transmission** — dated corrective measures + formalised knowledge for the team playbook.
+1. **Fact gathering** — chronological event list. Use the N2's main courante (running log) as the source of truth, not memory.
+2. **Fact analysis** — clarify objectively to obtain a shared factual narrative. Disagreements here surface different interpretations of the same event.
+3. **Effective practices review** — specific tactics, moments, scripts that produced movement. Bank these for the playbook.
+4. **Error review** — specific tactics that landed flat or produced backlash. Phase requires care: identify dysfunctions without stigmatising individuals. The named facilitator (see below) enforces this.
+5. **Improvement proposals** — concrete, falsifiable, actionable. Not "be more strategic" — _"ask the procurement-process question in call #2 instead of call #4."_
+6. **Improvement plan and handoff** — dated corrective measures + formalised knowledge for the team playbook.
 
 This grid maps to the Mandate/Outcome/What worked/What didn't/What we'd do differently/Transferable patterns structure most negotiators already use, with two important additions:
 
@@ -53,12 +53,12 @@ For commercial roles, an indicative scale:
 
 | Level | Competencies the negotiator should master |
 | --- | --- |
-| Beginner | 5 (empathie, assertivité, POE, stratégie/tactique, débriefing) |
+| Beginner | 5 (empathie, assertivité, POS, stratégie/tactique, débriefing) |
 | Intermediate | ~10 (+ Mandascan, calibrated questions, accusation audit, refusal triage, multi-thread sequence) |
 | Advanced | 15–20 (+ behavioural reading, manipulation taxonomy, MAP, JOLT, MFN escalation, team negotiation) |
 | Expert (principal / sales coach) | 23+ (full PACIFICAT process spine — Preparation → Accueil → Compréhension → Influence → Finalisation → Consolidation → Analyse → Transmission — + cross-deal pattern recognition + coaching delivery) |
 
-The PMR is not for HR scoring. It's a **self-assessment grid** — the negotiator names which competencies they're below threshold on, and structures development around closing those gaps. Using the PMR as a quarterly check-in produces faster compounding than ad-hoc skill development.
+The MRP is not for HR scoring. It's a **self-assessment grid** — the negotiator names which competencies they're below threshold on, and structures development around closing those gaps. Using the MRP as a quarterly check-in produces faster compounding than ad-hoc skill development.
 
 ### BRRAC — for emotionally heavy losses
 
@@ -74,7 +74,7 @@ Run BRRAC over 30–60 minutes, often a few days after the loss (not the same da
 
 ## The 5 closing pathologies
 
-The named ways high-stakes outcomes die in sight of the line — across deals, salary asks, NAO rounds, and internal decisions. Use these as a debrief checklist — for any lost outcome, ask which pathology hit.
+The named ways high-stakes outcomes die in sight of the line — across deals, salary asks, annual collective bargaining rounds, and internal decisions. Use these as a debrief checklist — for any lost outcome, ask which pathology hit.
 
 ### 1. Fear of Failure (refusing to accept failure)
 
@@ -84,7 +84,7 @@ The negotiator locks onto a partial outcome as a "consolation prize" because the
 
 - **B2B sales.** Team accepts a contract at terms outside the original mandate, customer churns early, the "win" was net-negative.
 - **Salary.** You accept a 3% raise when your real ask was 12% and the market gap is closer to 18%, just to avoid the awkwardness of declining or the perceived threat of leaving. You're now anchored low for the next two cycles and likely leave anyway in 9 months.
-- **NAO.** The DRH signs an agreement at terms outside the COMEX-validated mandate to avoid a strike. The agreement creates a precedent that costs more over the next 3 NAO cycles than the strike would have.
+- **Annual collective bargaining.** The CHRO signs an agreement at terms outside the ExCo-validated mandate to avoid a strike. The agreement creates a precedent that costs more over the next 3 annual collective bargaining cycles than the strike would have.
 
 **Sign in retrospect.** The outcome closed but at terms outside the original mandate, AND the relationship soured shortly after (early churn, the negotiator leaves, the staff strikes anyway next year).
 
@@ -98,7 +98,7 @@ You start defending the backup plan harder than the primary. The counterparty re
 
 - **B2B sales.** The team mentions "we have other quarter-end deals" too often; the buyer reads it as low commitment and slow-walks.
 - **Salary.** You mention the external offer too early or too often; your manager reads it as "you're already gone" and stops investing in retention.
-- **NAO.** Management starts preparing the strike-day operational plan before the round opens; the union senses the resignation and pushes harder.
+- **Annual collective bargaining.** Management starts preparing the strike-day operational plan before the round opens; the union senses the resignation and pushes harder.
 
 **Sign in retrospect.** The outcome felt like it slipped slowly over multiple rounds. You can't point to the moment it died.
 
@@ -112,7 +112,7 @@ Personal investment in winning overrides the mandate. The negotiator pushes past
 
 - **B2B sales.** Rep pushes for multi-year up-front when annual would have closed the deal because they want the bigger ARR number on the board.
 - **Salary.** You hold for an extra $5k after a fair offer is on the table because you "want to win," and the manager pulls the offer in frustration.
-- **NAO.** A delegate insists on a symbolic 4% headline when 3.2% with structural improvements (telework, training) is on offer and substantively worth more — because 4% is the "winning number" they promised membership.
+- **Annual collective bargaining.** A delegate insists on a symbolic 4% headline when 3.2% with structural improvements (telework, training) is on offer and substantively worth more — because 4% is the "winning number" they promised membership.
 - **Internal management.** A manager refuses a report's reasonable counter-proposal on a performance plan because "I won't be told what's reasonable by my own report" — and the report leaves three weeks later.
 
 **Sign in retrospect.** The mandate was met; the negotiator kept pushing.
@@ -141,7 +141,7 @@ Aviation analogy: pilot fixated on landing, missing safety conditions.
 
 - **B2B sales.** Negotiator fixated on quarter-end close date, missing that the buyer raised a real risk in the last meeting that hasn't been resolved. Customer churns in 6 months.
 - **Salary.** You're fixated on getting "any raise" before the cycle locks; you accept a base bump without checking the equity refresh, title commitment, or review-cadence terms — and 6 months later you realise the package was structurally weaker than what you had.
-- **NAO.** DRH fixated on closing before the strike notice deadline, signs an agreement with vague language on overtime that becomes the next round's flashpoint.
+- **Annual collective bargaining.** CHRO fixated on closing before the strike notice deadline, signs an agreement with vague language on overtime that becomes the next round's flashpoint.
 
 **Sign in retrospect.** The outcome closed by the date, but it unravelled within 6 months because a real concern was papered over to hit the date.
 
@@ -155,8 +155,8 @@ When you lose, distinguish among (commercial framing — equivalents in other do
 | --- | --- | --- |
 | **No-decision** | Counterparty stayed with the status quo (no deal, no raise, no agreement). | The cost of inaction wasn't built; SPIN Implication was skipped. |
 | **Lost to alternative** | They chose a competitor, an external offer, a different candidate, an alternative provider. | Differentiation problem; learn what the alternative offered. |
-| **Lost to internal build** (or self-handling) | They chose to build / handle it themselves (in-house, no external resource, family-led care). | Often an enjeu issue (pride, control, autonomy); could a hybrid have worked? |
-| **Lost to envelope** | They wanted the agreement but the envelope didn't materialise (budget, compensation band, NAO mandate). | Timing was off; re-engage when the next cycle opens. |
+| **Lost to internal build** (or self-handling) | They chose to build / handle it themselves (in-house, no external resource, family-led care). | Often an underlying stake issue (pride, control, autonomy); could a hybrid have worked? |
+| **Lost to envelope** | They wanted the agreement but the envelope didn't materialise (budget, compensation band, annual collective bargaining mandate). | Timing was off; re-engage when the next cycle opens. |
 | **Lost to mistake** | You blew it (botched discovery, missed stakeholder, wrong frame, leaked plan B). | Specific tactical lesson. The most useful losses if processed honestly. |
 | **Disqualified late** | Should have been disqualified earlier; you kept it active. | Stage gates were too lenient; pipeline / candidate / case discipline failed. |
 

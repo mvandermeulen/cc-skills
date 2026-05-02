@@ -1,6 +1,6 @@
 # Preparation & Discovery
 
-70% of the negotiation outcome is set before the meeting. This file covers pre-meeting preparation (mandate, Mandascan, POE, BATNA, stakeholder map, intel, MICE), the pre-meeting checklist, and discovery execution (MEDDPICC, champion test, SPIN, calibrated questions, behavioural reading).
+70% of the negotiation outcome is set before the meeting. This file covers pre-meeting preparation (mandate, Mandascan, POS, BATNA, stakeholder map, intel, MICE), the pre-meeting checklist, and discovery execution (MEDDPICC, champion test, SPIN, calibrated questions, behavioural reading).
 
 ## Pre-call prep runbook
 
@@ -41,18 +41,18 @@ The "own side" varies by domain:
 
 - **B2B sales:** the mandate comes from manager / VP / CRO.
 - **Salary:** the mandate is yours alone — what you'll accept across base, variable, equity, leave, training, telework.
-- **Social / NAO:** the mandate is co-built with the decision-maker (DRH, COMEX) and validated by legal.
+- **Social / annual collective bargaining:** the mandate is co-built with the decision-maker (CHRO, ExCo) and validated by legal.
 - **Internal management:** the mandate is what your scope, your N+1, and HR allow you to commit to (raise budget, role change, scope).
-- **Diplomatic / cross-cultural:** the mandate is signed by ministry / executive sponsor and accounts for protocole.
+- **Diplomatic / cross-cultural:** the mandate is signed by ministry / executive sponsor and accounts for protocol.
 - **Recruitment:** the mandate is the compensation band, scope, and start-date flexibility approved by HR + hiring executive.
 
-A mandate is not "close the deal at any cost" or "don't lose this one." It's a written, axis-by-axis specification of what you can sign. Co-build it bottom-up — you know the operational reality better than your decision-maker does. If the mandate amounts to _"on ne lâche rien"_ (give nothing up), that's a refusal to mandate, not a strong mandate. Push back: a director told their team _"on ne lâche rien"_ before a labor negotiation; the team had no margin, the union escalated, and an 11-day strike followed. The instruction wasn't strength — it was the absence of a strategy.
+A mandate is not "close the deal at any cost" or "don't lose this one." It's a written, axis-by-axis specification of what you can sign. Co-build it bottom-up — you know the operational reality better than your decision-maker does. If the mandate amounts to _"hold the line, give nothing"_, that's a refusal to mandate, not a strong mandate. Push back: a director told their team _"hold the line, give nothing"_ before a labor negotiation; the team had no margin, the union escalated, and an 11-day strike followed. The instruction wasn't strength — it was the absence of a strategy.
 
 What a clear mandate looks like:
 
 - For each negotiable axis, the 5 Mandascan points (below).
 - Named escalation contact and turnaround time (who do you call at 7pm on quarter-end? how fast can they respond?).
-- Pre-approved redlines (the standard modifications you can accept without re-routing — legal terms in commercial deals, supplementary clauses in NAO, scope adjustments in internal commitments).
+- Pre-approved redlines (the standard modifications you can accept without re-routing — legal terms in commercial deals, supplementary clauses in annual collective bargaining, scope adjustments in internal commitments).
 - Pre-approved exception authority (the discount, term, raise amount, or commitment level you can grant without checking).
 
 ## The Mandascan — 5 points per axis
@@ -73,34 +73,34 @@ Worked examples across domains:
 | --- | --- | --- | --- | --- | --- |
 | **B2B SaaS price** ($200k ACV deal) | $240k | $220k | $200k | $180k (call CRO) | $160k (no deal) |
 | **Salary base** (senior IC ask) | $185k | $175k | $165k | $150k (talk to HR) | $140k (decline) |
-| **NAO general raise** (annual collective, union ask) | 1.5% | 1.2% | 0.8% | 0.5% (call federation) | 0.2% (deadlock) |
+| **Annual collective bargaining raise** (annual collective, union ask) | 1.5% | 1.2% | 0.8% | 0.5% (call federation) | 0.2% (deadlock) |
 | **Manager → report raise** (mid-cycle) | +6% | +5% | +4% | +2% (escalate to N+2) | 0% (delay 6 months) |
 | **Recruitment package** (top candidate) | Listed band low | Listed band mid | Band ceiling | +10% off-band (HR sign-off) | +20% off-band (no offer) |
 
-Define a Mandascan for **every** axis. In commercial deals: price, term length, payment terms, services scope, SLAs, IP, exclusivity, references, expansion rights, auto-renewal, change-control, security clauses. In salary: base, variable, equity, leave, training budget, telework, title, review cadence. In NAO: general raise, individual raise, primes, working time, telework policy. In recruitment: base, sign-on, equity, start date, title, scope, non-compete length. Negotiators who Mandascan only the headline axis get steamrolled on the secondary ones.
+Define a Mandascan for **every** axis. In commercial deals: price, term length, payment terms, services scope, SLAs, IP, exclusivity, references, expansion rights, auto-renewal, change-control, security clauses. In salary: base, variable, equity, leave, training budget, telework, title, review cadence. In annual collective bargaining: general raise, individual raise, primes, working time, telework policy. In recruitment: base, sign-on, equity, start date, title, scope, non-compete length. Negotiators who Mandascan only the headline axis get steamrolled on the secondary ones.
 
-## POE — Position / Objectif / Enjeu
+## POS — Position / Objective / Stake
 
 The "iceberg" of negotiation:
 
-| Layer | French | What it is | How you find it |
+| Layer | Term | What it is | How you find it |
 | --- | --- | --- | --- |
 | Visible | Position | The stated demand | They say it on the call |
-| Stated | Objectif | The target outcome they're optimising for | Calibrated question: _"What would success look like?"_ |
-| Hidden | Enjeu | The underlying stake driving everything | Calibrated question: _"What's at stake for you personally if this works / doesn't work?"_ |
+| Stated | Objective | The target outcome they're optimising for | Calibrated question: _"What would success look like?"_ |
+| Hidden | Stake | The underlying stake driving everything | Calibrated question: _"What's at stake for you personally if this works / doesn't work?"_ |
 
-Industry data: roughly 89% of organisations going into a complex negotiation cannot state their own enjeu when asked. The counterparty often doesn't know theirs either — your job in discovery is to surface it for both of you.
+Industry data: roughly 89% of organisations going into a complex negotiation cannot state their own underlying stake when asked. The counterparty often doesn't know theirs either — your job in discovery is to surface it for both of you.
 
 Concrete examples across domains:
 
-- **B2B sales.** Buyer position: _"Your price is too high."_ Objectif: _"Get within budget."_ Enjeu: _"My promotion depends on hitting Q4 cost targets."_ — Solving for enjeu unlocks payment-term creativity (defer to Q1) that solves the objectif and protects the relationship. Solving for position unlocks only discount.
-- **B2B sales.** Buyer position: _"We need 24/7 SLA."_ Objectif: _"Cover the Asia-Pacific business."_ Enjeu: _"My CTO got burned by a vendor outage last year and I can't be next."_ — A premium 24/7 SLA option with named-engineer escalation addresses the enjeu; a flat SLA discount doesn't.
-- **Salary.** Manager position: _"We can't raise you when the team is suffering."_ Objectif: _"Hold the compensation envelope flat this year."_ Enjeu: _"I don't want to set a precedent that breaks team-wide perceived equity."_ — Solving for enjeu via a one-off retention bonus (visibly different from a base raise) addresses the precedent issue; arguing for the raise on merit doesn't.
-- **NAO / social.** Union position: _"We demand 4% across-the-board."_ Objectif: _"Show membership we delivered something."_ Enjeu: _"The lead delegate has an internal election in 6 months and needs a visible win."_ — A package with a smaller across-the-board figure plus a visible structural improvement (telework expansion, training budget) addresses the enjeu; pure base-rate negotiation doesn't.
-- **Internal management.** Report position: _"I can't accept this scope change."_ Objectif: _"Keep the work I enjoy."_ Enjeu: _"I'm afraid the change makes me dispensable in 12 months."_ — Solving for enjeu with a written 12-month commitment + skill-development plan addresses the actual fear; arguing the change's logic doesn't.
-- **Recruitment.** Candidate position: _"I want $20k more in base."_ Objectif: _"Beat my current employer's counter-offer."_ Enjeu: _"I want to join, but I don't want to feel I left money on the table."_ — A modest base bump + sign-on bonus + accelerated equity vest addresses the enjeu; unilaterally matching the base doesn't.
+- **B2B sales.** Buyer position: _"Your price is too high."_ Objective: _"Get within budget."_ Stake: _"My promotion depends on hitting Q4 cost targets."_ — Solving for the stake unlocks payment-term creativity (defer to Q1) that solves the objective and protects the relationship. Solving for position unlocks only discount.
+- **B2B sales.** Buyer position: _"We need 24/7 SLA."_ Objective: _"Cover the Asia-Pacific business."_ Stake: _"My CTO got burned by a vendor outage last year and I can't be next."_ — A premium 24/7 SLA option with named-engineer escalation addresses the stake; a flat SLA discount doesn't.
+- **Salary.** Manager position: _"We can't raise you when the team is suffering."_ Objective: _"Hold the compensation envelope flat this year."_ Stake: _"I don't want to set a precedent that breaks team-wide perceived equity."_ — Solving for the stake via a one-off retention bonus (visibly different from a base raise) addresses the precedent issue; arguing for the raise on merit doesn't.
+- **Annual collective bargaining / social.** Union position: _"We demand 4% across-the-board."_ Objective: _"Show membership we delivered something."_ Stake: _"The lead delegate has an internal election in 6 months and needs a visible win."_ — A package with a smaller across-the-board figure plus a visible structural improvement (telework expansion, training budget) addresses the stake; pure base-rate negotiation doesn't.
+- **Internal management.** Report position: _"I can't accept this scope change."_ Objective: _"Keep the work I enjoy."_ Stake: _"I'm afraid the change makes me dispensable in 12 months."_ — Solving for the stake with a written 12-month commitment + skill-development plan addresses the actual fear; arguing the change's logic doesn't.
+- **Recruitment.** Candidate position: _"I want $20k more in base."_ Objective: _"Beat my current employer's counter-offer."_ Stake: _"I want to join, but I don't want to feel I left money on the table."_ — A modest base bump + sign-on bonus + accelerated equity vest addresses the stake; unilaterally matching the base doesn't.
 
-When you discover an enjeu mid-conversation, slow down. The room shifts.
+When you discover the underlying stake mid-conversation, slow down. The room shifts.
 
 ## BATNA, ZOPA, and the operational divergence
 
@@ -113,7 +113,7 @@ The orthodox view (still useful):
 Use these for **preparation**:
 
 - Set your rupture point in the Mandascan based on your BATNA.
-- Estimate the counterparty's BATNA. Commercial: who else are they evaluating, what does staying with the incumbent cost them, what's their build-vs-buy alternative? Salary: what does it cost you to stay at current compensation vs walk to a competing offer? NAO: what does the union lose if no agreement is reached and they call a strike? Recruitment: what's the candidate's likely outside option, and what's their cost of staying?
+- Estimate the counterparty's BATNA. Commercial: who else are they evaluating, what does staying with the incumbent cost them, what's their build-vs-buy alternative? Salary: what does it cost you to stay at current compensation vs walk to a competing offer? Annual collective bargaining: what does the union lose if no agreement is reached and they call a strike? Recruitment: what's the candidate's likely outside option, and what's their cost of staying?
 - Sketch the ZOPA: where does your bottom overlap with their top?
 
 **Do not use BATNA for execution.** Over-investing in plan B during the negotiation itself erodes commitment to plan A. The counterparty reads it as low confidence (your tone, your eye contact, your willingness to walk through the door) and squeezes harder. The pattern: negotiators who openly tell their team _"if this doesn't work we have other options"_ close less than negotiators who behave as if this is the only deal that matters — even when both teams have the same actual alternatives behind them.
@@ -126,7 +126,7 @@ Two layered diagrams. Most systems-of-record (CRM, HRIS, EHR) only capture the f
 
 **Org chart** — formal hierarchy. Title, role, reports-to. Build by reading the public-facing organisational structure (company website, LinkedIn, filings; the union's federation chart; the family's stated decision-makers; the hiring committee roster). White-source intel.
 
-**Influence map** — real influence relationships. Who actually persuades whom? Who has the CFO's / DRH's / treating consultant's ear? Who's the "informal" decision-maker who never shows up on the org chart? Build by listening to your champion / advocate and by behavioural reading during meetings (who do people glance at before answering?).
+**Influence map** — real influence relationships. Who actually persuades whom? Who has the CFO's / CHRO's / treating consultant's ear? Who's the "informal" decision-maker who never shows up on the org chart? Build by listening to your champion / advocate and by behavioural reading during meetings (who do people glance at before answering?).
 
 In every domain studied: the real decision often passes through informal influencers invisible on the formal map. Negotiators who only map the formal hierarchy get ambushed in the closing meeting by a person they didn't know existed — the procurement consultant, the spouse, the federation lawyer, the supervising consultant, the recruiter's manager.
 
@@ -138,7 +138,7 @@ A discipline borrowed from intelligence work that prevents both under-preparatio
 - **Grey** — active monitoring. Calls with mutual contacts, sales-intel platforms (ZoomInfo, Gong public data), conference attendance lists, alumni networks. Legal but requires discipline.
 - **Black** — targeted investigation. Pretexting, paying for non-public information, accessing private channels. Often illegal, ethically corrosive, will burn the relationship if discovered. This skill rules it out.
 
-Effort scales with stakes. For a $50K+ ACV commercial deal, expect 2–4 hours on white-source intel before the first call. For $500K+ deals or major NAO rounds, 1–2 days minimum. For a salary ask, 2–4 hours on market data plus internal-pattern intel.
+Effort scales with stakes. For a $50K+ ACV commercial deal, expect 2–4 hours on white-source intel before the first call. For $500K+ deals or major annual collective bargaining rounds, 1–2 days minimum. For a salary ask, 2–4 hours on market data plus internal-pattern intel.
 
 ## MICE — motivation per stakeholder
 
@@ -147,7 +147,7 @@ For each named person on the counterparty side (or your own side, for internal n
 - **M**oney — bonus, commission, P&L responsibility, compensation tied to the outcome.
 - **I**deology — they personally believe in your category / mission / approach (or in the cause behind the union demand, the family's faith, the candidate's mission alignment).
 - **C**ompromise — they're the broker; their goal is consensus, not the best technical answer. Common in: procurement, HR business partners, hiring committees.
-- **E**go — visibility, reputation, "I want to be the one who brought this in / led this NAO / hired this person".
+- **E**go — visibility, reputation, "I want to be the one who brought this in / led this collective bargaining / hired this person".
 
 MICE per stakeholder shapes how you talk to each one. The Compromise person needs you to make their job (building consensus) easier; pitching them on technical excellence is wasted air. The Ego person needs you to give them visibility; underplaying them ruins the relationship.
 
@@ -161,11 +161,11 @@ Run this interactively with the user 24 hours before any high-stakes meeting. Do
 
 3. **Stakeholder map** — _"Who's on the formal map (title, role, reports-to)? Who's on the informal map — the person people glance at before answering, the one who'll influence the outcome without being in the room?"_
 
-4. **POE per stakeholder** — _"For each person on the counterparty side: what have they said (Position), what outcome are they targeting (Objectif), and what's their deeper personal or organisational stake (Enjeu)?"_ The Enjeu is the one that unlocks movement; if it's missing, plan a calibrated question to surface it live.
+4. **POS per stakeholder** — _"For each person on the counterparty side: what have they said (Position), what outcome are they targeting (Objective), and what's their deeper personal or organisational stake?"_ The Stake is the one that unlocks movement; if it's missing, plan a calibrated question to surface it live.
 
 5. **BATNA** — _"What's your best alternative if this negotiation fails? What's your estimate of theirs?"_ Thin BATNA = low leverage. Name it now so you can set the Rupture point clearly.
 
-6. **Top calibrated questions** — _"What are your top 5–6 'what' and 'how' questions for the meeting — the ones designed to surface their real Enjeu?"_ (→ see [calibrated questions library](#calibrated-questions-library) below.) No "why" questions — they trigger defensiveness.
+6. **Top calibrated questions** — _"What are your top 5–6 'what' and 'how' questions for the meeting — the ones designed to surface their real underlying stake?"_ (→ see [calibrated questions library](#calibrated-questions-library) below.) No "why" questions — they trigger defensiveness.
 
 7. **Concession ladder** — _"Name 3–4 concessions you're willing to make. For each one: what do you ask for in return?"_ Every concession is a trade. No trades pre-approved without a counter-ask.
 
@@ -222,7 +222,7 @@ Real champions answer all three with specifics and named people. Pseudo-champion
 - **Find a parallel champion.** Multi-thread without burning the current contact. _"It would help me to validate this with X — would you be open to a brief intro?"_
 - **Re-qualify the deal.** No champion = MEDDPICC failure. Lower the deal stage in CRM until the gap is closed.
 
-**Failure signal.** Three calls in, you can't name the champion's enjeu (their personal stake). They're a coach.
+**Failure signal.** Three calls in, you can't name the champion's underlying stake. They're a coach.
 
 ## SPIN Selling
 
@@ -257,7 +257,7 @@ Forbidden: _"Why?"_ / _"Why did you do that?"_ Replacement: _"What led you there
 
 A library of 20 calibrated questions, organised by what they surface:
 
-**Surface the enjeu (deeper stake):**
+**Surface the underlying stake:**
 
 - _"What does success look like for you personally on this?"_
 - _"What's at stake if this works / doesn't work?"_
@@ -279,7 +279,7 @@ A library of 20 calibrated questions, organised by what they surface:
 
 **Deflect unreasonable demands:**
 
-- _"How am I supposed to do that?"_ (canonical line — works across sales, salary, NAO, internal management)
+- _"How am I supposed to do that?"_ (canonical line — works across sales, salary, annual collective bargaining, internal management)
 - _"What would you do in my position?"_
 - _"Help me understand what makes that the right number for you."_
 
@@ -308,8 +308,8 @@ The 7 facial emotions most consistently documented in cross-cultural research (a
 | Emotion | Detect | Interpret | React tactically |
 | --- | --- | --- | --- |
 | **Anger** | Brows drawn down and together (lion's wrinkle), lips pressed or rolled inward | Sense of injustice, attempt to dominate | Let them vent without interrupting; verbalise the emotion separately from the behaviour: _"I can hear the frustration. Help me understand what triggered it."_ |
-| **Fear** | Brows raised and drawn together, upper eyelid raised (sclera visible above iris), lips pulled horizontally | Worry about consequences, threat to a vital stake | Secure with facts; offer an OCP framing — see [tactics.md](tactics.md#ocp--objectif-commun-partagé). Never argue past fear — the cortex isn't online. |
-| **Joy** | Lip corners raised + orbicularis oculi contracted (crow's feet) | Genuine satisfaction with the proposal — even when the stated position remains hard | Maintain your offer. The micro-expression of joy is the strongest signal that you've hit the buyer's enjeu. Concede further and you're paying for something already won. |
+| **Fear** | Brows raised and drawn together, upper eyelid raised (sclera visible above iris), lips pulled horizontally | Worry about consequences, threat to a vital stake | Secure with facts; offer an SCO framing — see [tactics.md](tactics.md#sco--shared-common-objective). Never argue past fear — the cortex isn't online. |
+| **Joy** | Lip corners raised + orbicularis oculi contracted (crow's feet) | Genuine satisfaction with the proposal — even when the stated position remains hard | Maintain your offer. The micro-expression of joy is the strongest signal that you've hit the buyer's underlying stake. Concede further and you're paying for something already won. |
 | **Sadness** | Inner brow corners raised, eyelids drooping, lip corners pulled down | Sense of loss, fatigue with the conflict | Verbalise to neutralise the limbic activation; bring the discussion back to facts gently. _"It seems like this is wearing on the team — let's take stock of where we actually are."_ |
 | **Surprise** | Brows arched, eyes wide (sclera visible), mouth slack-open | Unexpected information, momentary destabilisation | Watch the **next** expression. Surprise alone is neutral — it's followed within ~1 second by fear (bad news for them) or joy (good news). The follower tells you the actual valence. |
 | **Disgust** | Nose wrinkled, upper lip raised | Visceral rejection of the proposal or the person | Change angle — either reframe the proposal or pause the meeting. Ploughing through disgust amplifies it. |
@@ -317,7 +317,7 @@ The 7 facial emotions most consistently documented in cross-cultural research (a
 
 The diagnostic discipline: when you see one, **slow down**. Don't pivot the conversation immediately — the buyer will read that as detection and shut the channel. Continue the surface conversation while internally adjusting your next move.
 
-### Latence — response delay
+### Response delay
 
 The pause between your question and their answer. Calibrate against the buyer's baseline first; some people are simply slow speakers.
 
@@ -325,7 +325,7 @@ The pause between your question and their answer. Calibrate against the buyer's 
 - **Short latence on a complex question** — _"Walk me through how you'd justify this to your CFO?"_ producing an immediate fluent answer — signals canned/rehearsed response. Probe for the seam: _"What's the part of that explanation you're least confident about?"_
 - **Increasing latence over a session** — early answers fast, later answers slow — signals fatigue or that you're approaching a sensitive area. Either pause the conversation or gently retreat to safer ground and return later.
 
-### Proxémie — physical distance and orientation
+### Proxemics — physical distance and orientation
 
 The four conventional proxemic zones (research consensus):
 
@@ -338,7 +338,7 @@ The four conventional proxemic zones (research consensus):
 
 **Reading the counterparty's choice.** Where they sit and how far they lean tells you their state. Leaning forward into personal zone during your offer = they like it; pulling back into social zone = they're disengaging or running internal cost calc.
 
-**The positionnement désaxé technique.** When in-person, place yourself at right angles to the counterparty rather than directly opposite. Direct facing reads as competitive (boxing stance); right-angle reads as cooperative (working on a shared problem). Use a corner of the table or a side-by-side seating where possible.
+**The off-axis positioning technique.** When in-person, place yourself at right angles to the counterparty rather than directly opposite. Direct facing reads as competitive (boxing stance); right-angle reads as cooperative (working on a shared problem). Use a corner of the table or a side-by-side seating where possible.
 
 **Video-call proxémie.** On video, watch:
 
@@ -346,7 +346,7 @@ The four conventional proxemic zones (research consensus):
 - Side-glances during answers signal someone they're checking with — usually a procurement minder, an HR observer, or a family member. Surface it: _"Is there someone else who should be on this call to make it productive?"_
 - Lean-in vs lean-out is more visible on video than in person — the camera is unforgiving.
 
-### Ruptures de rythme — pace breaks
+### Pace Breaks — rhythm disruptions
 
 Sudden shifts in tempo, tone, or energy. Diagnostic value:
 
@@ -365,7 +365,7 @@ Distinguish two kinds of silence:
 
 After 1–2 discovery conversations, you should be able to write down:
 
-1. The counterparty's POE per axis (Position / Objectif / Enjeu).
+1. The counterparty's POS per axis (Position / Objective / Stake).
 2. For commercial negotiations, the MEDDPICC letters with named people and specific facts. For other domains: stakeholder map + decision criteria + paper-process equivalent.
 3. The decision process with named steps and rough dates.
 4. The 3 most likely objections in priority order.

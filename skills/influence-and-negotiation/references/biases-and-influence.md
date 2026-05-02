@@ -2,7 +2,7 @@
 
 Negotiation is an exchange between two limbic systems wearing suits. The prepared negotiator recognises the biases at play — both the ones they want to use ethically, and the ones the counterparty is using on them — and adapts.
 
-This file maps the 9 cognitive biases and 7 ethical influence levers, with applications across B2B sales, salary negotiation, NAO, internal management, and recruitment contexts. The frontier between influence and manipulation lives in [references/manipulation.md](manipulation.md).
+This file maps the 9 cognitive biases and 7 ethical influence levers, with applications across B2B sales, salary negotiation, annual collective bargaining, internal management, and recruitment contexts. The frontier between influence and manipulation lives in [references/manipulation.md](manipulation.md).
 
 ## The line — influence vs manipulation
 
@@ -17,13 +17,13 @@ Practical implication: every lever below has an ethical use AND a manipulative v
 
 For each: definition, ethical use in B2B, classic mistake, defence when used against you.
 
-### 1. Anchoring (ancrage)
+### 1. Anchoring
 
 The first number sets the perceptual frame. Already detailed in [references/tactics.md](tactics.md#anchoring) — pre-anchor with your range, counter-extreme if they go first, use non-round numbers, hold silence after the anchor.
 
 **Defence when anchored against you.** Use the reality principle: name the public market data that contradicts their number. _"Your $100K reference doesn't match the public list pricing — let me share what we're seeing in the market."_ Then immediately counter-anchor.
 
-### 2. Loss aversion (aversion à la perte)
+### 2. Loss aversion
 
 The pain of losing is roughly 2× the joy of an equivalent gain (well-replicated finding in behavioural economics). A buyer over-weights what they already have.
 
@@ -31,7 +31,7 @@ The pain of losing is roughly 2× the joy of an equivalent gain (well-replicated
 - **Classic mistake.** Pitching upside ROI to a buyer in defence mode. They hear "you're asking me to risk something I have for something I don't."
 - **Defence.** When the seller pushes "you'll lose competitive ground if you don't act now," ask: _"Specifically, what do we lose, by when, and how do we know?"_ Vague loss claims usually evaporate.
 
-### 3. Scarcity (rareté)
+### 3. Scarcity
 
 Perceived value rises with perceived limitation.
 
@@ -39,7 +39,7 @@ Perceived value rises with perceived limitation.
 - **Classic mistake.** Manufactured scarcity ("price goes up Friday"). Procurement detects it and your future credibility dies. See `manipulation.md`.
 - **Defence.** Test verifiability: _"What happens if we close two weeks later?"_ Real scarcity has specific consequences; fake scarcity dissolves.
 
-### 4. Social proof (preuve sociale)
+### 4. Social proof
 
 Buyers reduce decision risk by referencing peers.
 
@@ -47,7 +47,7 @@ Buyers reduce decision risk by referencing peers.
 - **Classic mistake.** Logo-slide overload with companies the buyer doesn't recognise or that aren't comparable. Generic social proof reads as marketing fluff.
 - **Defence.** Ask for ≥ 3 references with **directly comparable use cases**. Halo effects (impressive but irrelevant logos) are the seller's tell.
 
-### 5. Contrast (contraste)
+### 5. Contrast
 
 Sequencing two options changes how each is perceived.
 
@@ -55,7 +55,7 @@ Sequencing two options changes how each is perceived.
 - **Classic mistake.** "The marteau and the enclume" — extreme outer options that frame the middle as an obvious choice. If the buyer detects it, trust dies.
 - **Defence.** Ignore the framing; evaluate each option against your Mandascan independently.
 
-### 6. Halo effect (effet de halo)
+### 6. Halo effect
 
 One salient trait colours all others. A consultant from a prestigious firm is judged competent on technical content because of brand association.
 
@@ -63,15 +63,15 @@ One salient trait colours all others. A consultant from a prestigious firm is ju
 - **Classic mistake.** Relying on brand prestige past the discovery call — once the buyer is past first impression, they want substance.
 - **Defence.** Test on substance. _"Walk me through how you handled this exact case at $similar_company."_ Vague answers reveal halo without depth.
 
-### 7. Framing (cadrage)
+### 7. Framing
 
 How a question is posed shapes the answer.
 
-- **Ethical use.** Reframe pure cost into TCO. _"$200K is the licence. The question is the 5-year operating cost — what does keeping the legacy system cost you per quarter?"_ See reframing in [references/tactics.md](tactics.md#reframing-recadrage).
+- **Ethical use.** Reframe pure cost into TCO. _"$200K is the licence. The question is the 5-year operating cost — what does keeping the legacy system cost you per quarter?"_ See reframing in [references/tactics.md](tactics.md#reframing).
 - **Classic mistake.** Reframing past the buyer's actual frame ("you're not buying software, you're buying transformation"). Reads as evasive.
 - **Defence.** Surface the frame: _"Help me understand which lens you're using to evaluate — cost, risk, or strategic fit?"_ Naming it neutralises it.
 
-### 8. Commitment-consistency (engagement-cohérence)
+### 8. Commitment-consistency
 
 People honour what they've already said publicly. Foot-in-the-door dynamic.
 
@@ -79,7 +79,7 @@ People honour what they've already said publicly. Foot-in-the-door dynamic.
 - **Classic mistake.** Target fascination — over-investing in a deal because of past sunk effort, not future fit. See closing pathologies in [references/debrief.md](debrief.md#5-target-fascination).
 - **Defence.** Watch your own consistency drift. If your Mandascan rupture is breached, walk — even if you've committed publicly to the deal.
 
-### 9. Reciprocity (réciprocité)
+### 9. Reciprocity
 
 Receive a favour, feel pressure to return one.
 

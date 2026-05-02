@@ -1,6 +1,6 @@
 # Team negotiation
 
-For deals above SMB threshold (and for high-stakes negotiations beyond commercial — joint social negotiations, multi-party mediations, complex hiring panels), you negotiate as a team — not because more people make better decisions, but because role separation prevents the cognitive overload that produces concession errors. This file covers the four-role architecture, the _effet fusible_ pattern, between-round debriefing, and the discipline of in-room signalling.
+For deals above SMB threshold (and for high-stakes negotiations beyond commercial — joint social negotiations, multi-party mediations, complex hiring panels), you negotiate as a team — not because more people make better decisions, but because role separation prevents the cognitive overload that produces concession errors. This file covers the four-role architecture, the _scapegoat effect_ pattern, between-round debriefing, and the discipline of in-room signalling.
 
 ## Why role separation matters
 
@@ -14,7 +14,7 @@ Use as many as the deal warrants. SMB: solo or N1 + observer. Mid-market: N1 + N
 
 ### N1 — primary negotiator
 
-Front of house. Holds the relationship. Speaks. Applies the listening tactics (TLS écoute, calibrated questions, mirroring/labeling). Their cognitive job is the **flow** — reading the room and routing the conversation.
+Front of house. Holds the relationship. Speaks. Applies the listening tactics (TLS — Listening, calibrated questions, mirroring/labeling). Their cognitive job is the **flow** — reading the room and routing the conversation.
 
 The N1 should NOT be tracking mandate floors live. Their working memory is already on the buyer's words and behaviour. Mandate-tracking is the N2's job.
 
@@ -37,9 +37,9 @@ The SUP is who the negotiator calls during a tactical pause to validate breachin
 
 ### Decision-Maker — deliberately in retreat
 
-The CRO, VP Sales, or executive who can sign exceptions to the mandate. The discipline: **the decision-maker is not in the room** during normal negotiation. Their absence creates the **effet fusible** (fuse effect).
+The CRO, VP Sales, or executive who can sign exceptions to the mandate. The discipline: **the decision-maker is not in the room** during normal negotiation. Their absence creates the **scapegoat effect**.
 
-#### Effet fusible
+#### Scapegoat
 
 The N1's most useful refusal: _"I'd love to do that. I genuinely don't have the authority — let me check with my CRO."_ This is not weakness; it's a structural block on the buyer's escalation pressure. The negotiator cannot be argued past their authority limit because they don't have it. The CRO, in turn, has the discretion to grant the exception or hold the line — without the buyer feeling personally rebuffed.
 
@@ -66,7 +66,7 @@ A short focused debrief between every round of a multi-session negotiation. Diff
 3. **What information did we extract?** Not what we delivered. What did we LEARN?
 4. **What information did we leak?** Did the N1 over-share on a roadmap point, an internal dependency, a competing deal? Note for next round.
 5. **What is true / false / uncertain?** Which buyer claims survive scrutiny? Which need verification before next round?
-6. **What were the marquant moments?** A buyer's micro-expression of joy on the SLA term (= you hit their enjeu). A long latence on the budget question (= the budget claim is shaky). A territorial reaction to a multi-thread suggestion (= champion is protecting their gatekeeper status).
+6. **What were the key moments?** A buyer's micro-expression of joy on the SLA term (= you hit their underlying stake). A long latence on the budget question (= the budget claim is shaky). A territorial reaction to a multi-thread suggestion (= champion is protecting their gatekeeper status).
 
 The output is a 1-paragraph adjustment to the strategy for the next round. Without this debrief, every round repeats the previous mistakes — see the 17% statistic in [references/debrief.md](debrief.md).
 

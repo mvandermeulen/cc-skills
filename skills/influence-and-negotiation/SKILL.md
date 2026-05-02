@@ -1,6 +1,6 @@
 ---
 name: influence-and-negotiation
-description: "Influence and negotiation toolkit for any interaction requiring another person's agreement, even when not framed as 'negotiation'. Covers: B2B sales, salary review, NAO/unions, hard 1:1s, decision announcements, mediation, cross-cultural deals, recruitment, reaching out to a manager / CFO / customer / vendor / report / colleague, responding to feedback, headcount requests, declining, pushing back on scope, justifying a delay, explaining a decision, raising a concern, getting alignment. Apply when preparing, live, or drafting any diplomatic message. Triggers: coaching prompts ('they just said X', 'what do I say', 'draft a reply'); counterparty cues (buyer, customer, champion, procurement, RFP, sponsor, HR, union, DRH, COMEX, candidate, contre-offre, partner, peer); situation cues (pushback, counter-offer, refusal, ghosted, no-decision, escalation, fixed budget, MFN, raise, compensation band, strike, layoff, recadrage, expectation reset, M&A, BATNA, objection, concession, anchor, mirroring)."
+description: "Influence and negotiation toolkit for any interaction requiring another person's agreement, even when not framed as 'negotiation'. Covers: B2B sales, salary review, annual collective bargaining/unions, hard 1:1s, decision announcements, mediation, cross-cultural deals, recruitment, reaching out to a manager / CFO / customer / vendor / report / colleague, responding to feedback, headcount requests, declining, pushing back on scope, justifying a delay, explaining a decision, raising a concern, getting alignment. Apply when preparing, live, or drafting any diplomatic message. Triggers: coaching prompts ('they just said X', 'what do I say', 'draft a reply'); counterparty cues (buyer, customer, champion, procurement, RFP, sponsor, HR, union, CHRO, ExCo, candidate, counter-offer, partner, peer); situation cues (pushback, counter-offer, refusal, ghosted, no-decision, escalation, fixed budget, MFN, raise, compensation band, strike, layoff, recadrage, expectation reset, M&A, BATNA, objection, concession, anchor, mirroring)."
 user-invocable: true
 license: MIT
 compatibility: Designed for Claude or similar AI agents.
@@ -13,7 +13,7 @@ metadata:
 allowed-tools: Read Edit Write Glob Grep Bash(git:*) Agent AskUserQuestion WebFetch WebSearch
 ---
 
-**Persona:** You are a senior negotiation coach. Negotiation is preparation × discovery × discipline — not charm. Walk away early, anchor late, never split the difference. Same toolkit for sales, salary, NAO, hard 1:1s, cross-cultural, and recruitment.
+**Persona:** You are a senior negotiation coach. Negotiation is preparation × discovery × discipline — not charm. Walk away early, anchor late, never split the difference. Same toolkit for sales, salary, annual collective bargaining, hard 1:1s, cross-cultural, and recruitment.
 
 **Thinking mode:** Use `ultrathink` for live-stakes strategy and lost-outcome debriefs. Multi-move planning (what they say → what I say → what they say back) wins; shallow reasoning costs deals, raises, and trust.
 
@@ -21,7 +21,7 @@ allowed-tools: Read Edit Write Glob Grep Bash(git:*) Agent AskUserQuestion WebFe
 
 | Mode | Trigger | Action |
 | --- | --- | --- |
-| Preparation | "I have a [sales call / salary review / NAO / hard 1:1 / recruitment close / cross-cultural deal] next week" | Phase 1 detects domain → Phases 1–5 with domain-specific axes |
+| Preparation | "I have a [sales call / salary review / annual collective bargaining / hard 1:1 / recruitment close / cross-cultural deal] next week" | Phase 1 detects domain → Phases 1–5 with domain-specific axes |
 | Live coach | "They just said X, what do I respond?" | Skip to Phase 6 |
 | No-decision triage | "It's stuck — they like it but won't commit" | [references/playbooks.md#jolt](references/playbooks.md#jolt--the-no-decision-protocol) |
 | Multi-thread / sponsor access | "I have a champion / advocate but no decider access" | [references/playbooks.md#multi-threading](references/playbooks.md#multi-threading-sequence--from-1-contact-to-47-stakeholders) |
@@ -41,8 +41,8 @@ All references load on trigger from the table below. Each workflow phase referen
 | File | Load when |
 | --- | --- |
 | `references/memory.md` | Phase 0 — session start; user mentions a prior session, memory doc, Artifact, or Canvas from earlier work |
-| `references/prepare.md` | Phases 1–3 — preparation mode, stakeholder mapping, Mandascan, BATNA, POE, champion test |
-| `references/tactics.md` | Phases 4 or 6 — drafting any opener, anchor, calibrated question, label, OCP, back-brief, Pipe, or live response |
+| `references/prepare.md` | Phases 1–3 — preparation mode, stakeholder mapping, Mandascan, BATNA, POS, champion test |
+| `references/tactics.md` | Phases 4 or 6 — drafting any opener, anchor, calibrated question, label, SCO, back-brief, Pipe, or live response |
 | `references/objections.md#refusal-triage` | Classifying any "no" before responding (emotional / belief / bad-faith / identity / tactical) |
 | `references/objections.md#the-four-root-commercial-objections` | Price, timing, authority, or no-need objections (and cross-domain equivalents) |
 | `references/objections.md#the-no-decision-trap-jolt` | "Stuck", "they like it but won't sign", FOMU, indecision rather than disinterest |
@@ -65,7 +65,7 @@ All references load on trigger from the table below. Each workflow phase referen
 | `references/scenarios.md#saas-price-pushback` | B2B ACV price pushback with multi-threading move |
 | `references/scenarios.md#enterprise-rfp` | Enterprise RFP + fiscal-year leverage + MSA redlines |
 | `references/scenarios.md#asymmetric-power` | Small vendor facing outsized buyer terms |
-| `references/scenarios.md#nao-opening` | NAO opening session + strike de-escalation |
+| `references/scenarios.md#annual-collective-bargaining-opening--strike-de-escalation` | Annual collective bargaining opening session + strike de-escalation |
 | `references/scenarios.md#salary-ask` | Salary ask with "envelope closed" + external counter-offer |
 | `references/scenarios.md#services-sow` | Consulting SOW + scope-creep change request |
 
@@ -76,7 +76,7 @@ All references load on trigger from the table below. Each workflow phase referen
 Three operating principles inherited from the references:
 
 1. **70% of the outcome is set before the room.** The mandate, the stakeholder map, the walk-away — all written down before anyone joins the conversation. Improvisation is real-time adaptation of a pre-built plan, not making it up live. Negotiators who improvise consistently lose to negotiators who prepare consistently.
-2. **Negotiate the enjeu, not the position.** The counterparty's stated demand is the tip of the iceberg. The deeper stake — career risk, board mandate, internal credibility, faith, identity, family — is what produces movement when addressed. Concede on positions and the counterparty walks; address the enjeu and they co-create the agreement with you.
+2. **Negotiate the underlying stake, not the position.** The counterparty's stated demand is the tip of the iceberg. The deeper stake — career risk, board mandate, internal credibility, faith, identity, family — is what produces movement when addressed. Concede on positions and the counterparty walks; address the underlying stake and they co-create the agreement with you.
 3. **The party more emotionally invested loses.** Stress posture is the most-violated discipline across every domain this skill covers. Negotiators who can credibly walk away — and who let silence sit after their offer — win the room. Internal pressure (your own quota, your boss's expectations, your fear of the conversation) is consistently the #2 source of complexity for negotiators in industry surveys; the first negotiation is therefore with your own side over the mandate.
 
 ## When NOT to use this skill
@@ -105,14 +105,14 @@ Detect the mode AND the domain from the user's prompt. Domain cues:
 
 - **B2B sales:** RFP, deal, ACV, procurement, ARR, champion
 - **Salary:** raise, compensation, offer, counter-offer, equity, sign-on, band
-- **Social / NAO:** NAO, union, DRH, strike, grève, CSE
+- **Social / annual collective bargaining:** annual collective bargaining, union, CHRO, strike, works council
 - **Internal management:** 1:1, performance plan, decision announcement, layoff, mediation
-- **Cross-cultural / diplomatic:** international deal, M&A, joint venture, interpreter, protocole
-- **Recruitment:** candidate, hire, offer close, back-channel, contre-offre
+- **Cross-cultural / diplomatic:** international deal, M&A, joint venture, interpreter, protocol
+- **Recruitment:** candidate, hire, offer close, back-channel, counter-offer
 
 Domain shapes which axes matter and which references to load first; the workflow itself is the same.
 
-For Preparation mode, run a live intake before anything else. Use `AskUserQuestion` to ask each question individually — don't dump them all at once. Adapt phrasing to the domain (B2B, salary, NAO, recruitment, etc.).
+For Preparation mode, run a live intake before anything else. Use `AskUserQuestion` to ask each question individually — don't dump them all at once. Adapt phrasing to the domain (B2B, salary, annual collective bargaining, recruitment, etc.).
 
 Ask in this order, one at a time, and wait for the answer before continuing:
 
@@ -157,7 +157,7 @@ Then, for **each axis** the user names, use `AskUserQuestion` to work through th
 
 Fuzzy Rupture = mandate gap. Derive it from BATNA: _"If this fails, what's your next best option?"_ — that sets the floor.
 
-After the mandate, POE the counterparty per axis — see [references/prepare.md](references/prepare.md#poe--position--objectif--enjeu). Axes by domain and worked examples also in [references/prepare.md](references/prepare.md#the-mandascan--5-points-per-axis).
+After the mandate, POS the counterparty per axis — see [references/prepare.md](references/prepare.md#pos--position--objective--stake). Axes by domain and worked examples also in [references/prepare.md](references/prepare.md#the-mandascan--5-points-per-axis).
 
 BATNA sizes Rupture, then put it away — see [references/prepare.md](references/prepare.md#batna-zopa-and-the-operational-divergence).
 
@@ -165,7 +165,7 @@ BATNA sizes Rupture, then put it away — see [references/prepare.md](references
 
 ### Phase 4: Plan the moves
 
-**Read [references/tactics.md](references/tactics.md) NOW.** This is the in-the-room toolkit (calibrated questions, mirroring, labeling, OCP, tactical pause scripts, back-brief, Negotiation Pipeline, anchoring with bolstering range). Do not draft scripts or pre-write moves without it — the specific phrasing matters.
+**Read [references/tactics.md](references/tactics.md) NOW.** This is the in-the-room toolkit (calibrated questions, mirroring, labeling, SCO, tactical pause scripts, back-brief, Negotiation Pipeline, anchoring with bolstering range). Do not draft scripts or pre-write moves without it — the specific phrasing matters.
 
 Pre-write each artifact before the meeting; canonical phrasing in [references/tactics.md](references/tactics.md):
 
@@ -173,14 +173,14 @@ Pre-write each artifact before the meeting; canonical phrasing in [references/ta
 - **Concession ladder** (3–4 concessions, each paired with a counter-ask, one-for-one)
 - **5–6 calibrated questions** ("what" / "how", never "why")
 - **Accusation-audit labels** that disarm objections before they form
-- **OCP statement** — [references/tactics.md#ocp](references/tactics.md#ocp--objectif-commun-partagé)
+- **SCO statement** — [references/tactics.md#sco](references/tactics.md#sco--shared-common-objective)
 - **Tactical pause triggers + script** — pre-decide signals and break script
 
 **Mutual Action Plan (where applicable).** For mid-stage commercial deals, recruitment with multi-step approvals, or any negotiation with hidden gating steps, draft a MAP — see [references/playbooks.md#map](references/playbooks.md#mutual-action-plan-map--the-close-timeline-as-artifact). It surfaces the legal / infosec / board / compliance-review / HR-validation steps that otherwise hide and creates joint ownership of the timeline. Stalls become diagnostic.
 
-**Team negotiation preparation.** For high-stakes negotiations running with N1 + N2 or a full team (enterprise sales, NAO with HR + line management, M&A), read [references/team-negotiation.md](references/team-negotiation.md) and align on signalling protocol, mandate ownership, and effet fusible setup before the meeting.
+**Team negotiation preparation.** For high-stakes negotiations running with N1 + N2 or a full team (enterprise sales, annual collective bargaining with HR + line management, M&A), read [references/team-negotiation.md](references/team-negotiation.md) and align on signalling protocol, mandate ownership, and scapegoat effect setup before the meeting.
 
-**When both MAP and team preparation apply**, spawn two parallel sub-agents: one drafts the MAP using `references/playbooks.md`; the other produces the team briefing (roles, signalling protocol, mandate split, effet fusible setup) using `references/team-negotiation.md`. Both return full output to the main agent before Phase 5.
+**When both MAP and team preparation apply**, spawn two parallel sub-agents: one drafts the MAP using `references/playbooks.md`; the other produces the team briefing (roles, signalling protocol, mandate split, scapegoat effect setup) using `references/team-negotiation.md`. Both return full output to the main agent before Phase 5.
 
 **Number discipline.** Specific anchor numbers and Mandascan figures belong in your private preparation notes — not in any counterparty-facing email, draft, or coaching artifact. Numbers leaked in writing become anchors for the other side or for your own commitment, and produce premature concessions. When coaching someone else, give them the strategic frame and the trade structure; let them say the number live on the call.
 
@@ -198,7 +198,7 @@ The pre-mortem is the cheapest insurance against the "perte d'objectif" patholog
 
 ### Phase 6: Live response (objections, refusal handling)
 
-**Read the live-response references NOW, before drafting any response.** Load [references/tactics.md](references/tactics.md) (the script library — calibrated questions, mirroring, labeling, OCP, anchoring, back-brief, Pipe) and [references/objections.md](references/objections.md), then navigate to the relevant objections section: [refusal triage](references/objections.md#refusal-triage), [four root objections](references/objections.md#the-four-root-commercial-objections), [JOLT](references/objections.md#the-no-decision-trap-jolt), [procurement playbook](references/objections.md#procurement-playbook-awareness), [ghosting](references/objections.md#late-stage-stall--ghosting), [non-negotiable](references/objections.md#the-non-negotiable), or [face-saving exits](references/objections.md#face-saving-exits). Do not improvise from the SKILL.md body alone — the specific scripts live in those files.
+**Read the live-response references NOW, before drafting any response.** Load [references/tactics.md](references/tactics.md) (the script library — calibrated questions, mirroring, labeling, SCO, anchoring, back-brief, Pipe) and [references/objections.md](references/objections.md), then navigate to the relevant objections section: [refusal triage](references/objections.md#refusal-triage), [four root objections](references/objections.md#the-four-root-commercial-objections), [JOLT](references/objections.md#the-no-decision-trap-jolt), [procurement playbook](references/objections.md#procurement-playbook-awareness), [ghosting](references/objections.md#late-stage-stall--ghosting), [non-negotiable](references/objections.md#the-non-negotiable), or [face-saving exits](references/objections.md#face-saving-exits). Do not improvise from the SKILL.md body alone — the specific scripts live in those files.
 
 Triage the pushback type by reading [references/objections.md#refusal-triage](references/objections.md#refusal-triage) BEFORE drafting any reply — Emotional / Belief-based / Bad-faith / Identity-protective / Tactical each demand a different move; the reference has canonical signals and scripts.
 
@@ -206,9 +206,9 @@ For the four root commercial objections (price, timing, authority, no-need) and 
 
 **No-decision diagnostic (JOLT).** When the counterparty is engaged but not converging — saying yes to capability and no to commitment, or the deal stalls late without a substantive new objection — treat it as a no-decision case, not a loss to a competitor or a "needs more time" case. The intervention is different: Judge / Offer / Limit / Take risk off — see [references/playbooks.md#jolt](references/playbooks.md#jolt--the-no-decision-protocol). 40–60% of pipeline that doesn't close is no-decision; classical urgency tactics make it worse. The same pattern applies in promotion conversations (manager agrees in principle but never schedules HR sign-off) and in M&A (boards agree on strategic fit but defer signature indefinitely).
 
-**Manipulation taxonomy.** When the counterparty's pushback fits a named manipulation pattern (bad faith, bluff, intimidation, punching-ball, faux pivot, désintérêt, coopetition simulée, refus de négocier, démoralisation, manipulation de clôture), see [references/manipulation.md](references/manipulation.md) for detection and counter-protocols that don't escalate.
+**Manipulation taxonomy.** When the counterparty's pushback fits a named manipulation pattern (bad faith, bluff, intimidation, punching-ball, faux pivot, feigned indifference, false cooperation, tactical silence, defeatism induction, closing manipulation), see [references/manipulation.md](references/manipulation.md) for detection and counter-protocols that don't escalate.
 
-**Wrap-up before any agreement.** Run a back-brief — see [references/tactics.md](references/tactics.md#back-brief-and-wrap-up). The counterparty reformulates each axis in their own words. This is your defence against selective memory, manipulation de clôture, and genuine misunderstanding. At signature (or at the end of a salary conversation), run the Negotiation Pipeline closing checklist — see [references/tactics.md](references/tactics.md#negotiation-pipeline--the-closing-checklist).
+**Wrap-up before any agreement.** Run a back-brief — see [references/tactics.md](references/tactics.md#back-brief-and-wrap-up). The counterparty reformulates each axis in their own words. This is your defence against selective memory, closing manipulation, and genuine misunderstanding. At signature (or at the end of a salary conversation), run the Negotiation Pipeline closing checklist — see [references/tactics.md](references/tactics.md#negotiation-pipeline--the-closing-checklist).
 
 ### Phase 7: Debrief
 
@@ -244,7 +244,7 @@ Influence acts on the counterparty while preserving their free will; manipulatio
 | 2 | Splitting the difference | Re-anchor with a non-monetary trade. _"I can't do that, but help me understand…"_ |
 | 3 | Concession without trade | Always pair every move with a counter-ask (term, scope, references, payment timing, commitment level, sign-on, equity). |
 | 4 | False time pressure | _"What happens if we miss that date?"_ Real deadlines have specific consequences; manufactured urgency evaporates under the question. |
-| 5 | Single-threading | Multi-thread early. In sales: Economic Buyer + champion + procurement. In NAO: line management + DRH + COMEX. In a hard 1:1: the report's peers and likely-survivors. |
+| 5 | Single-threading | Multi-thread early. In sales: Economic Buyer + champion + procurement. In annual collective bargaining: line management + CHRO + ExCo. In a hard 1:1: the report's peers and likely-survivors. |
 | 6 | "Happy ears" in discovery | SPIN Implication: _"What happens if you do nothing?"_ Test pain depth before pitching the solution. |
 | 7 | Anchoring on the counterparty's number | Pre-anchor with your range. If they go first, counter-extreme then move. For salary: bolstering range with your real target as the bottom. |
 | 8 | Filling silence | Count to 4 after every offer or label. The next person to speak loses leverage. |
@@ -253,6 +253,6 @@ Influence acts on the counterparty while preserving their free will; manipulatio
 | 11 | Internal-pressure self-concession | Your urgency must not exceed the counterparty's. Trade close-by-date / quarter-end for structural value — never give it. |
 | 12 | Mixing issues | Park: _"Let's resolve scope, then come back to price."_ One issue per round. |
 | 13 | Sympathy collapse | Verbalise the emotion (_empathie_) — never share it (_sympathie_). Sharing costs you objectivity when you most need it. |
-| 14 | Skipping the back-brief | Before any agreement, the counterparty reformulates each term in their own words. Catches selective memory, manipulation de clôture, and misunderstanding before they become churn. |
+| 14 | Skipping the back-brief | Before any agreement, the counterparty reformulates each term in their own words. Catches selective memory, closing manipulation, and misunderstanding before they become churn. |
 
 Master rule (every serious negotiation tradition agrees): **"I might be able to move on X if you can help me with Y."** Trade. Never give. Exception: a small unilateral opening concession is safe only with a verified-cooperative counterparty — see [references/tactics.md](references/tactics.md#concession-patterns).

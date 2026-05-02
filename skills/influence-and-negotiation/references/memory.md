@@ -30,7 +30,7 @@ Detect what's available and use the best method for reading and writing the flat
 negotiation-{slug}/
   memory.md       ← entrypoint: status, index, load order, structure definition — READ THIS FIRST
   context.md      ← situation, parties, mandate (Mandascan)
-  stakeholders.md ← org map, influence map, MICE, POE per person
+  stakeholders.md ← org map, influence map, MICE, POS per person
   numbers.md      ← all quantitative data: offers, amounts, volumes, changes over time
   log.md          ← session-by-session append-only event log
   strategy.md     ← decisions made, rationale, next session plan
@@ -94,7 +94,7 @@ _List every file in use for this negotiation. If the default structure was adapt
 | --------------- | ----------------------------- | ------------ |
 | memory.md       | This entrypoint               | [date]       |
 | context.md      | Situation, parties, mandate   | [date]       |
-| stakeholders.md | Org map, MICE, POE            | [date]       |
+| stakeholders.md | Org map, MICE, POS            | [date]       |
 | numbers.md      | All figures, offers, movement | [date]       |
 | log.md          | Session log                   | [date]       |
 | strategy.md     | Decisions + next session plan | [date]       |
@@ -124,7 +124,7 @@ _⚠️ Flags that must not be forgotten: mandate approaching Escalation or Rupt
 
 ## Situation
 
-- **Type:** [B2B sales / Salary / NAO / Internal / Recruitment / Cross-cultural]
+- **Type:** [B2B sales / Salary / Annual collective bargaining / Internal / Recruitment / Cross-cultural]
 - **Our side:** [name(s), role(s), authority level]
 - **Counterparty:** [name(s), company, role(s)]
 - **Stakes:** [size, scope, who's affected]
@@ -176,9 +176,9 @@ _Updated at the end of every deep research run. Used in subsequent sessions to s
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |  | 0–10 |
 
-## POE per stakeholder
+## POS per stakeholder
 
-_Format: **[Name]** — Position: … · Objectif: … · Enjeu (inferred): … · Source: … · Confidence: 0–10_
+_Format: **[Name]** — Position: … · Objective: … · Stake (inferred): … · Source: … · Confidence: 0–10_
 
 ## Mindset & position shifts
 

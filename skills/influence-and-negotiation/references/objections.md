@@ -30,11 +30,11 @@ The "emotion before facts" rule is the single most-violated discipline in object
 
 **Why it happens.** They actually believe what they're saying. Usually grounded in past experience ("I had a vendor lock-in three years ago and won't risk it again"), industry conviction, or identity ("we're a build-not-buy shop").
 
-**Response.** Don't refute the belief. Your reference frame is not theirs, and arguing the belief produces dug-in trenches. Find the **enjeu** hiding behind the belief.
+**Response.** Don't refute the belief. Your reference frame is not theirs, and arguing the belief produces dug-in trenches. Find the **underlying stake** hiding behind the belief.
 
-B2B sales translation: a buyer says _"we're a build-not-buy shop."_ Don't argue. Surface the enjeu — usually engineering pride, control, fear of vendor dependence, or career capital tied to the in-house team. Then find an offering shape that satisfies the enjeu (a hybrid model, an open-source tier, a "you build the wrapper, we provide the core" structure).
+B2B sales translation: a buyer says _"we're a build-not-buy shop."_ Don't argue. Surface the underlying stake — usually engineering pride, control, fear of vendor dependence, or career capital tied to the in-house team. Then find an offering shape that satisfies the stake (a hybrid model, an open-source tier, a "you build the wrapper, we provide the core" structure).
 
-Salary translation: a manager says _"we don't give raises mid-cycle on principle."_ Don't argue the principle. Surface the enjeu — usually a precedent worry, fairness perception across the team, or budget signalling to their own boss. Find a structure that addresses the enjeu (one-off retention bonus instead of base raise, a delayed but committed cycle-aligned raise, a scope/title change that justifies an exception) without crossing the principle.
+Salary translation: a manager says _"we don't give raises mid-cycle on principle."_ Don't argue the principle. Surface the underlying stake — usually a precedent worry, fairness perception across the team, or budget signalling to their own boss. Find a structure that addresses the stake (one-off retention bonus instead of base raise, a delayed but committed cycle-aligned raise, a scope/title change that justifies an exception) without crossing the principle.
 
 ### Bad-faith "no"
 
@@ -72,7 +72,7 @@ B2B translation: when an enterprise buyer pushes back hard on the proposal as a 
 
 ## The four root commercial objections
 
-Almost all commercial objections reduce to one of four. Knowing which root you're facing tells you which calibrated question to ask first. (Equivalents in salary / NAO domains noted at the end of this section.)
+Almost all commercial objections reduce to one of four. Knowing which root you're facing tells you which calibrated question to ask first. (Equivalents in salary / annual collective bargaining domains noted at the end of this section.)
 
 ### 1. Price
 
@@ -86,7 +86,7 @@ Almost all commercial objections reduce to one of four. Knowing which root you'r
 
 **Then trade, don't discount.** _"I might be able to find some flexibility on price if we can align on multi-year term and reference rights. Let me explore — what would help most on your side: lower upfront, or lower total?"_
 
-**When the same objection repeats across 3+ calls** — especially price or budget — it is almost never the actual reason. The buyer's stated demand (the **position**) is masking a deeper **enjeu** (career stake, board mandate, internal political risk, fear of being held responsible if it goes wrong). See the POE iceberg (Position / Objectif / Enjeu) in [references/prepare.md](prepare.md#poe--position--objectif--enjeu). The right next move is not another budget play — it's a calibrated question to your champion targeting their personal stake: _"What's at stake for you personally if this works — or doesn't?"_ The repeated objection won't be solved by re-pitching value; it'll be solved by addressing whatever is making the champion unable to push internally.
+**When the same objection repeats across 3+ calls** — especially price or budget — it is almost never the actual reason. The buyer's stated demand (the **position**) is masking a deeper **stake** (career stake, board mandate, internal political risk, fear of being held responsible if it goes wrong). See the POS iceberg (Position / Objective / Stake) in [references/prepare.md](prepare.md#pos--position--objective--stake). The right next move is not another budget play — it's a calibrated question to your champion targeting their personal stake: _"What's at stake for you personally if this works — or doesn't?"_ The repeated objection won't be solved by re-pitching value; it'll be solved by addressing whatever is making the champion unable to push internally.
 
 ### 2. Timing
 
@@ -138,11 +138,11 @@ The same four roots appear in other domains under different surface forms. The d
 | Domain | Price equivalent | Timing equivalent | Authority equivalent | No-need equivalent |
 | --- | --- | --- | --- | --- |
 | **Salary** | "We're at the top of the band" / "envelope's closed" | "We'll revisit at the next review" | "I need to check with HR / my skip-level" | "You're tracking great where you are" |
-| **NAO / social** | "The wage envelope is fixed by the COMEX" | "Let's defer to next round / next year" | "We can't decide that here, it's federation-level" | "Things are stable, no need to renegotiate now" |
+| **Annual collective bargaining / social** | "The wage envelope is fixed by the ExCo" | "Let's defer to next round / next year" | "We can't decide that here, it's federation-level" | "Things are stable, no need to renegotiate now" |
 | **Internal management** | "I don't have the headcount / promotion budget" | "Let's revisit at the next cycle" | "I'd need to escalate to my N+1 / HR" | "You're doing fine, no change needed" |
 | **Recruitment** | "Your compensation expectation is above our band" | "We're not hiring this quarter" | "I need to validate with the hiring committee" | "We're not sure we need this role yet" |
 
-The diagnostic questions translate directly. _"How was that number set?"_ becomes _"How was the band set?"_ in salary, _"How was the wage envelope sized?"_ in NAO. _"What happens if we miss [date]?"_ works unchanged across all domains. _"Walk me through how a decision like this typically gets made here?"_ is the universal authority diagnostic.
+The diagnostic questions translate directly. _"How was that number set?"_ becomes _"How was the band set?"_ in salary, _"How was the wage envelope sized?"_ in annual collective bargaining. _"What happens if we miss [date]?"_ works unchanged across all domains. _"Walk me through how a decision like this typically gets made here?"_ is the universal authority diagnostic.
 
 ---
 
@@ -289,7 +289,7 @@ Cross-domain examples:
 
 - **B2B sales.** Procurement officer becomes verbally abusive: _"I hear that you're under pressure. The yelling isn't going to help us get to a deal — and I'd rather we both come back tomorrow when we can talk through this productively."_ Then pause. If they continue, leave the call.
 - **B2B sales.** Buyer demands a deeply unprofessional concession (kickback, lying on a reference, falsifying capability claims): refuse explicitly. _"I can't do that. Let's see what else I can do."_
-- **NAO.** A union delegate insults a member of the management team during a session. _"I can hear the legitimate frustration on your side, and we'll address the substance. The personal insults aren't acceptable in this room — let's pause for 20 minutes and resume only when the conditions for productive dialogue are restored."_ If behaviour resumes, end the session and reschedule.
+- **Annual collective bargaining.** A union delegate insults a member of the management team during a session. _"I can hear the legitimate frustration on your side, and we'll address the substance. The personal insults aren't acceptable in this room — let's pause for 20 minutes and resume only when the conditions for productive dialogue are restored."_ If behaviour resumes, end the session and reschedule.
 - **Internal management.** A direct report insults a colleague in front of you during a heated 1:1. _"I understand you're frustrated about the situation, and the frustration is legitimate. The way you just spoke about [colleague] isn't acceptable, and we need to be clear about that going forward — separately from whatever else we're solving today."_
 - **Recruitment.** A candidate makes an offensive comment about a protected category during the final round. _"I'm going to stop the conversation here. That comment isn't compatible with how we work, and the right outcome is for me to end this process today."_
 
