@@ -136,6 +136,23 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 - **SKILL.md (tok)**: weight of the full `SKILL.md` file loaded when the skill triggers
 - **Directory (tok)**: weight of all files in the skill directory (SKILL.md + referenced markdown files)
 
+```
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                    Agent Skills                                                                            │
+└────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────────────────────────────────────────────────┘
+                                                                             │
+              ┌──────────────────────────┬──────────────────────────┬────────┴─────────────────────┬──────────────────────────┐
+              ▼                          ▼                          ▼                               ▼                          ▼
+┌────────────────────────────┐  ┌────────────────────────────┐  ┌────────────────────────────┐  ┌────────────────────────────┐  ┌────────────────────────────┐
+│        Engineering         │  │   Marketing & Content      │  │   Developer Relations      │  │        Productivity        │  │            Meta            │
+├────────────────────────────┤  ├────────────────────────────┤  ├────────────────────────────┤  ├────────────────────────────┤  ├────────────────────────────┤
+│ conventional-git           │  │ linkedin-ghostwriting       │  │ technical-article-writer   │  │ deep-research              │  │ snyk-agent-scan-compliance │
+│ promql-cli                 │  │ press-release-writer        │  │ substack-ghostwriting      │  │ influence-and-negotiation  │  │ skill-progressive-         │
+│ chrome-extension           │  │ humaniseur-fr               │  │                            │  │ training-report            │  │   disclosure-design        │
+│ crxjs                      │  │                             │  │                            │  │                            │  │                            │
+└────────────────────────────┘  └────────────────────────────┘  └────────────────────────────┘  └────────────────────────────┘  └────────────────────────────┘
+```
+
 | Skill | Error rate gap | Description (tok) | SKILL.md (tok) | Directory (tok) |
 | --- | --- | --- | --- | --- |
 | `conventional-git` | -36% | 73 | 1,446 | 1,446 |
