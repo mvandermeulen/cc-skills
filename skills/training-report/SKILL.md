@@ -1,12 +1,12 @@
 ---
 name: training-report
 description: 'Produce a professional training/workshop report as a .docx file. Use this skill whenever the user mentions "training report", "workshop report", "compte rendu", "compte rendu de formation", "formation report", "debriefing a workshop", "write up a training session", "résumé de formation", or any request to document a training session, workshop, or onboarding event with individual participant feedback and recommendations. Also trigger when the user says things like "I just ran a workshop and need to write it up", "help me summarize what happened in my training session", or "I need to report back to management about a session I ran". Always use this skill — for short or long sessions, across any discipline (technical, soft skills, creative, compliance, onboarding, etc.) — whenever a structured written deliverable about a training event is needed.'
-user-invocable: false
+user-invocable: true
 license: MIT
 compatibility: Designed for Claude or similar AI agents.
 metadata:
   author: samber
-  version: "1.0.0"
+  version: "1.0.1"
   openclaw:
     emoji: "📚"
     homepage: https://github.com/samber/cc-skills

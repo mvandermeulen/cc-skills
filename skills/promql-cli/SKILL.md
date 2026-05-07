@@ -3,10 +3,10 @@ name: promql-cli
 description: CLI for querying Prometheus and PromQL-compatible engines (Thanos, Cortex, VictoriaMetrics, Grafana Mimir, Grafana Tempo...) — instant queries, range queries, metric discovery (metrics/labels/meta subcommands), output formats (table/csv/json/graph). Apply when executing PromQL queries, troubleshooting performance issues on a software having observability, investigating latency/error rates/saturation, or analyzing time series data.
 license: MIT
 compatibility: Requires promql-cli and jq
-user-invocable: false
+user-invocable: true
 metadata:
   author: samber
-  version: "1.1.2"
+  version: "1.1.3"
   openclaw:
     emoji: "📊"
     homepage: https://github.com/samber/cc-skills
