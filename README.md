@@ -4,8 +4,7 @@ AI agent skills are reusable instruction sets that extend your assistant with do
 
 For Golang-related skills, please visit [cc-skills-golang](https://github.com/samber/cc-skills-golang).
 
-> [!IMPORTANT]
-> Bootstrapped with Claude. **Edited, tested, reviewed and reworked by a human**.
+> [!IMPORTANT] Bootstrapped with Claude. **Edited, tested, reviewed and reworked by a human**.
 >
 > **No AI slop here.** AI-made skills are useless.
 
@@ -167,12 +166,13 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 | `deep-research` | -51% | 316 | 2,915 | 14,070 |
 | `influence-and-negotiation` | -68% | 237 | 6,644 | 50,467 |
 | `skill-progressive-disclosure-design` | -58% | 154 | 3,533 | 3,533 |
+| `site-launch-checklist` | -59% | 222 | 6,772 | 13,350 |
 
 ## 🧪 Skill evaluations
 
 |             | With Skill | Without Skill | Delta     |
 | ----------- | ---------- | ------------- | --------- |
-| **Overall** | **99%**    | **51%**       | **+48pp** |
+| **Overall** | **99%**    | **50%**       | **+49pp** |
 
 See [EVALUATIONS.md](./EVALUATIONS.md) for the full per-skill breakdown.
 
