@@ -6,7 +6,7 @@ compatibility: Requires Claude Code
 user-invocable: true
 metadata:
   author: samber
-  version: "1.0.0"
+  version: "1.0.1"
   openclaw:
     emoji: "📊"
     homepage: https://github.com/samber/cc-skills
@@ -362,6 +362,7 @@ See `references/templates.md` for `robots.txt`, `llms.txt`, and `manifest.json` 
   - **Ahrefs Keywords Explorer**: monthly volume, keyword difficulty, SERP analysis, CPC, parent topic, traffic potential. Use Ahrefs to **size the opportunity** in absolute terms.
   - Combined output: a ranked shortlist of 3-5 target queries per page, with rationale (volume × difficulty × trajectory × intent match).
   - Delegate to whichever keyword-research sub-skill was installed at session start (selected from the installed packs via the skill selection workflow; typical sources are the SEO+GEO and marketing packs).
+- [ ] **AI visibility audit via productrank.ai**: open productrank.ai in a browser, submit multiple category or product searches, run the full AI SEO report. It audits how the site appears in AI-generated answers (ChatGPT, Perplexity, Gemini, Claude). Flag any zero-visibility categories and surface content gaps the AI graders identify.
 - [ ] Typo and grammar pass on all visible text content
 - [ ] Internal linking audit: every important page reachable in ≤3 clicks from the homepage
 
