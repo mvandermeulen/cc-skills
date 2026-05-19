@@ -6,7 +6,7 @@ compatibility: Requires Claude Code
 user-invocable: true
 metadata:
   author: samber
-  version: "1.0.1"
+  version: "1.0.2"
   openclaw:
     emoji: "📊"
     homepage: https://github.com/samber/cc-skills

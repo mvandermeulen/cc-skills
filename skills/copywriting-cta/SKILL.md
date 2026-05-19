@@ -1,6 +1,16 @@
 ---
 name: copywriting-cta
 description: Design end-of-article CTAs (calls-to-action placed at the bottom of blog posts, newsletters, essays, articles, or any long-form content). Use this skill whenever the user asks to write, design, review, or improve a CTA at the bottom of an article, blog post, or essay; mentions "end-of-post CTA", "bottom of the article", "call-to-action", "signup box", "newsletter CTA", "subscribe block", "what should I put at the bottom", "how do I get readers to subscribe / share / book a call / buy / follow / join / download"; or asks how to convert article readers into subscribers, leads, customers, community members, or supporters. Also trigger when the user wants A/B testing guidance or accessibility review for a CTA block. Covers independent / personal writing, newsletter publications, and brand / content-marketing blogs across any topic — tech, finance, food, climate, design, lifestyle, B2B, B2C. Produces both the copy (content) and the structural / visual design (form), matched to the user's objective and audience.
+user-invocable: true
+license: MIT
+compatibility: Designed for Claude or similar AI agents.
+metadata:
+  author: samber
+  version: "1.0.0"
+  openclaw:
+    emoji: "🎯"
+    homepage: https://github.com/samber/cc-skills
+allowed-tools: Read Edit Write Glob Grep Agent AskUserQuestion
 ---
 
 # End-of-Article CTA Designer
@@ -21,12 +31,12 @@ Use the `ask_user_input_v0` tool. Ask one question at a time. Do not stack quest
 
 Ask these in order, skipping any already answered:
 
-**Q1. Article context.**
-Options: `Personal / independent blog or essay` · `Newsletter / paid publication (Substack, beehiiv, Ghost, etc.)` · `Brand / company / content-marketing blog` · `Other (free text)`
+**Q1. Article context.** Options: `Personal / independent blog or essay` · `Newsletter / paid publication (Substack, beehiiv, Ghost, etc.)` · `Brand / company / content-marketing blog` · `Other (free text)`
 
 **Q2. Primary objective.** (Pick the one outcome you most want from a reader who finishes the article. If they say "all of them," push back: multiple objectives is the #1 cause of CTA failure.)
 
 Options:
+
 - `Newsletter / email subscription`
 - `Social follow / personal branding`
 - `Lead generation (download / gated asset)`
@@ -41,14 +51,11 @@ Options:
 
 If the user lists more than one, ask which is primary. You can offer 1-2 secondaries later, but the primary must be singular.
 
-**Q3. Audience and relationship.**
-Options: `First-time visitor (organic search / social)` · `Returning reader, not subscribed` · `Existing subscriber / customer` · `Mixed / unknown`
+**Q3. Audience and relationship.** Options: `First-time visitor (organic search / social)` · `Returning reader, not subscribed` · `Existing subscriber / customer` · `Mixed / unknown`
 
-**Q4. Funnel stage.** (Where is the reader mentally?)
-Options: `TOFU: discovery, learning, no buying intent yet` · `MOFU: evaluating options, comparing` · `BOFU: ready to act, just needs a nudge` · `Not applicable (no buying funnel — e.g., personal blog, journalism, hobby content)`
+**Q4. Funnel stage.** (Where is the reader mentally?) Options: `TOFU: discovery, learning, no buying intent yet` · `MOFU: evaluating options, comparing` · `BOFU: ready to act, just needs a nudge` · `Not applicable (no buying funnel — e.g., personal blog, journalism, hobby content)`
 
-**Q5. Mechanism preference.** (Only ask if a mechanism could legitimately help. See `references/mechanisms.md`. For sophisticated, skeptical, or repeat-reader audiences, default to "None / value-only" without asking.)
-Options: `None: value statement only` · `Curiosity gap ("Want to know more?")` · `Reciprocity (free asset first)` · `Discount / offer` · `Urgency (real deadline)` · `Scarcity / FOMO (limited spots)` · `Social proof (count / testimonial)`
+**Q5. Mechanism preference.** (Only ask if a mechanism could legitimately help. See `references/mechanisms.md`. For sophisticated, skeptical, or repeat-reader audiences, default to "None / value-only" without asking.) Options: `None: value statement only` · `Curiosity gap ("Want to know more?")` · `Reciprocity (free asset first)` · `Discount / offer` · `Urgency (real deadline)` · `Scarcity / FOMO (limited spots)` · `Social proof (count / testimonial)`
 
 Capture any free-text constraints the user volunteers (length limit, brand voice, no popups, multi-language, etc.). Note them.
 
@@ -95,38 +102,46 @@ Output the recommendation in this exact structure. Do not deviate. Do not add fi
 ```markdown
 ## Recommended CTA
 
-**Archetype:** [letter + name from decision tree]
-**Why this fits:** [1-2 sentences naming the input combination]
+**Archetype:** [letter + name from decision tree] **Why this fits:** [1-2 sentences naming the input combination]
 
 ### Content (copy)
+
 **Headline / value line:**
+
 > [exact text]
 
 **Body / proof line (1-2 lines):**
+
 > [exact text]
 
 **Button copy:**
+
 > [exact text]
 
 **Risk reversal / subtext (if applicable):**
+
 > [exact text, or "Omit: would feel forced for this audience"]
 
 ### Form (structure)
+
 - **Placement:** [end-only / end + sticky / end + mid-article repeat]
 - **Visual weight:** [low / medium / high, with justification]
 - **Layout:** [single button / button + text link / native widget cluster / one-line signature]
 - **Proof to co-locate:** [subscriber count / star count / testimonial / named recommenders / logo wall / none]
 
 ### Mechanism
+
 [Named mechanism + 1 sentence on why it is appropriate, OR "None: value statement carries it. Mechanisms would erode trust for this audience."]
 
 ### A/B test plan
+
 - **First test:** [single variable, e.g., button copy A vs. B]
 - **Why this one first:** [1 sentence]
 - **Sample size needed:** [rough estimate based on baseline traffic, or "skip A/B for now — traffic too low" with the alternative recommendation]
 - **Next 2 tests to queue:** [in priority order]
 
 ### Accessibility check
+
 - **Color contrast:** [target ratio + concrete pairing if colors known]
 - **Touch target:** [size requirement]
 - **Semantic markup:** [<button> vs. <a> vs. form]
@@ -178,7 +193,7 @@ Read these as needed during diagnosis and composition. Read the relevant file in
 
 - **One primary CTA per post.** Multiple competing CTAs is the dominant failure mode (single-CTA pages convert ~30%+ better than multi-CTA pages in repeated case studies).
 - **Match the voice of the publication.** A personal-essay footer that reads like a SaaS landing page collapses credibility. A SaaS footer that reads like a casual signature converts at noise.
-- **Specificity beats cleverness.** "Get one essay a week on indie filmmaking" beats "Subscribe to our awesome newsletter." Joanna Wiebe's "I want to ___" completion test is the cleanest filter for button copy.
+- **Specificity beats cleverness.** "Get one essay a week on indie filmmaking" beats "Subscribe to our awesome newsletter." Joanna Wiebe's "I want to \_\_\_" completion test is the cleanest filter for button copy.
 - **Proof co-located with the ask.** Subscriber count, testimonial, customer logos, star count, named recommenders — whichever signal is honest for the context, place it inside or adjacent to the CTA block.
 - **Mechanisms are tools, not garnish.** Most well-written value statements need no mechanism. Add urgency, scarcity, FOMO, or discount only when the context genuinely supports them; theatrical mechanisms erode trust faster than they lift conversion.
 - **Push back on bad asks.** If the user wants "Book a Demo" at the bottom of a beginner tutorial for first-time visitors, say so. Do not produce a polished version of a CTA that will fail. Propose the alternative, explain why, then if the user still wants the original, deliver it with the failure mode flagged.

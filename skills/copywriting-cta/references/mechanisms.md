@@ -21,10 +21,11 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** The article hints at deeper content in the paid / next / forthcoming piece. The reader's curiosity is already engaged by the post itself.
 
 **How to write it well:**
+
 - Be specific about what the gap is. "Want to know more?" alone is empty. "The full breakdown — including the spreadsheet and three case studies I couldn't share publicly — is in the paid version" is specific.
 - Name the missing thing. Don't tease abstractly.
 
-**How it fails:** Vague teases ("Want the secret?") read as clickbait. Curiosity gaps work in proportion to how *concretely* the missing thing is named.
+**How it fails:** Vague teases ("Want the secret?") read as clickbait. Curiosity gaps work in proportion to how _concretely_ the missing thing is named.
 
 **Where it works best:** Newsletter (Archetype G — free → paid conversion). Lenny Rachitsky's free posts use this surgically.
 
@@ -39,6 +40,7 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Cialdini's principle:** People feel obligated to reciprocate gifts. If you give first, asking for something later (email, attention, a paid upgrade) gets a meaningfully higher yes-rate.
 
 **How to write it well:**
+
 - Lead with the gift. "Get the [specific artifact] mentioned above." The ask is implicit (you'll need to enter your email to receive it).
 - The gift must be valuable on its own — not a watermarked thumbnail of the real thing.
 
@@ -55,11 +57,13 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** Direct-to-purchase or subscription. Discount must be real, time-bounded, and explained (launch promo, end-of-year, audience-specific).
 
 **How to write it well:**
+
 - State the price before and after, or the percentage off and the deadline.
 - Explain why the discount exists. "Launch discount: 20% off the first 100 subscribers" tells a story. "Save 20%!" is noise.
 - Pair with an explicit, verifiable end condition (date or seat count).
 
 **How it fails:**
+
 - Permanent "discounts" are not discounts. If your homepage has shown 50% OFF every day for a year, the discount is now the regular price; you've just trained the reader to ignore it.
 - Discounting B2B SaaS at the blog level often cheapens the brand. Save discounts for landing pages reachable from BOFU posts, not for top-of-funnel content.
 
@@ -74,6 +78,7 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** There is a real deadline — registration closes, course cohort starts, beta access ends, conference tickets sell out.
 
 **How to write it well:**
+
 - State the actual deadline with date and time. "Registration closes Friday at midnight PT" is honest.
 - Name what happens if the reader misses it. "Next cohort opens in three months" sets the stakes.
 
@@ -90,6 +95,7 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** There is real scarcity — N seats in a cohort, N consulting clients per quarter, beta access for first N signups.
 
 **How to write it well:**
+
 - Show the actual count. "8 of 25 seats left" beats "Limited seats!" by an order of magnitude.
 - Update the count in near-real-time (or refresh on page load). A static "Limited!" is just noise.
 
@@ -106,11 +112,13 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** You have honest, verifiable proof: a subscriber count, a star count, a named testimonial, a logo wall of recognizable brands.
 
 **How to write it well:**
+
 - Round to actual numbers, not aspirational ranges. "Join 2,437 engineers" beats "Join thousands of engineers" because it's verifiable and specific.
 - Testimonials should name a person and (where appropriate) their company / role. Anonymous "Best newsletter ever! — Happy Reader" is anti-proof; sophisticated readers discount it to zero.
 - Logo walls only help when the logos are recognizable to the audience. Specific named logos relevant to the reader ("Used by Stripe, Cloudflare, and Vercel" for a developer audience; "Featured in The Atlantic, The New Yorker, and Vox" for a journalism audience; "Trusted by Whole Foods, Erewhon, and Sprouts" for a food-industry audience) outperform "Used by 50+ Fortune 500 companies" by a wide margin.
 
 **How it fails:**
+
 - Vague proof ("Join thousands of happy users") performs worse than no proof — it signals "we know we should have proof, but we don't have specifics."
 - Old / stale proof (subscriber count from two years ago) signals "this newsletter is dying."
 
@@ -125,6 +133,7 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** The author has earned credibility in the space and the reader needs that signal to commit.
 
 **How to write it well:**
+
 - Named author bio with 1-2 specific credentials. "Built X at Y, maintains Z (17k stars)" beats "Industry expert with decades of experience."
 - Link to evidence (GitHub, prior work, conference talks).
 
@@ -141,6 +150,7 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 **Use when:** Your audience identifies with a tribe, movement, or shared identity (e.g., indie hackers, working parents, climate-tech founders, plant-based home cooks, French startup community, queer writers, value investors, ultra-runners).
 
 **How to write it well:**
+
 - Name the tribe explicitly. "For working parents who run their own businesses" is better than "For business owners." "For Go developers who care about runtime internals" is better than "For developers." The pattern: specific identity intersection beats broad category.
 
 **How it fails:** Pandering to a tribe you're not part of. If you don't actually identify with the audience, they will smell it.
@@ -152,7 +162,7 @@ The default for sophisticated, skeptical, or repeat-reader audiences is **None /
 ## Selector matrix: mechanism × context
 
 | Mechanism | Independent / personal | Newsletter publication | Brand / content marketing |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | None / value-only | ✅ Default | ✅ Often | ⚠️ Rarely enough |
 | Curiosity gap | ❌ Avoid | ✅ Free→paid teases | ⚠️ Only if specific |
 | Reciprocity | ⚠️ Only if asset is genuine code/tool | ⚠️ Rarely needed | ✅ TOFU default |

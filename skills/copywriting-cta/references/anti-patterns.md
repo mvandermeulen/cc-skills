@@ -89,6 +89,7 @@ Twelve failure modes that recur across end-of-article CTAs. When the user's inpu
 **Why it fails:** End-of-article CTAs in over-eager marketing tone immediately downgrade the perceived authority of the entire post. The pattern crosses every topic: a journalist's essay ending in "Don't miss out on our amazing weekly insights!"; a niche-expert newsletter closing with "Subscribe now to join thousands of happy readers!"; a personal blog footer that reads like a B2B SaaS hero. Each one tells the reader "the human who wrote the article isn't the human who wrote this CTA."
 
 **Fix:** Adopt the voice of the author signing off. Restrained, specific, no exclamation marks, no royal-we. Compare:
+
 - ❌ "Don't miss out on our amazing weekly insights! Subscribe now to join thousands of happy readers!"
 - ✅ "If this was useful, the weekly digest covers one thing in depth every Friday. Subscribe here. RSS over here."
 

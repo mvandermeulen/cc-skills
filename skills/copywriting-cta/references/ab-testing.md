@@ -29,7 +29,7 @@ Test variables in this order (Foundry CRO's "priority stack" plus operator exper
 
 ### Tier 2 — Significant leverage
 
-4. **Button copy.** "Submit" vs. "Send me the next one." Apply Wiebe's "I want to ___" completion test.
+4. **Button copy.** "Submit" vs. "Send me the next one." Apply Wiebe's "I want to \_\_\_" completion test.
 5. **Proof co-location.** No proof vs. subscriber count vs. testimonial vs. logo wall.
 6. **Mechanism applied.** Value-only vs. with social proof vs. with reciprocity. Test one mechanism at a time.
 
