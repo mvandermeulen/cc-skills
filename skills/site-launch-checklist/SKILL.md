@@ -6,7 +6,7 @@ compatibility: Requires Claude Code
 user-invocable: true
 metadata:
   author: samber
-  version: "1.0.2"
+  version: "1.0.3"
   openclaw:
     emoji: "📊"
     homepage: https://github.com/samber/cc-skills
@@ -359,6 +359,8 @@ See `references/templates.md` for `robots.txt`, `llms.txt`, and `manifest.json` 
 - [ ] `hreflang` tags on every page if multilingual (every language version declares all alternates including self). Verify with `curl -s URL | grep -i hreflang`.
 - [ ] **Keyword analysis using both Google Trends and Ahrefs** (they answer different questions, not interchangeable):
   - **Google Trends** (trends.google.com): trajectory (rising vs declining), geographic distribution (especially FR vs international split), seasonal patterns, related queries breakout, head-to-head comparison of 2-5 candidate keywords. Use Trends to **validate direction and timing** of the SEO bet.
+  - **Exploding Topics** (explodingtopics.com): surfaces emerging trends weeks or months before they peak in Google Trends. Use to identify rising queries before competition solidifies and to validate that target keywords aren't already on the decline.
+  - **Answer The Public** (answerthepublic.com/en): maps search questions, comparisons, and related queries around a seed keyword. Use to uncover long-tail intent clusters, populate FAQ schema, and identify content gaps.
   - **Ahrefs Keywords Explorer**: monthly volume, keyword difficulty, SERP analysis, CPC, parent topic, traffic potential. Use Ahrefs to **size the opportunity** in absolute terms.
   - Combined output: a ranked shortlist of 3-5 target queries per page, with rationale (volume × difficulty × trajectory × intent match).
   - Delegate to whichever keyword-research sub-skill was installed at session start (selected from the installed packs via the skill selection workflow; typical sources are the SEO+GEO and marketing packs).
