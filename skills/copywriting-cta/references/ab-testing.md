@@ -29,20 +29,20 @@ Test variables in this order (Foundry CRO's "priority stack" plus operator exper
 
 ### Tier 2 — Significant leverage
 
-4. **Button copy.** "Submit" vs. "Send me the next one." Apply Wiebe's "I want to \_\_\_" completion test.
-5. **Proof co-location.** No proof vs. subscriber count vs. testimonial vs. logo wall.
-6. **Mechanism applied.** Value-only vs. with social proof vs. with reciprocity. Test one mechanism at a time.
+1. **Button copy.** "Submit" vs. "Send me the next one." Apply Wiebe's "I want to \_\_\_" completion test.
+2. **Proof co-location.** No proof vs. subscriber count vs. testimonial vs. logo wall.
+3. **Mechanism applied.** Value-only vs. with social proof vs. with reciprocity. Test one mechanism at a time.
 
 ### Tier 3 — Marginal leverage
 
-7. **Placement.** End-only vs. end + sticky vs. end + mid-article repeat.
-8. **Visual weight.** Button size, color, contrast. The Demio case showed +57.79% from larger and darker, with no color change.
-9. **Form length.** Single field (email only) vs. multi-field (name + email + role).
+1. **Placement.** End-only vs. end + sticky vs. end + mid-article repeat.
+2. **Visual weight.** Button size, color, contrast. The Demio case showed +57.79% from larger and darker, with no color change.
+3. **Form length.** Single field (email only) vs. multi-field (name + email + role).
 
 ### Tier 4 — Marginal-to-noise
 
-10. **Button color.** Red vs. green vs. orange vs. blue. The well-known ~21% lift cited in CXL is real but small and contextual. Contrast with surroundings matters more than the specific color.
-11. **Microcopy variations** ("100% spam-free" vs. "We respect your inbox"). Stop here unless top tiers are exhausted.
+1. **Button color.** Red vs. green vs. orange vs. blue. The well-known ~21% lift cited in CXL is real but small and contextual. Contrast with surroundings matters more than the specific color.
+2. **Microcopy variations** ("100% spam-free" vs. "We respect your inbox"). Stop here unless top tiers are exhausted.
 
 ---
 

@@ -340,7 +340,7 @@ Ask first: CSP tightness level (`strict-default-src-none` | `balanced-allow-self
 - [ ] securityheaders.com: target A+ (verify via Claude Chrome extension or `curl https://securityheaders.com/?q=URL` and parse)
 - [ ] observatory.mozilla.org: target 90+ (via Chrome extension)
 - [ ] Run `trailofbits/skills` security audit on the codebase
-- [ ] Verify no leaked secrets in client bundle: open Chrome DevTools Network tab via Claude Chrome extension, grep response bodies for `sk_`, `pk_`, `AKIA`, `ghp_`, `Bearer `
+- [ ] Verify no leaked secrets in client bundle: open Chrome DevTools Network tab via Claude Chrome extension, grep response bodies for `sk_`, `pk_`, `AKIA`, `ghp_`, `Bearer`
 
 ---
 
@@ -354,7 +354,7 @@ See `references/templates.md` for `robots.txt`, `llms.txt`, and `manifest.json` 
 - [ ] `/sitemap.xml` present, valid (verify with `curl -s https://example.com/sitemap.xml | head -40`). Sitemap-index with per-language sitemaps if multilingual.
 - [ ] `/llms.txt` present (per llmstxt.org spec, verify with `curl -s https://example.com/llms.txt`)
 - [ ] AI scraper policy encoded in `robots.txt`. Apply the matrix from `references/decisions.md` based on site type, then **ask user via `ask_user_input_v0` to confirm each non-default decision**.
-- [ ] Schema markup (JSON-LD): `Organization` + `WebSite` + `BreadcrumbList` site-wide; per-page types where applicable (`SoftwareApplication` for lib homepages, `Article` for blog posts, `FAQPage` for FAQs, `Person` for author bio). Verify with `curl -s URL | grep -A 50 'application/ld+json'`. Validate structured data via **Google Rich Results Test** (https://search.google.com/test/rich-results) and **Schema.org Validator** (https://validator.schema.org) — Rich Results Test checks eligibility for rich snippets; Schema.org Validator catches spec violations that Google may silently ignore.
+- [ ] Schema markup (JSON-LD): `Organization` + `WebSite` + `BreadcrumbList` site-wide; per-page types where applicable (`SoftwareApplication` for lib homepages, `Article` for blog posts, `FAQPage` for FAQs, `Person` for author bio). Verify with `curl -s URL | grep -A 50 'application/ld+json'`. Validate structured data via **Google Rich Results Test** (<https://search.google.com/test/rich-results>) and **Schema.org Validator** (<https://validator.schema.org>) — Rich Results Test checks eligibility for rich snippets; Schema.org Validator catches spec violations that Google may silently ignore.
 - [ ] Meta tags per page: unique `<title>` (50-60 chars), unique `<meta description>` (150-160 chars), `<link rel="canonical">`, `<meta name="robots">` if needed
 - [ ] `hreflang` tags on every page if multilingual (every language version declares all alternates including self). Verify with `curl -s URL | grep -i hreflang`.
 - [ ] **Keyword analysis using both Google Trends and Ahrefs** (they answer different questions, not interchangeable):

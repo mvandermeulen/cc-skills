@@ -61,7 +61,7 @@ This file lists the WCAG 2.2 requirements that apply to end-of-article CTA block
 
 ## 4. ARIA — use sparingly, only when semantics are insufficient
 
-### First rule of ARIA: don't use ARIA when native HTML works.
+### First rule of ARIA: don't use ARIA when native HTML works
 
 A `<button>Subscribe</button>` does not need `role="button"`. A `<a>` does not need `aria-label="link"`.
 

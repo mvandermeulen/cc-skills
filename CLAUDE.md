@@ -525,7 +525,7 @@ Skills covering a specific library or framework can become stale when the projec
 4. For flagged skills, skim the changelog between the recorded version and the latest to identify breaking changes or new APIs that the skill should cover.
 5. Suggest a skill update for each flagged skill, summarizing the relevant changelog entries.
 
-After updating a skill to reflect a new library version, bump `skill-library-version` to the new version and follow the [After updating a skill](#after-updating-a-skill) checklist.
+After updating a skill to reflect a new library version, bump `skill-library-version` to the new version and follow the [After updating a skill](#after-creating-or-updating-a-skill) checklist.
 
 ## Plugin Configuration
 
