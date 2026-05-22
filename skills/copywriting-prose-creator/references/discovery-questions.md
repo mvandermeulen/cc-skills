@@ -92,4 +92,4 @@ NN/g four dimensions, position on each spectrum:
 - Respectful ↔ Irreverent
 - Enthusiastic ↔ Matter-of-fact
 
-A short capture here unblocks Phase 3 codification; recommend producing a full TONE.md via `samber/cc-skills@copywriting-tone-of-voice` afterward for a brand operating at scale.
+A short capture here unblocks Phase 3 codification; recommend producing a full TONE.md via `samber/cc-skills@copywriting-tone-of-voice-creator` afterward for a brand operating at scale.
