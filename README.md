@@ -195,6 +195,94 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 
 See [EVALUATIONS.md](./EVALUATIONS.md) for the full per-skill breakdown.
 
+## 📖 Skills description
+
+### Engineering
+
+#### `chrome-extension`
+
+Chrome Extension development with Manifest V3. Covers architecture, messaging, CSP, storage, permissions, content scripts, service workers, and Chrome Web Store publishing.
+
+#### `conventional-git`
+
+Conventional Commits v1.0.0 for branch naming, worktree naming, and commit messages. Keeps git history parseable for auto-changelogs, SemVer bumps, and issue closing.
+
+#### `crxjs`
+
+CRXJS Chrome extension development with Vite. True HMR for popup/options/content scripts/side panels, `defineManifest` for type-safe manifests, dynamic content script imports.
+
+#### `promql-cli`
+
+CLI for querying Prometheus and PromQL-compatible engines (Thanos, Cortex, VictoriaMetrics, Mimir). Instant/range queries, metric discovery, table/csv/json/graph output.
+
+### Marketing & Content
+
+#### `copywriting-cta`
+
+End-of-article CTA design. Interviews for objective, audience, and context, then produces copy + visual form + mechanism + A/B test plan + accessibility check.
+
+#### `copywriting-hooks`
+
+Opening hooks for long-form articles (blog posts, Substack, LinkedIn long-form, newsletters). Proposes 3-4 hooks with distinct psychological levers: curiosity, contrarian, scene, promise, authority.
+
+#### `copywriting-prose-creator`
+
+Codifies prose mechanics (lexicon, syntax, rhythm, structure) into a PROSE.md style guide. Three modes: BUILD fresh, ADAPT to new channel, AUDIT a corpus. For content factories, ghostwriting teams, house style guides.
+
+#### `copywriting-tone-of-voice-creator`
+
+Builds brand tone of voice guides (TONE.md) with voice attributes, modulation matrix, lexicon, and channel rules. Create from scratch or adapt to a new channel. For B2B, B2C, NGO, public sector, personal brands.
+
+#### `humaniseur-fr`
+
+Removes AI-writing patterns from French text. Detects and fixes 27 patterns: AI vocabulary, anglicisms, formulaic openings, em dash abuse, sycophantic tone, typographic tells.
+
+#### `linkedin-ghostwriting`
+
+B2B LinkedIn ghostwriting via strategic interview, hook engineering, and post body. Turns founder stories and results into conversion-focused posts.
+
+#### `press-release-writer`
+
+Professional press releases for any occasion and region. Product launches, funding, partnerships, crisis, M&A, events. Region-specific conventions (Europe, Americas, Asia, etc.).
+
+#### `site-launch-checklist`
+
+Pre-launch checklist for shipping a website. Analytics (GA4, PostHog, GSC), legal, security headers, SEO/GEO, copywriting pass, OpenGraph, favicons, Lighthouse, accessibility. Opinionated for Cloudflare + Vercel.
+
+### Developer Relations
+
+#### `substack-ghostwriting`
+
+Write, optimize, and grow Substack newsletters and articles. Covers topic selection, headline optimization, SEO, and audience building.
+
+#### `technical-article-writer`
+
+Technical articles and blog posts for senior developers. Opinionated, practical, example-driven content that teaches something or saves time.
+
+### Productivity
+
+#### `deep-research`
+
+Deep research with parallel web searches, multi-source validation, and cited Markdown reports. 11 research types: market, competitive, technical, academic, financial, legal, trend, community, and more.
+
+#### `influence-and-negotiation`
+
+Negotiation and influence toolkit for any interaction requiring agreement. B2B sales, salary, collective bargaining, hard 1:1s, recruitment, cross-cultural deals. Preparation, live coaching, and diplomatic drafting.
+
+#### `training-report`
+
+Generates structured training reports from session data. Tracks progress, skills acquired, and outcomes.
+
+### Meta
+
+#### `skill-progressive-disclosure-design`
+
+Design patterns for skill progressive disclosure. Structures skill content for lazy loading so only relevant sections enter context.
+
+#### `snyk-agent-scan-compliance`
+
+Compliance expert for snyk-agent-scan. Validates security scan configurations and ensures compliance with organizational policies.
+
 ## 🎯 Tuning Skill Triggers
 
 If a skill triggers too often or not often enough, please [open an issue](https://github.com/samber/cc-skills/issues) suggesting a description change. The `description` field in SKILL.md frontmatter is the primary triggering mechanism: small wording adjustments can significantly improve trigger accuracy. Some `SKILL.md` might have a `When to use` section which is another level of exclusion. Finally, `SKILL.md` is an entrypoint for lazy loading references with deep knowledge located in `references/`.
