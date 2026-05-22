@@ -1,6 +1,6 @@
 ---
-name: copywriting-prose
-description: "Codifies brand prose as a deterministic guide (PROSE.md): the observable mechanics of writing — lexicon, syntax, rhythm, structure, voice markers — that make text recognizable independent of emotional tone. Three modes: BUILD a fresh prose guide from SOUL.md + TONE.md + interview; ADAPT an existing guide to a new channel (blog → LinkedIn → email → marketing copy); AUDIT a corpus for prose-mechanic patterns (sentence length, top lexemes, signature moves) before codification. Use when the user wants to document HOW the brand writes — prose guide, writing style, writing style guide, editorial style rules, content factory writing rules, banned words, sentence-length targets, ghostwriting voice codification, cross-channel style adaptation, internal comms style book, PROSE.md. Not for hook generation (→ copywriting-hooks), CTA design (→ copywriting-cta), tone of voice (→ copywriting-tone-of-voice), or visual identity."
+name: copywriting-prose-creator
+description: "Use this whenever the user wants to codify how someone or a brand writes — the prose mechanics (lexicon, syntax, rhythm, structure, signature moves) that make text recognizable independent of emotional tone. Output is a PROSE.md style guide. Trigger contexts: documenting writing rules for a content factory or editorial team, codifying ghostwriting voice so multiple writers converge on one fingerprint, defining banned words and sentence-length targets, building a house style guide, reverse-engineering prose patterns from a corpus, porting an existing style guide across channels (blog, LinkedIn, email, newsletter, marketing copy). Three modes: BUILD a fresh guide from SOUL.md + TONE.md + a discovery interview; ADAPT an existing guide to a new channel; AUDIT a corpus for prose-mechanic patterns (sentence-length distribution, top lexemes, signature moves, transition patterns) before codification. Also trigger on: PROSE.md, writing style guide, prose guide, editorial style, house style, ghostwriter style, writing playbook, brand writing mechanics, signature moves, cross-channel style adaptation, content factory writing rules. NOT for: writing actual content in a given voice (use linkedin-ghostwriting, substack-ghostwriting, technical-article-writer, press-release-writer), removing AI patterns from existing text (use humaniseur-fr or humanizer), tone and register decisions (use copywriting-tone-of-voice), hook generation (use copywriting-hooks), CTA design (use copywriting-cta), visual identity."
 user-invocable: true
 license: MIT
 compatibility: Designed for Claude or similar AI agents. Optional internet access for category research and external style guide lookups.
@@ -34,7 +34,7 @@ The slogan: **tone is the music, prose is the score.** This skill codifies the s
 | Artifact | Role | Producer |
 | --- | --- | --- |
 | `SOUL.md` (optional) | Storyteller archetype, mission, POV | sibling skill |
-| `TONE.md` (optional) | Emotional posture (NN/g 4 dimensions) | `samber/cc-skills@copywriting-tone-of-voice` |
+| `TONE.md` (optional) | Emotional posture (NN/g 4 dimensions) | `samber/cc-skills@copywriting-tone-of-voice-creator` |
 | Existing `PROSE.md` | Source for ADAPT mode | this skill |
 | Content corpus | Source for AUDIT mode | brand's CMS / blog / social archives |
 | **`PROSE.md`** | **Output** | **this skill** |
@@ -62,7 +62,7 @@ Look in the working directory (and common locations like `./brand/`, `./content/
 
 If missing, offer two paths:
 
-1. Invoke the sibling skill first (`samber/cc-skills@copywriting-tone-of-voice` for TONE.md). **Why:** TONE.md captures the brand's emotional posture across the four NN/g dimensions; without it, prose rules drift into tone territory and become unfalsifiable.
+1. Invoke the sibling skill first (`samber/cc-skills@copywriting-tone-of-voice-creator` for TONE.md). **Why:** TONE.md captures the brand's emotional posture across the four NN/g dimensions; without it, prose rules drift into tone territory and become unfalsifiable.
 2. Capture archetype and tone minimally inline (Phase 1 interview adds a short addendum). Pragmatic for one-off prose audits.
 
 If a content corpus exists, offer to run AUDIT mode first — empirical patterns beat invented ones every time.
