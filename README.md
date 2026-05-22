@@ -136,24 +136,33 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 - **Directory (tok)**: weight of all files in the skill directory (SKILL.md + referenced markdown files)
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                    Agent Skills                                                                            │
-└────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────────────────────────────────────────────────┘
-                                                                             │
-              ┌──────────────────────────┬──────────────────────────┬────────┴─────────────────────┬──────────────────────────┐
-              ▼                          ▼                          ▼                               ▼                          ▼
-┌────────────────────────────┐  ┌────────────────────────────┐  ┌────────────────────────────┐  ┌────────────────────────────┐  ┌────────────────────────────┐
-│        Engineering         │  │   Marketing & Content      │  │   Developer Relations      │  │        Productivity        │  │            Meta            │
-├────────────────────────────┤  ├────────────────────────────┤  ├────────────────────────────┤  ├────────────────────────────┤  ├────────────────────────────┤
-│ conventional-git           │  │ linkedin-ghostwriting       │  │ technical-article-writer   │  │ deep-research              │  │ snyk-agent-scan-compliance │
-│ promql-cli                 │  │ press-release-writer        │  │ substack-ghostwriting      │  │ influence-and-negotiation  │  │ skill-progressive-         │
-│ chrome-extension           │  │ humaniseur-fr               │  │                            │  │ training-report            │  │   disclosure-design        │
-│ crxjs                      │  │ copywriting-hooks           │  │                            │  │                            │  │                            │
-│                            │  │ copywriting-cta             │  │                            │  │                            │  │                            │
-│                            │  │ copywriting-prose-creator   │  │                            │  │                            │  │                            │
-│                            │  │ copywriting-tone-of-voice-  │  │                            │  │                            │  │                            │
-│                            │  │   creator                   │  │                            │  │                            │  │                            │
-└────────────────────────────┘  └────────────────────────────┘  └────────────────────────────┘  └────────────────────────────┘  └────────────────────────────┘
+                     ┌──────────────┐
+                     │ Agent Skills │
+                     └───────┬──────┘
+                             │
+          ┌──────────────────┴──────────┐
+          │                             │
+          ▼                             ▼
+┌──────────────────┐  ┌─────────────────────────────────────┐
+│   Engineering    │  │        Marketing & Content          │
+├──────────────────┤  ├─────────────────────────────────────┤
+│ conventional-git │  │ linkedin-ghostwriting                │
+│ promql-cli       │  │ press-release-writer                 │
+│ chrome-extension │  │ humaniseur-fr                        │
+│ crxjs            │  │ copywriting-hooks                    │
+│                  │  │ copywriting-cta                      │
+│                  │  │ copywriting-prose-creator            │
+│                  │  │ copywriting-tone-of-voice-creator    │
+│                  │  │ site-launch-checklist                │
+└──────────────────┘  └─────────────────────────────────────┘
+
+┌──────────────────────────┐  ┌───────────────────────────┐  ┌─────────────────────────────────────┐
+│   Developer Relations    │  │       Productivity        │  │                Meta                 │
+├──────────────────────────┤  ├───────────────────────────┤  ├─────────────────────────────────────┤
+│ technical-article-writer │  │ deep-research             │  │ snyk-agent-scan-compliance          │
+│ substack-ghostwriting    │  │ influence-and-negotiation │  │ skill-progressive-disclosure-design │
+│                          │  │ training-report           │  │                                     │
+└──────────────────────────┘  └───────────────────────────┘  └─────────────────────────────────────┘
 ```
 
 | Skill | Error rate gap | Description (tok) | SKILL.md (tok) | Directory (tok) |
