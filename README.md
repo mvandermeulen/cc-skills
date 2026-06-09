@@ -172,7 +172,7 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 | `chrome-extension` | — | 137 | 3,909 | 36,173 |
 | `crxjs` | — | 185 | 2,697 | 2,697 |
 | `site-launch-checklist` | -59% | 222 | 6,772 | 13,350 |
-| `frontend-design-deslop` | — | 220 | 3,859 | 40,876 |
+| `frontend-design-deslop` | -28% | 220 | 3,859 | 40,876 |
 | `linkedin-ghostwriting` | -31% | 87 | 1,045 | 1,993 |
 | `substack-ghostwriting` | -51% | 205 | 3,315 | 10,720 |
 | `technical-article-writer` | -33% | 147 | 2,295 | 5,737 |
