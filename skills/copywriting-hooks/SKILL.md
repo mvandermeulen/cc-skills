@@ -3,6 +3,7 @@ name: copywriting-hooks
 description: >
   Generate opening hooks and post titles for long-form articles in EN or FR — blog posts, Substack/Medium/dev.to, LinkedIn long-form, paid newsletters, opinion essays, reported features, technical deep-dives. Trigger whenever the user asks for a hook, opening, lede, intro, first sentence/paragraph, opener, accroche, attaque, phrase d'accroche, or première phrase — including making a flat intro punchier or rewriting a draft opening. Also trigger when user asks for a post title, titre d'article, headline, or when ghostwriting skills reach the opening or titling step. Proposes 3-4 hooks pulling distinct psychological levers (curiosity gap, contrarian, scene, promise, authority), 2 candidates each, waits for the user to pick. Do NOT trigger for social posts (LinkedIn feed, Twitter/X, TikTok, Bluesky, Threads), READMEs or doc first lines, taglines, email subjects or openers, ad copy (Google/Meta Ads), landing-page headlines, press releases, SEO meta, fiction openings, talk/podcast/video script intros, or body rewrites.
 
+
 user-invocable: true
 license: MIT
 compatibility: Designed for Claude Code or similar AI coding agents.
@@ -356,31 +357,36 @@ A **title** is what the reader sees before clicking. A **hook** is what they rea
 
 ### The core mechanic: calibrated curiosity
 
-A title must open a gap without closing it — but the gap must feel real, not manufactured. Research on 8,977 A/B experiments (Upworthy, *Scientific Reports* 2024) found a curvilinear relationship: too vague produces confusion (no foothold for curiosity); too specific removes motivation to click. The sweet spot: name the stakes, withhold the resolution.
+A title must open a gap without closing it — but the gap must feel real, not manufactured. Research on 8,977 A/B experiments (Upworthy, _Scientific Reports_ 2024) found a curvilinear relationship: too vague produces confusion (no foothold for curiosity); too specific removes motivation to click. The sweet spot: name the stakes, withhold the resolution.
 
 **The craft test.** Does the title open a gap the reader cares about, and does the article genuinely close it? If yes, that's craft. If the content doesn't deliver what the title implied, that's clickbait — it destroys trust for future clicks.
 
 ### Core formulas
 
 **Curiosity / Gap**
+
 - `The [Adjective] Truth About [Topic]` — "The Counterintuitive Truth About Go Generics"
 - `What [Group] Won't Tell You About [Topic]`
 - `The Real Reason [Phenomenon]` — "The Real Reason Most Content Gets Zero Shares"
 - `[Number] Things Every [Audience] Gets Wrong About [Topic]`
 
 **Contrarian / Negative** (negative superlatives: +63% CTR vs. positive — Outbrain, 65k titles)
+
 - `Stop [Doing X]. Here's Why.` / `Why [Common Belief] Is Wrong`
 - `[Number] [Myths/Mistakes] That Are Killing Your [Result]`
 
 **Specificity / Data**
+
 - `I Analyzed [Number] [Things] — Here's What I Found`
 - `[Number]% of [Group] Does This Wrong`
 - Brackets signal format honestly and add +38% CTR: `How I Cut Build Time by 60% [Benchmark]`
 
 **List / Number** (numbers: +36% CTR — Conductor; odd numbers: +20% CTR — CMI)
+
 - `[Number] [Adjective] Ways to [Goal]` / `[Number] Mistakes to Avoid When [Task]`
 
 **How-To** (3× more B2B shares than other formats — BuzzSumo, 10M LinkedIn articles)
+
 - `How to [Task] Without [Painful Constraint]` / `How to [Task] Even If [Limiting Belief]`
 
 ### The "putaclic léger" zone

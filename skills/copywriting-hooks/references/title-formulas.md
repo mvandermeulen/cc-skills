@@ -24,7 +24,7 @@ Full reference for the `copywriting-hooks` skill. Load when the user needs a dee
 13. `The Worst [Thing] You Can Do for [Goal]`
 14. `I Was Wrong About [Topic]`
 
-> **Data:** Negative superlatives achieve 63% higher CTR than positive superlatives (Outbrain, 65,000 titles). Each additional negative word increases CTR by 2.3% (Robertson et al., *Nature Human Behaviour* 2023, 22,743 RCTs).
+> **Data:** Negative superlatives achieve 63% higher CTR than positive superlatives (Outbrain, 65,000 titles). Each additional negative word increases CTR by 2.3% (Robertson et al., _Nature Human Behaviour_ 2023, 22,743 RCTs).
 
 ### Specificity / Data
 
@@ -76,7 +76,7 @@ Full reference for the `copywriting-hooks` skill. Load when the user needs a dee
 
 ### Resource / Definitive
 
-39. `The Ultimate Guide to [Topic]` *(performs well in search; weaker in social feed)*
+39. `The Ultimate Guide to [Topic]` _(performs well in search; weaker in social feed)_
 40. `[Topic]: Everything You Need to Know`
 41. `The Complete [Checklist/Playbook] for [Goal]`
 
@@ -92,7 +92,7 @@ Full reference for the `copywriting-hooks` skill. Load when the user needs a dee
 
 ## FR Formula Catalog
 
-> Apply the **70/30 rule**: 70% information, 30% mystery. Tension and contradiction outperform urgency in French professional contexts. The term *putaclic* carries strong pejorative weight — faux drama ("J'arrête tout 😱") is immediately flagged.
+> Apply the **70/30 rule**: 70% information, 30% mystery. Tension and contradiction outperform urgency in French professional contexts. The term _putaclic_ carries strong pejorative weight — faux drama ("J'arrête tout 😱") is immediately flagged.
 
 47. `Comment [Verbe] sans [Contrainte/Douleur]` — "Comment publier chaque jour sans s'épuiser"
 48. `Comment [Verbe] même si [Croyance limitante]` — "Comment négocier même si tu détestes les conflits"
@@ -108,6 +108,7 @@ Full reference for the `copywriting-hooks` skill. Load when the user needs a dee
 58. `[Action normale] [Chiffre de résultat concret] [Contrainte honnête]` — "J'ai réduit mon temps de build de 60% sans changer d'infra"
 
 > **Formulas à éviter en 2025+ sur LinkedIn FR** (saturées, pénalisées par l'algorithme) :
+>
 > - "J'ai fait une erreur, voici ce que j'ai appris"
 > - "Ce que j'ai appris de mon plus gros échec"
 > - Tout ce qui commence par "J'arrête..." sans vraiment partir
@@ -130,8 +131,8 @@ Full reference for the `copywriting-hooks` skill. Load when the user needs a dee
 
 | Study | Finding |
 | --- | --- |
-| Upworthy *Scientific Reports* 2024 (8,977 A/B tests) | Curvilinear: too vague = confusion, too specific = no reason to click |
-| Robertson et al. *Nature* 2023 (22,743 RCTs) | Each negative word: +2.3% CTR; fear decreases clicks; sadness increases them |
+| Upworthy _Scientific Reports_ 2024 (8,977 A/B tests) | Curvilinear: too vague = confusion, too specific = no reason to click |
+| Robertson et al. _Nature_ 2023 (22,743 RCTs) | Each negative word: +2.3% CTR; fear decreases clicks; sadness increases them |
 | BuzzSumo 100M articles (2020) | Optimal length: 11 words / 65 chars. Numbered formats and how-to dominate. |
 | Backlinko 4M Google results | 40–60 chars: +8.9% CTR. Power words: -13.9% CTR in search. |
 | HubSpot/Outbrain 3.3M headlines | Brackets `[Format]`: +38% CTR |
