@@ -12,6 +12,7 @@
 | Skill                      | Version | Assertions | With Skill | Without Skill | Delta     | Uplift    | Concern                     |
 | -------------------------- | ------- | ---------- | ---------- | ------------- | --------- | --------- | --------------------------- |
 | `humaniseur-fr`                 | v1.0.0  | 71         | 99%        | 85%           | +14pp     | 1.17×     | **Low delta, High without** |
+| `frontend-design-deslop`        | v1.0.0  | 53         | 85%        | 57%           | +28pp     | 1.49×     | **Low delta, Low with-skill score** |
 | `linkedin-ghostwriting`         | v1.0.0  | 46         | 98%        | 67%           | +30pp     | 1.45×     | **Low delta, High without** |
 | `technical-article-writer`      | v1.1.0  | 95         | 100%       | 67%           | +33pp     | 1.48×     | **High without**            |
 | `press-release-writer`          | v1.1.0  | 66         | 95%        | 61%           | +35pp     | 1.57×     | **Low with-skill score**    |
@@ -24,7 +25,7 @@
 | `site-launch-checklist`         | v1.0.0  | 101        | 99%        | 40%           | +59pp     | 2.50×     |                             |
 | `training-report`               | v1.0.0  | 67         | 99%        | 37%           | +61pp     | 2.64×     |                             |
 | `influence-and-negotiation`     | v1.0.0  | 230        | 100%       | 32%           | +68pp     | 3.11×     |                             |
-| **Total (13 skills)**           |         | **1050**   | **99%**    | **50%**       | **+49pp** | **1.99×** |                             |
+| **Total (14 skills)**           |         | **1103**   | **98%**    | **50%**       | **+48pp** | **1.96×** |                             |
 
 ## `conventional-git` — v1.0.0
 
@@ -1479,6 +1480,90 @@ Model: claude-sonnet-4-6 — 1 run each — graded by human-as-judge — adversa
 | 14.4 | warns against over-linking — only cross-link where topically relevant                                               | <span class="g">✓</span>       | <span class="r">✗ no warning about topical relevance</span>                          |
 | 14.5 | mentions verifying reciprocal links                                                                                 | <span class="g">✓</span>       | <span class="g">✓</span>                                                             |
 | 14.6 | suggests linking from related library docs if the user owns other Go libs                                           | <span class="g">✓</span>       | <span class="r">✗ not mentioned</span>                                               |
+
+</details>
+
+## `frontend-design-deslop` — v1.0.0
+
+| With Skill | Without Skill | Delta | Assertions |
+| ---------- | ------------- | ----- | ---------- |
+| 85%        | 57%           | +28pp | 53         |
+
+<details>
+<summary>Full breakdown (53 assertions)</summary>
+
+Model: claude-sonnet-4-6 — 1 run each — graded by human-as-judge — adversarial evals (each has a trap the model falls into without the skill)
+
+Note: evals 5, 6, and 11 test common knowledge (button states, dark mode basics, form labels — saturated in training data). Evals 5 and 6 are flagged for redesign.
+
+| #    | Assertion                                                                                                     | With                           | Without                                              |
+| ---- | ------------------------------------------------------------------------------------------------------------- | ------------------------------ | ---------------------------------------------------- |
+|      | **Eval 1: Build a landing page for a new AI coding assistant. Start with the design and be**                  | **<span class="r">3/4</span>** | **<span class="r">2/4</span>**                       |
+| 1.1  | Response identifies or names the artifact type before making any design decision                              | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 1.2  | Response commits to or asks for brand adjectives before any visual choice                                     | <span class="g">✓</span>       | <span class="r">✗ Visual choices before brand adjectives</span> |
+| 1.3  | Response does NOT immediately write code or produce CSS/HTML with a font and color already chosen             | <span class="r">✗</span>       | <span class="r">✗ HTML/CSS written immediately</span> |
+| 1.4  | Response does NOT choose Inter, Roboto, or system-ui as the primary font without establishing brand direction | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 2: I'm designing a fintech dashboard. Choose a primary typeface. It should feel pro**                  | **<span class="r">3/4</span>** | **<span class="r">2/4</span>**                       |
+| 2.1  | Chosen primary typeface is NOT Inter                                                                          | <span class="g">✓</span>       | <span class="r">✗ Inter recommended as primary</span> |
+| 2.2  | Chosen primary typeface is NOT Roboto, Arial, or system-ui                                                    | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 2.3  | Response ties the font choice to brand adjectives or positioning, not just "widely used" or "clean"           | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 2.4  | Response explains why a generic choice (Inter/system-ui) would undermine differentiation                      | <span class="r">✗</span>       | <span class="r">✗ No differentiation risk mentioned</span> |
+|      | **Eval 3: Design the primary brand color palette for a modern B2B SaaS product. It should**                  | **<span class="g">4/4</span>** | **<span class="r">1/4</span>**                       |
+| 3.1  | Primary brand color is NOT indigo, violet, or purple (hue range roughly 260–310 deg)                         | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 3.2  | Response explains the indigo/violet band is overcrowded or is a "red ocean"                                   | <span class="g">✓</span>       | <span class="r">✗ No overcrowded/red ocean language</span> |
+| 3.3  | At least one color value is expressed in OKLCH notation                                                       | <span class="g">✓</span>       | <span class="r">✗ All colors in hex only</span>      |
+| 3.4  | Response mentions or applies the 60-30-10 distribution or equivalent hierarchy                                | <span class="g">✓</span>       | <span class="r">✗ No 60-30-10 or named distribution</span> |
+|      | **Eval 4: Define the design token for a vibrant teal brand color to be used across a web a**                  | **<span class="r">3/4</span>** | **<span class="r">2/4</span>**                       |
+| 4.1  | Color value uses oklch(...) notation                                                                          | <span class="g">✓</span>       | <span class="r">✗ All colors use hex notation</span> |
+| 4.2  | Color value is NOT expressed in hex (#...) format                                                             | <span class="r">✗</span>       | <span class="r">✗ Response uses hex extensively</span> |
+| 4.3  | Color value is NOT expressed in hsl() or rgb() format                                                        | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 4.4  | Token is defined as a CSS custom property (--variable-name) with a semantic role name                        | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 5: Build a primary call-to-action button for a web app. Style it completely.**                         | **<span class="r">2/5</span>** | **<span class="g">5/5</span>**                       |
+| 5.1  | Button has :focus-visible styles with a visible outline or ring (not just :focus, and not removed)            | <span class="r">✗</span>       | <span class="g">✓</span>                             |
+| 5.2  | Button has :disabled styles (not just pointer-events: none; must visually communicate disabled state)         | <span class="r">✗</span>       | <span class="g">✓</span>                             |
+| 5.3  | Button has :active styles distinct from :hover                                                                | <span class="r">✗</span>       | <span class="g">✓</span>                             |
+| 5.4  | Response mentions or implements a loading state for the button                                                | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 5.5  | Focus outline is NOT set to "none" or "0" without a replacement                                               | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 6: The app currently has a light theme with a white background and black text. Add**                   | **<span class="g">4/4</span>** | **<span class="g">4/4</span>**                       |
+| 6.1  | Dark background is NOT pure black (#000000, #000, or oklch(0 0 0))                                           | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 6.2  | Dark foreground text is NOT pure white (#ffffff, #fff, or oklch(1 0 0))                                      | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 6.3  | Response does NOT use filter: invert() or similar blanket inversion technique                                 | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 6.4  | Response mentions elevation via lightness or desaturated accents                                              | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 7: Build a monthly revenue table. Columns: Month, Revenue, Growth %. Show 6 months**                  | **<span class="g">4/4</span>** | **<span class="r">2/4</span>**                       |
+| 7.1  | Numeric columns (Revenue, Growth %) use text-align: right                                                     | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 7.2  | Numeric columns apply font-variant-numeric: tabular-nums (or equivalent)                                      | <span class="g">✓</span>       | <span class="r">✗ growth column missing tabular-nums</span> |
+| 7.3  | Text column (Month) uses text-align: left (not center)                                                        | <span class="g">✓</span>       | <span class="r">✗ No explicit text-align: left declared</span> |
+| 7.4  | Numeric columns do NOT use text-align: center                                                                 | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 8: Animate a sidebar panel opening and closing on click. The sidebar is 280px wide.**                  | **<span class="g">4/4</span>** | **<span class="r">3/4</span>**                       |
+| 8.1  | Sidebar animation uses transform (translateX or equivalent), NOT width animation                              | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 8.2  | Animation does NOT transition the width property from 0 to a fixed value                                      | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 8.3  | Transition duration is 300ms or less                                                                          | <span class="g">✓</span>       | <span class="r">✗ Open transition is 420ms</span>    |
+| 8.4  | Easing uses ease-out or a similar deceleration curve                                                          | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 9: Style three components for a web app: a primary button, a card, and a text input**                  | **<span class="r">3/4</span>** | **<span class="r">0/4</span>**                       |
+| 9.1  | A token table (CSS custom properties block or equivalent) is defined BEFORE any component styles are written  | <span class="g">✓</span>       | <span class="r">✗ No token block defined anywhere</span> |
+| 9.2  | Component styles reference tokens via var(--...) or equivalent, NOT hardcoded hex colors                      | <span class="r">✗</span>       | <span class="r">✗ Tailwind classes and hardcoded rgba()</span> |
+| 9.3  | The same color value does NOT appear hardcoded in multiple component definitions                               | <span class="g">✓</span>       | <span class="r">✗ rgba(37,99,235) in two components</span> |
+| 9.4  | At least spacing/padding tokens are defined alongside color tokens                                            | <span class="g">✓</span>       | <span class="r">✗ Only inline Tailwind classes</span> |
+|      | **Eval 10: Design an analytics dashboard with 6 KPI cards, a line chart, a bar chart, a fil**                 | **<span class="g">4/4</span>** | **<span class="r">2/4</span>**                       |
+| 10.1 | Response acknowledges that dashboards warrant higher information density than marketing or portfolio pages     | <span class="g">✓</span>       | <span class="r">✗ No density trade-off mentioned</span> |
+| 10.2 | Spacing described as tight within data groups, not uniformly generous                                         | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 10.3 | Response does NOT apply landing page whitespace conventions to the dashboard                                   | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 10.4 | Response mentions artifact type (dashboard) as the reason for density decisions                                | <span class="g">✓</span>       | <span class="r">✗ No density decisions linked to type</span> |
+|      | **Eval 11: Build a login form with email and password fields. Make it clean and minimal.**                    | **<span class="g">4/4</span>** | **<span class="g">4/4</span>**                       |
+| 11.1 | Form uses real <label> elements, not placeholder-only identification                                          | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 11.2 | Labels are associated with their inputs via htmlFor (React) or for (HTML) attribute                           | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 11.3 | Placeholder text is NOT the sole means of identifying what the field expects                                  | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 11.4 | Response mentions or implements inline validation (error message on the field, not just a toast)              | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+|      | **Eval 12: I want to redesign my personal portfolio site. Where do we start?**                                | **<span class="r">3/4</span>** | **<span class="r">1/4</span>**                       |
+| 12.1 | Response mentions creating or writing a DESIGN.md file as a durable output                                    | <span class="r">✗</span>       | <span class="r">✗ No mention of DESIGN.md</span>     |
+| 12.2 | Response asks for or proposes committing to brand adjectives before any visual decision                       | <span class="g">✓</span>       | <span class="r">✗ Brand asked alongside tech info</span> |
+| 12.3 | Response does NOT immediately jump to suggesting a color palette or specific font                              | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 12.4 | Response identifies artifact type (portfolio / personal brand site) and its design priorities                 | <span class="g">✓</span>       | <span class="r">✗ No artifact type or priorities identified</span> |
+|      | **Eval 13: Make this landing page memorable and distinctive. Here is the current design: pl**                 | **<span class="g">4/4</span>** | **<span class="r">2/4</span>**                       |
+| 13.1 | Response names or commits to exactly ONE primary signature move                                               | <span class="g">✓</span>       | <span class="r">✗ Six+ signature moves at equal priority</span> |
+| 13.2 | Response does NOT list 4 or more competing signature elements as equally important without picking one        | <span class="g">✓</span>       | <span class="r">✗ Four elements treated equally</span> |
+| 13.3 | The chosen signature move is connected to the site's positioning or personality                               | <span class="g">✓</span>       | <span class="g">✓</span>                             |
+| 13.4 | Response flags Inter as generic and recommends replacing it with a distinctive alternative                    | <span class="g">✓</span>       | <span class="g">✓</span>                             |
 
 </details>
 

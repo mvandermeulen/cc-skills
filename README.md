@@ -144,17 +144,17 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
           ┌──────────────────┴──────────┐
           │                             │
           ▼                             ▼
-┌──────────────────┐  ┌─────────────────────────────────────┐
-│     Engineering      │  │        Marketing & Content          │
-├──────────────────────┤  ├─────────────────────────────────────┤
-│ conventional-git     │  │ linkedin-ghostwriting                │
-│ promql-cli           │  │ press-release-writer                 │
-│ chrome-extension     │  │ humaniseur-fr                        │
-│ crxjs                │  │ copywriting-hooks                    │
-│ site-launch-checklist│  │ copywriting-cta                      │
-│                      │  │ copywriting-prose-creator            │
-│                      │  │ copywriting-tone-of-voice-creator    │
-└──────────────────────┘  └─────────────────────────────────────┘
+┌────────────────────────┐  ┌─────────────────────────────────────┐
+│      Engineering       │  │        Marketing & Content          │
+├────────────────────────┤  ├─────────────────────────────────────┤
+│ conventional-git       │  │ linkedin-ghostwriting                │
+│ promql-cli             │  │ press-release-writer                 │
+│ chrome-extension       │  │ humaniseur-fr                        │
+│ crxjs                  │  │ copywriting-hooks                    │
+│ site-launch-checklist  │  │ copywriting-cta                      │
+│ frontend-design-deslop │  │ copywriting-prose-creator            │
+│                        │  │ copywriting-tone-of-voice-creator    │
+└────────────────────────┘  └─────────────────────────────────────┘
 
 ┌──────────────────────────┐  ┌───────────────────────────┐  ┌─────────────────────────────────────┐
 │   Developer Relations    │  │       Productivity        │  │                Meta                 │
@@ -172,6 +172,7 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 | `chrome-extension` | — | 137 | 3,909 | 36,173 |
 | `crxjs` | — | 185 | 2,697 | 2,697 |
 | `site-launch-checklist` | -59% | 222 | 6,772 | 13,350 |
+| `frontend-design-deslop` | — | 220 | 3,859 | 40,876 |
 | `linkedin-ghostwriting` | -31% | 87 | 1,045 | 1,993 |
 | `substack-ghostwriting` | -51% | 205 | 3,315 | 10,720 |
 | `technical-article-writer` | -33% | 147 | 2,295 | 5,737 |
@@ -191,7 +192,7 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 
 |             | With Skill | Without Skill | Delta     |
 | ----------- | ---------- | ------------- | --------- |
-| **Overall** | **99%**    | **50%**       | **+49pp** |
+| **Overall** | **98%**    | **50%**       | **+48pp** |
 
 See [EVALUATIONS.md](./EVALUATIONS.md) for the full per-skill breakdown.
 
@@ -210,6 +211,10 @@ Conventional Commits v1.0.0 for branch naming, worktree naming, and commit messa
 #### `crxjs`
 
 CRXJS Chrome extension development with Vite. True HMR for popup/options/content scripts/side panels, `defineManifest` for type-safe manifests, dynamic content script imports.
+
+#### `frontend-design-deslop`
+
+Strategy-first UI design for web frontends, apps, dashboards, and landing pages. Escapes AI-generated generic aesthetics (Inter + indigo + rounded cards) by committing to brand adjectives, then deriving a typography and color system, component state matrices, layout rhythm, motion, iconography, and dark mode. Produces a `DESIGN.md` design token contract.
 
 #### `promql-cli`
 
