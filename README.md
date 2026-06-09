@@ -145,17 +145,16 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
           │                             │
           ▼                             ▼
 ┌──────────────────┐  ┌─────────────────────────────────────┐
-│   Engineering    │  │        Marketing & Content          │
-├──────────────────┤  ├─────────────────────────────────────┤
-│ conventional-git │  │ linkedin-ghostwriting                │
-│ promql-cli       │  │ press-release-writer                 │
-│ chrome-extension │  │ humaniseur-fr                        │
-│ crxjs            │  │ copywriting-hooks                    │
-│                  │  │ copywriting-cta                      │
-│                  │  │ copywriting-prose-creator            │
-│                  │  │ copywriting-tone-of-voice-creator    │
-│                  │  │ site-launch-checklist                │
-└──────────────────┘  └─────────────────────────────────────┘
+│     Engineering      │  │        Marketing & Content          │
+├──────────────────────┤  ├─────────────────────────────────────┤
+│ conventional-git     │  │ linkedin-ghostwriting                │
+│ promql-cli           │  │ press-release-writer                 │
+│ chrome-extension     │  │ humaniseur-fr                        │
+│ crxjs                │  │ copywriting-hooks                    │
+│ site-launch-checklist│  │ copywriting-cta                      │
+│                      │  │ copywriting-prose-creator            │
+│                      │  │ copywriting-tone-of-voice-creator    │
+└──────────────────────┘  └─────────────────────────────────────┘
 
 ┌──────────────────────────┐  ┌───────────────────────────┐  ┌─────────────────────────────────────┐
 │   Developer Relations    │  │       Productivity        │  │                Meta                 │
@@ -172,6 +171,7 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 | `promql-cli` | -39% | 87 | 1,257 | 6,248 |
 | `chrome-extension` | — | 137 | 3,909 | 36,173 |
 | `crxjs` | — | 185 | 2,697 | 2,697 |
+| `site-launch-checklist` | -59% | 222 | 6,772 | 13,350 |
 | `linkedin-ghostwriting` | -31% | 87 | 1,045 | 1,993 |
 | `substack-ghostwriting` | -51% | 205 | 3,315 | 10,720 |
 | `technical-article-writer` | -33% | 147 | 2,295 | 5,737 |
@@ -182,7 +182,6 @@ Each skill lives in `skills/<name>/` with a `SKILL.md` entry point. The `SKILL.m
 | `deep-research` | -51% | 316 | 2,915 | 14,070 |
 | `influence-and-negotiation` | -68% | 237 | 6,644 | 50,467 |
 | `skill-progressive-disclosure-design` | -58% | 154 | 3,533 | 3,533 |
-| `site-launch-checklist` | -59% | 222 | 6,772 | 13,350 |
 | `copywriting-hooks` | — | 213 | 5,483 | 10,303 |
 | `copywriting-cta` | — | 229 | 2,889 | 14,427 |
 | `copywriting-prose-creator` | — | 201 | 4,786 | 23,565 |
