@@ -306,9 +306,10 @@ Set up one keyword per line at f5bot.com/add:
 
 Before writing copy, setting up ads, or planning content, run a competitor analysis to understand what is already working in the market — positioning, messaging angles, CTA patterns, pricing presentation, and content strategy.
 
-Use a deep research tool or a competitor analysis skill if one is available in the toolchain. Ask the user:
+Use a deep research tool or a competitor analysis skill if one is available in the toolchain. Ask via `ask_user_input_v0`:
 
-- "Which competitors should we analyze?" (free text, 2-5 names or URLs)
+- "Do you already have competitor names/URLs to analyze?" (`yes-provide-list` | `no-discover-for-me` | `skip`)
+- If `yes-provide-list`: ask the user to paste 2-5 names or URLs (free text)
 - "What are we looking to extract?" (`positioning-and-messaging` | `pricing-strategy` | `content-and-seo` | `full-spectrum`)
 
 Feed the output into:
