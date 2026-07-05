@@ -332,6 +332,8 @@ Each concept must live in exactly one skill. Skills cross-reference each other i
 
 Concept drift between skills creates confusion when the agent loads the wrong one — or two competing ones. Each concept MUST live in exactly one skill (the "owner"). All other skills cross-reference the owner with `→ See` using the fully-qualified `owner/repo@skill` identifier. When splitting or merging skills, update every cross-reference to the affected skills. Prefer small, focused skills over large monolithic ones.
 
+**When adding a new skill:** scan the existing skills for topics that overlap or sit adjacent to the new skill's concept. If an existing skill would otherwise duplicate or shallowly cover that concept, add a `→ See` cross-reference in that skill pointing to the new one instead of leaving the duplication in place. This keeps the "one owner per concept" rule intact as the skill set grows — without this check, older skills silently drift out of sync with newer, more authoritative ones.
+
 ### Company override convention
 
 Some skills are community defaults, not mandates. They include a note at the top of their body that defers to a company skill that explicitly supersedes them.
@@ -515,17 +517,18 @@ Before starting any task, propose a branch name and ask the developer to confirm
 
 After making changes, suggest the following as next steps for the developer to run. Do NOT execute these automatically.
 
-1. ~~Validate against the spec: `skills-ref validate ./skills/{name}`~~ (disabled — [skills-ref doesn't support `user-invocable` yet](https://github.com/agentskills/agentskills/issues/105))
-2. Reformat markdowns with `npx prettier --write *.md "**/*.md"` then lint with `markdownlint-cli2 --config .markdownlint-cli2.jsonc ./` — run before measuring tokens, as formatting changes token counts
-3. Measure token counts:
+1. Check whether other skills in the repository need a `→ See` cross-reference to the new or updated skill (see [Atomic skills and deduplication](#atomic-skills-and-deduplication)).
+2. ~~Validate against the spec: `skills-ref validate ./skills/{name}`~~ (disabled — [skills-ref doesn't support `user-invocable` yet](https://github.com/agentskills/agentskills/issues/105))
+3. Reformat markdowns with `npx prettier --write *.md "**/*.md"` then lint with `markdownlint-cli2 --config .markdownlint-cli2.jsonc ./` — run before measuring tokens, as formatting changes token counts
+4. Measure token counts:
    - **Description (tok)**: `awk 'NR==1 && /^---$/{found=1; next} found && /^---$/{exit} found && /^description:/{print}' skills/{name}/SKILL.md | tiktoken-cli`
    - **SKILL.md (tok)**: `tiktoken-cli skills/{name}/SKILL.md`
    - **Directory (tok)**: `tiktoken-cli --exclude "evals" skills/{name}/` (exclude `evals/` subdirectory)
-4. Update the README.md table with the measured token counts, update the total rows, and update the **Error rate gap** column (`Without - With`, expressed as a negative percentage, e.g. `-39%`)
-5. Increment `metadata.version` in the changed SKILL.md and the plugin version in `.claude-plugin/plugin.json`, `.cursor-plugin/plugin.json` and `gemini-extension.json` — all three plugin files MUST have the same version. Also update the **Version** column for the skill in `README.md`.
-6. Run the [Description Optimization Loop](#description-optimization-loop) — mandatory for new skills, required for updates when `description` or scope changed.
-7. Run skill evaluation via `/skill-creator`: 10+ evals, run them with and without the skill via parallel subagents, grade with LLM-as-judge (no human in the loop), print results, suggest improvements if needed, and append/update the report to `EVALUATIONS.md` following the format in [Evaluation Reporting](#evaluation-reporting)
-8. Depending on evaluation final report, suggest improvements and loop
+5. Update the README.md table with the measured token counts, update the total rows, and update the **Error rate gap** column (`Without - With`, expressed as a negative percentage, e.g. `-39%`)
+6. Increment `metadata.version` in the changed SKILL.md and the plugin version in `.claude-plugin/plugin.json`, `.cursor-plugin/plugin.json` and `gemini-extension.json` — all three plugin files MUST have the same version. Also update the **Version** column for the skill in `README.md`.
+7. Run the [Description Optimization Loop](#description-optimization-loop) — mandatory for new skills, required for updates when `description` or scope changed.
+8. Run skill evaluation via `/skill-creator`: 10+ evals, run them with and without the skill via parallel subagents, grade with LLM-as-judge (no human in the loop), print results, suggest improvements if needed, and append/update the report to `EVALUATIONS.md` following the format in [Evaluation Reporting](#evaluation-reporting)
+9. Depending on evaluation final report, suggest improvements and loop
 
 For initial evaluation of skills, use Human-as-Judge.
 
