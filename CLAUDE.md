@@ -151,6 +151,7 @@ Read Edit Write Glob Grep Agent
 | `WebFetch` | Skills fetching external docs, references, or resources — for both engineering (library docs, specs) and non-engineering (brand guidelines, platform help pages, editorial references) |
 | `WebSearch` | Skills requiring research or competitive analysis — engineering (security advisories, performance benchmarks) and non-engineering (market research, content trends, audience insights) |
 | `AskUserQuestion` | Skills that need user input to proceed — interviews, multi-step workflows with decision points, audits requiring clarification, or any skill where assumptions are risky and asking is cheap |
+| `EnterWorktree ExitWorktree` | Skills whose workflow spawns **mutating** parallel sub-agents (doc generation, modernization sweeps), compares code variants (benchmarks/perf), or applies each fix on its own branch (large security audits). Not for read-only parallel audits — concurrent reads need no isolation. |
 
 When creating a new skill, suggest a tailored `allowed-tools` list based on the skill's purpose.
 
@@ -182,9 +183,10 @@ Place these directives at the very top of the body, before the first heading, in
 | --- | --- | --- | --- |
 | **Persona** | Optional | `**Persona:** You are a <role>. <mindset or goal>.` | Analytical/generative/multi-mode skills |
 | **Thinking mode** | Optional | `**Thinking mode:** Use \`ultrathink\` for <task>. <Why deep reasoning matters>.` | Deep analysis: profiling, security auditing, root cause analysis |
+| **Orchestration mode** | Optional | `**Orchestration mode:** Use \`ultracode\` for <task>. <Why fan-out orchestration helps here>.` | Skills with a parallel fan-out audit/scan/cleanup mode (up to N sub-agents) |
 | **Modes** | Optional | `**Modes:**` section listing each invocation mode and its sub-agent strategy | Skills invoked in distinct contexts (audit, coding, review, code understanding...) |
 
-All three are optional. A short procedural skill may have none. A complex orchestrating skill may have all three.
+All four are optional. A short procedural skill may have none. A complex orchestrating skill may have all four.
 
 #### Persona (optional)
 
@@ -264,6 +266,18 @@ When creating or modifying a skill that involves deep analysis, profiling, debug
 ```
 
 Update the README.md Ultrathink column (🧠 emoji) to keep track of skills requiring ultrathink mode.
+
+### Ultracode policy
+
+Skills that already describe a full-codebase audit/scan/cleanup mode with several parallel sub-agents (e.g. "launch up to 5 parallel sub-agents") include a **Orchestration mode:** `ultracode` instruction in their SKILL.md body. When you encounter this instruction and the user is requesting a broad, codebase-wide sweep, escalate to multi-agent fan-out orchestration instead of a single sequential pass.
+
+When creating or modifying a skill whose audit/scan/cleanup mode already fans out to parallel sub-agents, add this line in the top-of-body directives block, after **Thinking mode** (if present, otherwise after **Persona**) and before **Modes**:
+
+```
+**Orchestration mode:** Use `ultracode` for <full-codebase audit/scan/cleanup task>. <Why fan-out orchestration helps here>.
+```
+
+Update the README.md Ultracode column (🤖 emoji) to keep track of skills requiring ultracode mode.
 
 ### Tool reference sections
 
